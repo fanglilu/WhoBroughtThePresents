@@ -1358,3 +1358,251 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.04-15.43.28:893][440]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/MainMenu_Level43B9487344A56C4ADD5FFAAC939F01C2.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/MainMenu_Level.umap'
 [2022.01.04-15.43.28:915][440]AssetCheck: New page: Asset Save: MainMenu_Level
 [2022.01.04-15.43.28:915][440]LogContentValidation: Display: Validating World /Game/Levels/MainMenu_Level.MainMenu_Level
+[2022.01.04-15.46.57:372][112]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.46.57:379][112]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.46.57:384][112]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.46.57:385][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.46.57:398][112]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.46.57:399][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.47.01:811][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.01.04-15.47.01:829][363]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents471BD41046440E53EC2A988959EBC561.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.04-15.47.01:833][363]LogFileHelpers: Saving map 'Game_Map_WhoBroughtThePresents' took 0.057
+[2022.01.04-15.47.01:845][363]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.01:845][363]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.03:161][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.01.04-15.47.07:922][440]LogSlate: Window 'Save Content' being destroyed
+[2022.01.04-15.47.08:020][440]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/349-christmas-night-wallpaper97CD5AE24617C0C986993FA9DDFD846C.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/MainMenu/349-christmas-night-wallpaper.uasset'
+[2022.01.04-15.47.08:062][440]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.08:064][440]LightingResults: New page: Lighting Build
+[2022.01.04-15.47.08:066][440]LoadErrors: New page: Loading map: Game_Map_WhoBroughtThePresents.umap
+[2022.01.04-15.47.08:099][440]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.47.08:100][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.47.08:101][440]MapCheck: New page: Map Check
+[2022.01.04-15.47.08:101][440]LightingResults: New page: Lighting Build
+[2022.01.04-15.47.08:123][440]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.04-15.47.08:140][440]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.01.04-15.47.08:142][440]LogAudio: Display: Audio Device (ID: 1) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.04-15.47.08:213][440]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.01.04-15.47.08:214][440]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.08:241][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.01.04-15.47.08:245][440]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.01.04-15.47.08:246][440]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,381ms to complete.
+[2022.01.04-15.47.08:246][440]LogFileHelpers: Loading map 'Game_Map_WhoBroughtThePresents' took 0.182
+[2022.01.04-15.47.08:267][440]AssetCheck: New page: Asset Save: 349-christmas-night-wallpaper
+[2022.01.04-15.47.08:267][440]LogContentValidation: Display: Validating Texture2D /Game/MainMenu/349-christmas-night-wallpaper.349-christmas-night-wallpaper
+[2022.01.04-15.47.16:293][916]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-15.47.16:298][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-15.47.16:298][916]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (04.01.2022, 17:47:16)
+[2022.01.04-15.47.16:298][916]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.16:312][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014189s)
+[2022.01.04-15.47.16:313][916]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.16:314][916]LogPlayLevel: PIE: World Init took: (0.001615s)
+[2022.01.04-15.47.16:314][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.016045s)
+[2022.01.04-15.47.16:338][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.01.04-15.47.16:338][916]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-15.47.16:339][916]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-15.47.16:339][916]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.04-15.47.16:339][916]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.04-15.47.16:339][916]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.04-15.47.16:339][916]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-15.47.16:343][916]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-15.47.16:343][916]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-15.47.16:372][916]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.04-15.47.16:372][916]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.04-15.47.16:374][916]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.04-15.47.16:374][916]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.04-15.47.16:374][916]LogInit: FAudioDevice initialized.
+[2022.01.04-15.47.16:374][916]LogAudio: Display: Audio Device (ID: 6) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.04-15.47.16:383][916]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.01.04-15.47.16:386][916]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.01.04-16.47.16
+[2022.01.04-15.47.16:386][916]LogWorld: Bringing up level for play took: 0.002110
+[2022.01.04-15.47.16:386][916]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.01.04-15.47.16:391][916]PIE: Server logged in
+[2022.01.04-15.47.16:392][916]PIE: Play in editor total start time 0,096 seconds.
+[2022.01.04-15.47.24:554][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-15.47.24:554][402]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.04-15.47.24:554][402]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.47.24:555][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.47.24:563][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-15.47.24:567][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.47.24:581][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-15.47.24:581][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.04-15.47.24:582][402]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.04-15.47.24:599][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.01.04-15.47.24:623][403]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.01.04-15.48.22:505][848]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2022.01.04-15.49.48:626][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.04-15.49.49:018][  6]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.01.04-15.49.50:449][ 91]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2022.01.04-15.49.52:386][206]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.01.04-15.49.53:299][260]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2022.01.04-15.50.00:540][688]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-15.50.00:545][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-15.50.00:545][688]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (04.01.2022, 17:50:00)
+[2022.01.04-15.50.00:545][688]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.04-15.50.00:564][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019125s)
+[2022.01.04-15.50.00:566][688]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.04-15.50.00:566][688]LogPlayLevel: PIE: World Init took: (0.001646s)
+[2022.01.04-15.50.00:566][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.020888s)
+[2022.01.04-15.50.00:597][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.01.04-15.50.00:605][688]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-15.50.00:605][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-15.50.00:605][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.04-15.50.00:605][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.04-15.50.00:605][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.04-15.50.00:605][688]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-15.50.00:610][688]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-15.50.00:610][688]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-15.50.00:638][688]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.01.04-15.50.00:638][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-15.50.00:638][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-15.50.00:638][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-15.50.00:639][688]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-15.50.00:639][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.04-15.50.00:639][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.04-15.50.00:640][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.04-15.50.00:640][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.04-15.50.00:640][688]LogInit: FAudioDevice initialized.
+[2022.01.04-15.50.00:640][688]LogAudio: Display: Audio Device (ID: 7) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.04-15.50.00:652][688]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.01.04-15.50.00:654][688]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.01.04-16.50.00
+[2022.01.04-15.50.00:654][688]LogWorld: Bringing up level for play took: 0.001236
+[2022.01.04-15.50.00:654][688]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.01.04-15.50.00:659][688]PIE: Server logged in
+[2022.01.04-15.50.00:659][688]PIE: Play in editor total start time 0,115 seconds.
+[2022.01.04-15.50.09:075][187]Cmd: SELECT NONE
+[2022.01.04-15.50.10:267][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-15.50.10:267][254]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.04-15.50.10:267][254]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.50.10:267][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.50.10:275][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-15.50.10:311][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.50.10:327][254]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.04-15.50.10:327][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.04-15.50.10:328][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.04-15.50.10:349][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-15.50.10:353][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.01.04-15.50.10:381][255]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.01.04-15.50.21:217][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.04-15.50.21:852][939]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2022.01.04-15.50.31:551][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.01.04-15.50.35:399][516]LogSlate: Window 'Save Content' being destroyed
+[2022.01.04-15.50.35:444][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.01.04-15.50.35:466][516]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents2F449BB84C30552F6367D6959020248F.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.04-15.50.35:474][516]LogFileHelpers: Saving map 'Game_Map_WhoBroughtThePresents' took 0.048
+[2022.01.04-15.50.35:528][516]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainMenu_Level.MainMenu_Level
+[2022.01.04-15.50.35:528][516]LightingResults: New page: Lighting Build
+[2022.01.04-15.50.35:528][516]LoadErrors: New page: Loading map: MainMenu_Level.umap
+[2022.01.04-15.50.35:531][516]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.50.35:531][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.50.35:532][516]MapCheck: New page: Map Check
+[2022.01.04-15.50.35:532][516]LightingResults: New page: Lighting Build
+[2022.01.04-15.50.35:552][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.04-15.50.35:556][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.01.04-15.50.35:557][516]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu_Level'.
+[2022.01.04-15.50.35:583][516]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.01.04-15.50.35:583][516]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.01.04-15.50.35:604][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.01.04-15.50.35:608][516]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.01.04-15.50.35:608][516]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,104ms to complete.
+[2022.01.04-15.50.35:609][516]LogFileHelpers: Loading map 'MainMenu_Level' took 0.081
+[2022.01.04-15.50.35:627][516]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.04-15.50.35:627][516]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.04-15.50.37:450][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.04-15.50.37:475][622]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/MainMenu_Level.MainMenu_Level
+[2022.01.04-15.50.37:475][622]LightingResults: New page: Lighting Build
+[2022.01.04-15.50.37:476][622]LoadErrors: New page: Loading map: MainMenu_Level.umap
+[2022.01.04-15.50.37:504][622]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.50.37:504][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.50.37:504][622]MapCheck: New page: Map Check
+[2022.01.04-15.50.37:504][622]LightingResults: New page: Lighting Build
+[2022.01.04-15.50.37:518][622]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.04-15.50.37:520][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.01.04-15.50.37:542][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.01.04-15.50.37:559][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.01.04-15.50.37:566][622]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu_Level'.
+[2022.01.04-15.50.37:566][622]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.01.04-15.50.37:586][622]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.01.04-15.50.37:603][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.01.04-15.50.37:607][622]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.01.04-15.50.37:607][622]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,102ms to complete.
+[2022.01.04-15.50.37:607][622]LogFileHelpers: Loading map 'MainMenu_Level' took 0.132
+[2022.01.04-15.50.43:694][983]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MainMenu/Main_Menu_Widget.Main_Menu_Widget
+[2022.01.04-15.52.17:916][326]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 81326
+[2022.01.04-15.52.17:918][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.52.17:942][327]LogSlate: Took 0.002101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.01.04-15.52.17:949][327]LogSlate: Took 0.002337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.01.04-15.52.17:952][327]LogSlate: Took 0.002214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.01.04-15.52.17:959][327]LogSlate: Took 0.001291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.17:962][327]LogSlate: Took 0.000799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.17:968][327]LogSlate: Took 0.000989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.04-15.52.18:291][345]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 19
+[2022.01.04-15.52.18:294][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.52.18:304][346]LogSlate: Took 0.001030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.01.04-15.52.18:311][346]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.01.04-15.52.18:312][346]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.01.04-15.52.18:316][346]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.18:321][346]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.18:325][346]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.04-15.52.18:393][349]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 4
+[2022.01.04-15.52.18:393][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.52.18:401][350]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.01.04-15.52.18:412][350]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.01.04-15.52.18:413][350]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.01.04-15.52.18:417][350]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.18:422][350]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.04-15.52.18:426][350]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.04-15.53.28:639][481]Cmd: TRANSACTION UNDO
+[2022.01.04-15.53.28:639][481]LogEditorTransaction: Undo Create Binding
+[2022.01.04-15.53.40:856][159]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.53.40:872][159]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.53.40:902][159]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.53.40:902][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.53.40:908][159]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.53.40:908][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.53.43:179][289]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MainMenu/Main_Menu_Widget.Main_Menu_Widget
+[2022.01.04-15.54.11:286][928]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Main_Menu_WidgetE80D363047B79192BAEDDBBE95FD8D68.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/MainMenu/Main_Menu_Widget.uasset'
+[2022.01.04-15.54.11:307][928]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2022.01.04-15.54.11:307][928]LogContentValidation: Display: Validating WidgetBlueprint /Game/MainMenu/Main_Menu_Widget.Main_Menu_Widget
+[2022.01.04-15.54.30:143][ 21]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.04-15.54.32:963][189]LogEditorTransaction: Undo Edit Background Color
+[2022.01.04-15.54.36:644][389]BlueprintLog: New page: Compile Main_Menu_Widget
+[2022.01.04-15.54.36:684][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.01.04-15.54.36:713][389]LogSlate: Took 0.000775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.01.04-15.54.37:423][428]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Main_Menu_Widget1F4FC36444FDC8314267708DE203C389.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/MainMenu/Main_Menu_Widget.uasset'
+[2022.01.04-15.54.37:438][428]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2022.01.04-15.54.37:438][428]LogContentValidation: Display: Validating WidgetBlueprint /Game/MainMenu/Main_Menu_Widget.Main_Menu_Widget
+[2022.01.04-15.54.39:031][521]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.54.39:037][521]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.01.04-15.54.39:061][521]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.54.39:061][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.54.39:066][521]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-15.54.39:066][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-15.54.48:417][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.01.04-15.54.48:424][766]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/MainMenu_Level9B04BA434F317EA7B97F8D81B76F45F2.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/MainMenu_Level.umap'
+[2022.01.04-15.54.48:450][766]AssetCheck: New page: Asset Save: MainMenu_Level
+[2022.01.04-15.54.48:450][766]LogContentValidation: Display: Validating World /Game/Levels/MainMenu_Level.MainMenu_Level
+[2022.01.04-15.54.48:673][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.01.04-15.54.48:679][777]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/MainMenu_Level5C84B3AC4E255453B76F16B9E2BB0947.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/MainMenu_Level.umap'
+[2022.01.04-15.54.48:698][777]AssetCheck: New page: Asset Save: MainMenu_Level
+[2022.01.04-15.54.48:698][777]LogContentValidation: Display: Validating World /Game/Levels/MainMenu_Level.MainMenu_Level
+[2022.01.04-15.54.50:757][825]LogEditorViewport: Clicking Background
