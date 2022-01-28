@@ -2055,3 +2055,1205 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.01.28-15.08.35:883][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Present_1]
 [2022.01.28-15.08.35:895][672]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Present_1_Auto25A924A8D4C0DA334C8929D8C77D6F9DD.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Blueprint/Present_1_Auto2.uasset'
 [2022.01.28-15.08.35:896][672]LogFileHelpers: Auto-saving content packages took 0.103
+[2022.01.28-15.35.51:375][210]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.35.51:382][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-15.35.51:382][210]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:35:51)
+[2022.01.28-15.35.51:419][210]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.35.51:428][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009426s)
+[2022.01.28-15.35.51:429][210]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.35.51:429][210]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2022.01.28-15.35.51:429][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010997s)
+[2022.01.28-15.35.51:447][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.01.28-15.35.51:452][210]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.35.51:452][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.35.51:452][210]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.35.51:452][210]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.35.51:452][210]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.35.51:452][210]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.35.51:454][210]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.35.51:454][210]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.35.51:462][210]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.35.51:462][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.35.51:462][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.35.51:462][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.35.51:463][210]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.35.51:463][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.35.51:463][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.35.51:464][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.35.51:464][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.35.51:464][210]LogInit: FAudioDevice initialized.
+[2022.01.28-15.35.51:464][210]LogAudio: Display: Audio Device (ID: 15) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.35.51:470][210]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.35.51:472][210]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.35.51:472][210]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.35.51
+[2022.01.28-15.35.51:472][210]LogWorld: Bringing up level for play took: 0.002273
+[2022.01.28-15.35.51:472][210]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2022.01.28-15.35.51:476][210]PIE: Server logged in
+[2022.01.28-15.35.51:477][210]PIE: Play in editor total start time 0,096 seconds.
+[2022.01.28-15.36.22:059][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.36.22:060][834]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.36.22:060][834]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.36.22:060][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.36.22:071][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.36.22:075][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.36.22:088][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.36.22:088][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.36.22:089][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.36.22:094][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.28-15.36.22:230][835]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.01.28-15.36.23:932][991]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.36.23:944][991]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.36.25:635][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Character_Player_1.BP_Character_Player_1
+[2022.01.28-15.36.46:049][318]LogSlate: Window 'BP_Character_Player_1' being destroyed
+[2022.01.28-15.36.46:055][318]LogSlate: Window 'BP_Character_Player_1' being destroyed
+[2022.01.28-15.36.46:058][318]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.36.46:058][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.36.49:191][608]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Character_Player_2.BP_Character_Player_2
+[2022.01.28-15.36.51:898][773]LogSlate: Window 'BP_Character_Player_2' being destroyed
+[2022.01.28-15.36.51:903][773]LogSlate: Window 'BP_Character_Player_2' being destroyed
+[2022.01.28-15.36.51:907][773]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.36.51:907][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.36.54:380][994]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Character_Player_2.BP_Character_Player_2
+[2022.01.28-15.36.59:679][322]LogSlate: Window 'BP_Character_Player_2' being destroyed
+[2022.01.28-15.36.59:684][322]LogSlate: Window 'BP_Character_Player_2' being destroyed
+[2022.01.28-15.36.59:687][322]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.36.59:687][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.37.38:573][165]LogContentBrowser: Deferred new asset file creation: Present_2
+[2022.01.28-15.37.38:594][165]LogContentBrowser: Creating deferred item: Present_2
+[2022.01.28-15.37.39:508][245]LogContentBrowser: Attempting asset rename: Present_2 -> Present_2
+[2022.01.28-15.37.39:539][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.01.28-15.37.39:557][245]LogContentBrowser: End creating deferred item Present_2
+[2022.01.28-15.37.45:227][745]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.37.45:233][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-15.37.45:233][745]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:37:45)
+[2022.01.28-15.37.45:269][745]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.37.45:279][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010297s)
+[2022.01.28-15.37.45:281][745]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.37.45:281][745]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2022.01.28-15.37.45:281][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.011831s)
+[2022.01.28-15.37.45:298][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.01.28-15.37.45:302][745]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.37.45:302][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.37.45:302][745]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.37.45:302][745]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.37.45:302][745]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.37.45:302][745]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.37.45:304][745]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.37.45:304][745]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.37.45:310][745]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.37.45:310][745]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.37.45:310][745]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.37.45:310][745]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.37.45:311][745]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.37.45:311][745]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.37.45:311][745]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.37.45:312][745]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.37.45:312][745]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.37.45:312][745]LogInit: FAudioDevice initialized.
+[2022.01.28-15.37.45:312][745]LogAudio: Display: Audio Device (ID: 16) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.37.45:323][745]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.37.45:325][745]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.37.45:326][745]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.37.45
+[2022.01.28-15.37.45:326][745]LogWorld: Bringing up level for play took: 0.002258
+[2022.01.28-15.37.45:326][745]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2022.01.28-15.37.45:331][745]PIE: Server logged in
+[2022.01.28-15.37.45:331][745]PIE: Play in editor total start time 0,098 seconds.
+[2022.01.28-15.37.52:530][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.37.52:530][586]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.37.52:530][586]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.37.52:531][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.37.52:542][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.37.52:546][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.37.52:559][586]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.28-15.37.52:559][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.37.52:560][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.37.52:562][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.37.52:565][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.01.28-15.37.52:688][587]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.01.28-15.37.54:730][784]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.37.54:735][784]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.37.57:565][120]LogEditorViewport: Clicking on Actor (LMB): Present_2_C (Present_2)
+[2022.01.28-15.37.59:137][307]Cmd: DELETE
+[2022.01.28-15.37.59:137][307]Cmd: ACTOR DELETE
+[2022.01.28-15.37.59:141][307]LogEditorActor: Deleted Actor: Present_2_C
+[2022.01.28-15.37.59:156][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.01.28-15.37.59:159][307]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.01.28-15.38.54:071][253]LogContentBrowser: Deferred new asset file creation: presentMainColor1
+[2022.01.28-15.38.54:085][253]LogContentBrowser: Creating deferred item: presentMainColor1
+[2022.01.28-15.39.06:248][349]LogContentBrowser: Attempting asset rename: presentMainColor1 -> presentColor2
+[2022.01.28-15.39.06:249][349]LogContentBrowser: End creating deferred item presentMainColor1
+[2022.01.28-15.39.13:051][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.01.28-15.39.13:082][967]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsC7D25B7C4DDB31E6C1BECE998BA3555F.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.28-15.39.13:102][967]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.28-15.39.13:102][967]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.28-15.39.16:155][249]LogAssetEditorSubsystem: Opening Asset editor for MaterialParameterCollection /Game/Presents/presentColor2.presentColor2
+[2022.01.28-15.39.17:606][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/presentColor2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/presentColor2.uasset" SILENT=true
+[2022.01.28-15.39.17:607][381]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/presentColor29B97C5DE41B26613A8D8B4AF92DDF877.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/presentColor2.uasset'
+[2022.01.28-15.39.17:618][381]AssetCheck: New page: Asset Save: presentColor2
+[2022.01.28-15.39.17:618][381]LogContentValidation: Display: Validating MaterialParameterCollection /Game/Presents/presentColor2.presentColor2
+[2022.01.28-15.39.22:313][893]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.39.22:319][893]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.39.53:816][766]LogContentBrowser: Attempting asset rename: SM_MERGED_present -> SM_MERGED_present
+[2022.01.28-15.40.00:310][353]LogContentBrowser: Deferred new asset file creation: SM_MERGED_present1
+[2022.01.28-15.40.00:335][353]LogContentBrowser: Creating deferred item: SM_MERGED_present1
+[2022.01.28-15.40.02:017][502]LogContentBrowser: Attempting asset rename: SM_MERGED_present1 -> SM_MERGED_present1
+[2022.01.28-15.40.02:022][502]LogStaticMesh: Building static mesh SM_MERGED_present1...
+[2022.01.28-15.40.02:088][502]LogStaticMesh: Built static mesh [0.07s] /Game/Presents/SM_MERGED_present1.SM_MERGED_present1
+[2022.01.28-15.40.02:094][502]LogContentBrowser: End creating deferred item SM_MERGED_present1
+[2022.01.28-15.40.03:475][642]LogContentBrowser: Attempting asset rename: SM_MERGED_present1 -> SM_MERGED_present1
+[2022.01.28-15.40.16:392][121]LogContentBrowser: Attempting asset rename: SM_MERGED_present1 -> SM_present_2
+[2022.01.28-15.40.16:437][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/SM_present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/SM_present_2.uasset" SILENT=true
+[2022.01.28-15.40.16:446][121]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/SM_present_2DD76416F43477D8CE938BC868B447D01.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/SM_present_2.uasset'
+[2022.01.28-15.40.16:512][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.01.28-15.40.16:539][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.01.28-15.40.16:553][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.01.28-15.40.16:587][121]AssetCheck: New page: Asset Save: SM_present_2
+[2022.01.28-15.40.16:587][121]LogContentValidation: Display: Validating StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-15.40.29:058][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:058][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:058][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:058][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:059][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:059][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:059][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:060][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreen_lid
+[2022.01.28-15.40.29:060][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:060][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreen_lid
+[2022.01.28-15.40.29:060][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:060][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:072][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:072][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:072][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:072][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:073][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:073][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreenRound_lid
+[2022.01.28-15.40.29:073][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:073][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreenRound_lid
+[2022.01.28-15.40.29:074][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:074][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:084][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:084][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:084][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:084][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:085][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:085][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreenLow_presentGreenLow
+[2022.01.28-15.40.29:085][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:085][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreenLow_presentGreenLow
+[2022.01.28-15.40.29:085][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:085][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_presentGreenLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:095][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:095][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:095][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:095][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:096][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:096][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreenLow_lid
+[2022.01.28-15.40.29:096][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:096][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreenLow_lid
+[2022.01.28-15.40.29:096][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:097][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:107][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:107][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:107][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:107][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:108][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:108][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreen_presentGreen
+[2022.01.28-15.40.29:108][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.29:108][421]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreen_presentGreen
+[2022.01.28-15.40.29:108][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.40.29:108][421]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreen_presentGreen.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.40.33:447][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.01.28-15.40.35:131][899]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-15.40.35:197][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.01.28-15.40.35:211][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.01.28-15.40.35:225][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.40.35:238][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.40.35:252][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.40.35:271][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.01.28-15.40.35:285][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.40.45:412][947]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\Present.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.40.45:413][947]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\Present.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.40.45:413][947]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\Present.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.40.45:413][947]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\Present.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.40.45:414][947]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/_defaultMat._defaultMat Referenced by Present
+[2022.01.28-15.40.45:415][947]LogMaterial: Display: Missing cached shadermap for packageWhite in PCD3D_SM5, Default, SM5 (DDC key hash: 6314CC653DCD5BB2DBC10B4433647510BFCB1320), compiling. 
+[2022.01.28-15.40.45:448][947]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.01.28-15.40.45:450][947]LogMaterial: Display: Missing cached shadermap for packageBlue in PCD3D_SM5, Default, SM5 (DDC key hash: 240B545BBD24E1F66F340ADD4FFB689B1C1014A3), compiling. 
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 16
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 14
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 12
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 10
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2022.01.28-15.40.45:460][947]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.01.28-15.40.45:462][947]LogMaterial: Display: Missing cached shadermap for leaves in PCD3D_SM5, Default, SM5 (DDC key hash: E46C6031B8E1BB0595FBE466EF979EDD94D0481E), compiling. 
+[2022.01.28-15.40.45:472][947]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.01.28-15.40.45:497][948]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 4
+[2022.01.28-15.40.45:497][948]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2022.01.28-15.40.45:497][948]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2022.01.28-15.40.45:497][948]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2022.01.28-15.40.45:497][948]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.40.46:238][972]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 28
+[2022.01.28-15.40.46:238][972]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:238][972]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 25
+[2022.01.28-15.40.46:238][972]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:258][973]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.28-15.40.46:258][973]LogShaderCompilers: Display: Total job queries 48, among them cache hits 0 (0.00%)
+[2022.01.28-15.40.46:258][973]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 1 distinct outputs (50.00%)
+[2022.01.28-15.40.46:258][973]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.00%
+[2022.01.28-15.40.46:258][973]LogShaderCompilers: Display: ================================================
+[2022.01.28-15.40.46:481][979]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 22
+[2022.01.28-15.40.46:481][979]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:487][980]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 20
+[2022.01.28-15.40.46:487][980]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 18
+[2022.01.28-15.40.46:487][980]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:618][987]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 16
+[2022.01.28-15.40.46:619][987]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:812][996]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 14
+[2022.01.28-15.40.46:812][996]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:910][  0]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 12
+[2022.01.28-15.40.46:910][  0]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.46:998][  4]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 10
+[2022.01.28-15.40.46:998][  4]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:016][  5]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2022.01.28-15.40.47:017][  5]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:269][ 17]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 8
+[2022.01.28-15.40.47:269][ 17]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:456][ 26]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.01.28-15.40.47:456][ 26]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:515][ 29]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 6
+[2022.01.28-15.40.47:515][ 29]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:534][ 30]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 5
+[2022.01.28-15.40.47:534][ 30]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:574][ 32]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2022.01.28-15.40.47:574][ 32]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:618][ 34]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2022.01.28-15.40.47:618][ 34]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:764][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.01.28-15.40.47:851][ 39]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.01.28-15.40.47:851][ 39]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.47:920][ 39]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2022.01.28-15.40.47:920][ 39]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.40.49:790][ 39]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-15.40.49:860][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.01.28-15.40.49:874][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.01.28-15.40.49:887][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.40.49:901][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.40.49:920][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.01.28-15.40.49:934][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.40.51:614][203]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.40.51:620][203]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.01.28-15.40.51:621][203]LogPlayLevel: [PlayLevel] Compiling Present_1 before play...
+[2022.01.28-15.40.51:627][203]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.40.51:627][203]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BP_Character_Player_1_C_3.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_0:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_100.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.40.51:627][203]PIE: Warning: AttachTo: '/Engine/Transient.World_21:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_21:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.40.51:635][203]LogPlayLevel: [PlayLevel] Compiling BP_Character_Player_1 before play...
+[2022.01.28-15.40.51:662][203]LogPlayLevel: [PlayLevel] Compiling Present_2 before play...
+[2022.01.28-15.40.51:688][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.01.28-15.40.51:689][203]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (3 blueprints)
+[2022.01.28-15.40.51:689][203]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:40:51)
+[2022.01.28-15.40.51:689][203]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.40.51:698][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008654s)
+[2022.01.28-15.40.51:699][203]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.40.51:699][203]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2022.01.28-15.40.51:699][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010157s)
+[2022.01.28-15.40.51:715][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.28-15.40.51:716][203]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.40.51:716][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.40.51:716][203]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.40.51:716][203]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.40.51:716][203]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.40.51:716][203]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.40.51:718][203]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.40.51:718][203]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.40.51:725][203]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.40.51:725][203]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.40.51:726][203]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.40.51:726][203]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.40.51:726][203]LogInit: FAudioDevice initialized.
+[2022.01.28-15.40.51:727][203]LogAudio: Display: Audio Device (ID: 17) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.40.51:733][203]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.40.51:735][203]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.40.51:735][203]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.40.51
+[2022.01.28-15.40.51:736][203]LogWorld: Bringing up level for play took: 0.002339
+[2022.01.28-15.40.51:736][203]LogOnline: OSS: Creating online subsystem instance for: :Context_54
+[2022.01.28-15.40.51:741][203]PIE: Server logged in
+[2022.01.28-15.40.51:741][203]PIE: Play in editor total start time 0,122 seconds.
+[2022.01.28-15.40.57:080][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.40.57:080][816]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.40.57:081][816]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.40.57:081][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.40.57:088][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.40.57:092][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.40.57:105][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.40.57:105][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.40.57:106][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.40.57:111][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.28-15.40.57:238][817]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.01.28-15.40.58:237][898]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.40.58:242][898]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.41.12:005][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.41.12:005][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.41.12:005][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:005][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:005][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.41.12:006][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:006][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.41.12:006][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/leaves.leaves Referenced by presentGreenRound_presentGreenRound
+[2022.01.28-15.41.12:006][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:006][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentGreenRound_presentGreenRound
+[2022.01.28-15.41.12:007][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/leaves': Can't find file.
+[2022.01.28-15.41.12:007][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentGreenRound_presentGreenRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:021][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/packageWhite': Can't find file.
+[2022.01.28-15.41.12:021][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/packageWhite': Can't find file.
+[2022.01.28-15.41.12:021][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:022][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/packageWhite': Can't find file.
+[2022.01.28-15.41.12:022][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:022][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/packageWhite': Can't find file.
+[2022.01.28-15.41.12:022][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/packageWhite.packageWhite Referenced by presentLow_presentLow
+[2022.01.28-15.41.12:022][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:022][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentLow_presentLow
+[2022.01.28-15.41.12:023][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/packageWhite': Can't find file.
+[2022.01.28-15.41.12:023][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_presentLow.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:033][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:033][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:033][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:033][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:034][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:034][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:034][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/_defaultMat._defaultMat Referenced by presentLow_lid
+[2022.01.28-15.41.12:034][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:034][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentLow_lid
+[2022.01.28-15.41.12:035][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:035][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentLow_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:044][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:045][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:045][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:045][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:045][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:045][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/_defaultMat._defaultMat Referenced by presentRound_lid
+[2022.01.28-15.41.12:046][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:046][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentRound_lid
+[2022.01.28-15.41.12:046][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:046][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_lid.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:057][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:058][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:058][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:058][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:058][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:058][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/_defaultMat._defaultMat Referenced by presentRound_presentRound
+[2022.01.28-15.41.12:059][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.12:059][270]LoadErrors: Failed to load /Game/ThirdPersonBP/Christmas/Presents/ribbon.ribbon Referenced by presentRound_presentRound
+[2022.01.28-15.41.12:059][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/_defaultMat': Can't find file.
+[2022.01.28-15.41.12:059][270]LogLinker: Warning: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Presents\presentRound_presentRound.uasset: Failed to load '/Game/ThirdPersonBP/Christmas/Presents/ribbon': Can't find file.
+[2022.01.28-15.41.14:978][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.01.28-15.41.16:417][563]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-15.41.16:488][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.01.28-15.41.16:502][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.41.16:516][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.01.28-15.41.16:529][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.41.16:543][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.41.16:562][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.01.28-15.41.16:576][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.01.28-15.41.30:236][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.28-15.41.32:191][979]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-15.41.32:253][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.01.28-15.41.32:271][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.41.32:284][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.01.28-15.41.33:564][102]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.41.33:570][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-15.41.33:570][102]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:41:33)
+[2022.01.28-15.41.33:599][102]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.41.33:608][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009219s)
+[2022.01.28-15.41.33:609][102]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.41.33:609][102]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2022.01.28-15.41.33:609][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010793s)
+[2022.01.28-15.41.33:627][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.28-15.41.33:628][102]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.41.33:628][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.41.33:628][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.41.33:629][102]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.41.33:629][102]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.41.33:629][102]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.41.33:629][102]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.41.33:630][102]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.41.33:630][102]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.41.33:637][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.41.33:637][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.41.33:639][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.41.33:639][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.41.33:639][102]LogInit: FAudioDevice initialized.
+[2022.01.28-15.41.33:639][102]LogAudio: Display: Audio Device (ID: 18) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.41.33:651][102]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.41.33:653][102]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.41.33:653][102]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.41.33
+[2022.01.28-15.41.33:654][102]LogWorld: Bringing up level for play took: 0.002210
+[2022.01.28-15.41.33:654][102]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2022.01.28-15.41.33:658][102]PIE: Server logged in
+[2022.01.28-15.41.33:659][102]PIE: Play in editor total start time 0,09 seconds.
+[2022.01.28-15.41.39:450][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.41.39:450][777]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.41.39:450][777]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.41.39:450][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.41.39:462][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.41.39:466][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.41.39:479][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.41.39:479][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.41.39:480][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.41.39:485][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.28-15.41.39:597][778]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.01.28-15.41.40:836][896]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.41.40:843][896]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.41.44:087][229]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-15.41.44:124][229]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.01.28-15.41.44:185][229]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.01.28-15.41.44:753][230]LogRenderer: Reallocating scene render targets to support 1616x848 Format 10 NumSamples 1 (Frame:1).
+[2022.01.28-15.41.53:248][898]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.41.53:262][898]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.41.53:267][898]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.41.53:267][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.41.59:919][574]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Presents/_defaultMat._defaultMat
+[2022.01.28-15.41.59:920][574]LogMaterial: Display: Missing cached shadermap for _defaultMat in PCD3D_SM5, Default, SM5 (DDC key hash: 7164D75C4489ECDAA2F01524F091834EAA0DFC35), compiling. 
+[2022.01.28-15.41.59:931][574]LogShaderCompilers: Display: Submitted 12 shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.00:028][574]LogMaterial: Display: Missing cached shadermap for _defaultMat in PCD3D_SM5, Default, SM5 (DDC key hash: 604503EE44D688B023E1E2E0FC513DF2AF67DAA4), compiling. 
+[2022.01.28-15.42.00:030][574]LogMaterial: Display: Missing cached shadermap for _defaultMat in PCD3D_SM5, Default, SM5 (DDC key hash: EB2DF6EE26AA500A89C5F6C0CF345D969E9E2BA3), compiling. 
+[2022.01.28-15.42.00:032][574]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionCollectionParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0FCCC5F535F8C8240EF785716F9A56FF3C37C67C), compiling. 
+[2022.01.28-15.42.00:046][574]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 9
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 5
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 4
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1
+[2022.01.28-15.42.00:106][575]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.00:169][577]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.00:738][596]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 2
+[2022.01.28-15.42.00:738][596]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.00:866][600]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1
+[2022.01.28-15.42.00:866][600]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.00:989][604]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.42.01:285][616]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.42.01:285][616]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.42.01:285][616]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.42.01:285][616]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.42.01:285][616]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.42.09:015][267]LogSlate: Window '_defaultMat' being destroyed
+[2022.01.28-15.42.09:020][267]LogSlate: Window '_defaultMat' being destroyed
+[2022.01.28-15.42.09:031][267]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.42.09:031][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.42.13:107][668]LogContentBrowser: Deferred new asset file creation: _defaultMat1
+[2022.01.28-15.42.13:134][668]LogContentBrowser: Creating deferred item: _defaultMat1
+[2022.01.28-15.42.31:165][550]LogContentBrowser: Attempting asset rename: _defaultMat1 -> present_material_2
+[2022.01.28-15.42.31:167][550]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 189969182AD7AD98553127DA60540563DCF6D968), compiling. 
+[2022.01.28-15.42.31:192][550]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.01.28-15.42.31:193][550]LogContentBrowser: End creating deferred item _defaultMat1
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 23
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 21
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 19
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 17
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 15
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 13
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 7
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Started 20 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.31:203][551]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.28-15.42.31:870][581]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2022.01.28-15.42.31:870][581]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.32:160][592]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2022.01.28-15.42.32:160][592]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.32:312][597]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2022.01.28-15.42.32:313][597]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.28-15.42.38:073][112]LogAssetEditorSubsystem: Opening Asset editor for MaterialParameterCollection /Game/Presents/presentColor2.presentColor2
+[2022.01.28-15.42.52:806][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/presentColor2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/presentColor2.uasset" SILENT=true
+[2022.01.28-15.42.52:807][722]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/presentColor2F4B4F5A3488B6A6621D67286A8ACE676.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/presentColor2.uasset'
+[2022.01.28-15.42.52:820][722]AssetCheck: New page: Asset Save: presentColor2
+[2022.01.28-15.42.52:820][722]LogContentValidation: Display: Validating MaterialParameterCollection /Game/Presents/presentColor2.presentColor2
+[2022.01.28-15.42.55:783][ 54]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.42.55:790][ 54]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.43.07:320][154]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Presents/present_material_2.present_material_2
+[2022.01.28-15.43.07:321][154]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5E8AF61497913D47B4E51EB4AB99BFBDDC55B66F), compiling. 
+[2022.01.28-15.43.07:400][154]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: ADE8F95045403B2D867770A1F88D7D47CD17CE6D), compiling. 
+[2022.01.28-15.43.07:402][154]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: B7DC9F3146551EF3F66285F40706C94956BB5C9D), compiling. 
+[2022.01.28-15.43.07:404][154]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionCollectionParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F5EE312B54D61DED4FC0048F9FA1B786DCCCC35E), compiling. 
+[2022.01.28-15.43.07:417][154]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.28-15.43.07:471][155]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.43.07:471][155]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.43.07:471][155]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.43.07:471][155]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.43.07:471][155]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.43.11:896][504]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3B011CFE70CA1EC2DF2D5F6034C3AE97975E5E54), compiling. 
+[2022.01.28-15.43.11:897][504]LogMaterial: Warning: [AssetLog] /Engine/Transient.present_material_2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.01.28-15.43.11:897][504]LogMaterial: Display: 	(Node CollectionParameter) CollectionParameter has invalid parameter presentColor
+[2022.01.28-15.43.11:898][504]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionCollectionParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5472E214BE8D740BBBE8AF406E6569F42AE5FEF7), compiling. 
+[2022.01.28-15.43.11:899][504]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 18CA2E3C6BF8200E75C8E6D67DDEEDAB09132621), compiling. 
+[2022.01.28-15.43.11:900][504]LogMaterial: Warning: [AssetLog] /Engine/Transient.present_material_2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.01.28-15.43.11:900][504]LogMaterial: Display: 	(Node CollectionParameter) CollectionParameter has invalid parameter presentColor
+[2022.01.28-15.43.11:902][504]MaterialEditorStats: Error: [SM5] (Node CollectionParameter) CollectionParameter has invalid parameter presentColor
+[2022.01.28-15.43.17:718][ 19]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: A5BC7AA622B1706651001EFCBA86BC54B0F5288B), compiling. 
+[2022.01.28-15.43.17:720][ 19]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionCollectionParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 796BB806A88CC0A99BD2C70C3C3712CA9D6E2DA7), compiling. 
+[2022.01.28-15.43.17:722][ 19]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 49C8ED02416D374895318A43F868F36E3044BF5C), compiling. 
+[2022.01.28-15.43.17:727][ 19]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.28-15.43.17:761][ 21]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.43.17:761][ 21]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.43.17:761][ 21]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.43.17:761][ 21]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.43.17:761][ 21]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.43.20:920][296]LogMaterialEditor: Saving and Compiling material present_material_2
+[2022.01.28-15.43.21:214][296]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 1CA3E9746B2325FE0029BB1E1E4CEF338D420846), compiling. 
+[2022.01.28-15.43.21:240][296]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F9D2CD86CAF260FDE49E52965EAC6B35FDD2FE76), compiling. 
+[2022.01.28-15.43.21:314][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.01.28-15.43.21:476][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.01.28-15.43.21:547][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_material_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_material_2.uasset" SILENT=true
+[2022.01.28-15.43.21:552][296]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_material_2A6FD4DE2414E69284AAE3F9D8004FB55.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_material_2.uasset'
+[2022.01.28-15.43.21:563][296]AssetCheck: New page: Asset Save: present_material_2
+[2022.01.28-15.43.21:563][296]LogContentValidation: Display: Validating Material /Game/Presents/present_material_2.present_material_2
+[2022.01.28-15.43.21:581][296]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.43.21:581][296]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.43.21:581][296]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.43.21:581][296]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.43.21:581][296]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.28-15.43.24:312][542]LogSlate: Window 'present_material_2' being destroyed
+[2022.01.28-15.43.24:317][542]LogSlate: Window 'present_material_2' being destroyed
+[2022.01.28-15.43.24:322][542]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.43.24:322][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.43.33:729][427]LogAssetEditorSubsystem: Opening Asset editor for MaterialParameterCollection /Game/Presents/presentColor2.presentColor2
+[2022.01.28-15.43.37:482][823]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.43.37:490][823]LogSlate: Window 'presentColor2' being destroyed
+[2022.01.28-15.43.38:717][942]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-15.43.43:704][296]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.43.43:720][296]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.43.43:724][296]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.43.43:725][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.44.28:883][399]LogSlate: Window 'Message' being destroyed
+[2022.01.28-15.44.28:887][399]Message dialog closed, result: Cancel, title: Message, text: Asset /Game/Blueprint/Present_2 already exists.
+[2022.01.28-15.44.30:572][399]LogSlate: Window 'Create Blueprint' being destroyed
+[2022.01.28-15.44.36:904][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.01.28-15.44.38:001][949]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-15.44.38:036][949]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint/Present_2.Present_2
+[2022.01.28-15.44.38:285][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.01.28-15.44.38:311][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.01.28-15.44.42:010][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.01.28-15.44.42:034][341]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsE8A4794D45FC600502FA519F538D07D1.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.28-15.44.42:053][341]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.28-15.44.42:053][341]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.28-15.44.44:333][585]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.01.28-15.44.47:644][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_1" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset" SILENT=true
+[2022.01.28-15.44.47:656][785]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Present_1559ED17B408E9919F09F06BB58F574D7.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset'
+[2022.01.28-15.44.47:666][785]AssetCheck: New page: Asset Save: Present_1
+[2022.01.28-15.44.47:666][785]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.01.28-15.44.49:143][897]LogSlate: Window 'Present_1' being destroyed
+[2022.01.28-15.44.49:151][897]LogSlate: Window 'Present_1' being destroyed
+[2022.01.28-15.44.49:189][897]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.44.49:189][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.44.50:439][  8]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Character_Player_1.BP_Character_Player_1
+[2022.01.28-15.44.53:986][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Character_Player_1" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Character_Player_1.uasset" SILENT=true
+[2022.01.28-15.44.54:013][193]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/BP_Character_Player_1440523A74AF6F2D689F4EEBBB32BAD5A.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Character_Player_1.uasset'
+[2022.01.28-15.44.54:023][193]AssetCheck: New page: Asset Save: BP_Character_Player_1
+[2022.01.28-15.44.54:023][193]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Character_Player_1.BP_Character_Player_1
+[2022.01.28-15.44.55:237][269]LogSlate: Window 'BP_Character_Player_1' being destroyed
+[2022.01.28-15.44.55:244][269]LogSlate: Window 'BP_Character_Player_1' being destroyed
+[2022.01.28-15.44.55:269][269]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.44.55:269][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.45.34:443][525]LogSlate: Window 'Create Blueprint' being destroyed
+[2022.01.28-15.45.34:464][525]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_2.Present_2
+[2022.01.28-15.45.40:804][ 25]BlueprintLog: New page: Compile Present_2
+[2022.01.28-15.45.40:836][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.01.28-15.45.48:586][668]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-15.45.48:592][668]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-15.45.48:619][668]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.45.48:619][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.45.51:449][911]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.01.28-15.46.06:465][154]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_2.Present_2
+[2022.01.28-15.46.40:304][ 63]BlueprintLog: New page: Compile Present_2
+[2022.01.28-15.46.40:339][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2022.01.28-15.46.45:854][510]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Door-1.Door-1
+[2022.01.28-15.47.22:607][529]BlueprintLog: New page: Compile Present_2
+[2022.01.28-15.47.22:644][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.01.28-15.48.56:224][320]LogEditorTransaction: Undo Move Nodes
+[2022.01.28-15.48.57:958][425]LogEditorTransaction: Undo Paste clipboard contents
+[2022.01.28-15.51.21:589][342]LogEditorTransaction: Undo Create Pin Link
+[2022.01.28-15.51.22:211][364]LogEditorTransaction: Undo Create Pin Link
+[2022.01.28-15.51.27:522][805]LogEditorTransaction: Undo Create Pin Link
+[2022.01.28-15.52.51:210][596]LogEditorTransaction: Undo Paste clipboard contents
+[2022.01.28-15.55.21:964][277]BlueprintLog: New page: Compile Door-1
+[2022.01.28-15.55.22:006][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.01.28-15.55.22:954][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Door-1" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset" SILENT=true
+[2022.01.28-15.55.22:973][343]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Door-1925FB2124BD7893F2AC308B3DC2777F3.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset'
+[2022.01.28-15.55.22:985][343]AssetCheck: New page: Asset Save: Door-1
+[2022.01.28-15.55.22:985][343]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Door-1.Door-1
+[2022.01.28-15.56.01:752][379]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.01.28-15.56.01:772][379]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.28-15.57.10:694][445]BlueprintLog: New page: Compile Door-1
+[2022.01.28-15.57.10:737][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.01.28-15.57.12:027][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Door-1" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset" SILENT=true
+[2022.01.28-15.57.12:047][530]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Door-18856EA7845093D1F9661E089AB7A2E51.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset'
+[2022.01.28-15.57.12:057][530]AssetCheck: New page: Asset Save: Door-1
+[2022.01.28-15.57.12:057][530]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Door-1.Door-1
+[2022.01.28-15.57.14:221][674]LogSlate: Window 'Door-1' being destroyed
+[2022.01.28-15.57.14:226][674]LogSlate: Window 'Door-1' being destroyed
+[2022.01.28-15.57.14:231][674]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.57.14:231][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.57.14:284][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.28-15.57.14:284][674]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.57.14:284][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.57.14:336][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.28-15.57.14:336][674]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.57.14:336][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.57.15:313][782]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.57.15:319][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-15.57.15:319][782]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:57:15)
+[2022.01.28-15.57.15:340][782]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.57.15:350][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010471s)
+[2022.01.28-15.57.15:351][782]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.57.15:352][782]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2022.01.28-15.57.15:352][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012013s)
+[2022.01.28-15.57.15:372][782]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.01.28-15.57.15:375][782]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.57.15:375][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.57.15:375][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.57.15:375][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.57.15:375][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.57.15:375][782]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.57.15:377][782]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.57.15:377][782]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.57.15:384][782]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.57.15:384][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.57.15:385][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.57.15:385][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.57.15:385][782]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.57.15:385][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.57.15:385][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.57.15:386][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.57.15:386][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.57.15:386][782]LogInit: FAudioDevice initialized.
+[2022.01.28-15.57.15:386][782]LogAudio: Display: Audio Device (ID: 19) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.57.15:396][782]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.57.15:398][782]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.57.15:399][782]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.57.15
+[2022.01.28-15.57.15:399][782]LogWorld: Bringing up level for play took: 0.002264
+[2022.01.28-15.57.15:399][782]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2022.01.28-15.57.15:404][782]PIE: Server logged in
+[2022.01.28-15.57.15:404][782]PIE: Play in editor total start time 0,086 seconds.
+[2022.01.28-15.57.29:760][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.57.29:760][468]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.57.29:760][468]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.57.29:761][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.57.29:767][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.57.29:771][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.57.29:783][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.57.29:784][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.57.29:785][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.57.29:790][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.01.28-15.57.29:913][469]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.01.28-15.57.31:418][612]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.57.31:425][612]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.57.35:651][ 55]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-15.57.35:656][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-15.57.35:656][ 55]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 17:57:35)
+[2022.01.28-15.57.35:690][ 55]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.57.35:700][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010151s)
+[2022.01.28-15.57.35:701][ 55]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-15.57.35:701][ 55]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2022.01.28-15.57.35:701][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.011491s)
+[2022.01.28-15.57.35:719][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.28-15.57.35:722][ 55]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-15.57.35:722][ 55]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-15.57.35:722][ 55]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-15.57.35:722][ 55]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-15.57.35:722][ 55]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-15.57.35:722][ 55]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-15.57.35:724][ 55]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-15.57.35:724][ 55]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-15.57.35:730][ 55]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-15.57.35:730][ 55]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-15.57.35:730][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-15.57.35:730][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-15.57.35:731][ 55]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-15.57.35:731][ 55]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-15.57.35:731][ 55]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-15.57.35:732][ 55]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-15.57.35:732][ 55]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-15.57.35:732][ 55]LogInit: FAudioDevice initialized.
+[2022.01.28-15.57.35:732][ 55]LogAudio: Display: Audio Device (ID: 20) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-15.57.35:742][ 55]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-15.57.35:744][ 55]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-15.57.35:744][ 55]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-16.57.35
+[2022.01.28-15.57.35:744][ 55]LogWorld: Bringing up level for play took: 0.002230
+[2022.01.28-15.57.35:745][ 55]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2022.01.28-15.57.35:749][ 55]PIE: Server logged in
+[2022.01.28-15.57.35:749][ 55]PIE: Play in editor total start time 0,094 seconds.
+[2022.01.28-15.58.07:911][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.58.07:911][870]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-15.58.07:911][870]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.58.07:911][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.58.07:920][870]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-15.58.07:924][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.58.07:937][870]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.28-15.58.07:937][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.58.07:938][870]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-15.58.07:940][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-15.58.07:944][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.01.28-15.58.08:050][871]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.01.28-15.58.09:448][  7]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.58.09:454][  7]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-15.58.11:941][244]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_2.Present_2
+[2022.01.28-15.58.32:622][748]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-15.58.32:627][748]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-15.58.32:630][748]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.58.32:630][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.58.42:937][676]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Presents/present_material_2.present_material_2
+[2022.01.28-15.58.42:938][676]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 60F07DA15BAEDE8A32C2A842701B05ACD405B726), compiling. 
+[2022.01.28-15.58.42:954][676]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.28-15.58.42:954][676]LogShaderCompilers: Display: Total job queries 215, among them cache hits 116 (53.95%)
+[2022.01.28-15.58.42:954][676]LogShaderCompilers: Display: Tracking 87 distinct input hashes that result in 33 distinct outputs (37.93%)
+[2022.01.28-15.58.42:954][676]LogShaderCompilers: Display: RAM used: 0.18 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.02%
+[2022.01.28-15.58.42:955][676]LogShaderCompilers: Display: ================================================
+[2022.01.28-15.58.43:048][676]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7530206BE66FBCEAF043A150CC463A34A77072C6), compiling. 
+[2022.01.28-15.58.43:050][676]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: C34E937966AAE64D9CB2CD2AB4FFD7702BA614A5), compiling. 
+[2022.01.28-15.58.43:051][676]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionCollectionParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6FD0DC2F513630347F301BD3346620FBD164A343), compiling. 
+[2022.01.28-15.58.43:065][676]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.28-15.58.43:117][677]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.58.43:117][677]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.58.43:117][677]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.58.43:117][677]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.58.43:117][677]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.58.58:061][933]LogMaterial: Display: Missing cached shadermap for present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F5D4CC4A268FDB4C4484CCAAF52D3BF2CF116B93), compiling. 
+[2022.01.28-15.58.58:066][933]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.28-15.58.58:088][935]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.58.58:105][936]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.28-15.58.58:106][936]MaterialEditorStats: Base pass shader with Surface Lightmap: 146 instructions
+[2022.01.28-15.58.58:106][936]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.28-15.58.58:106][936]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.28-15.58.58:106][936]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.28-15.58.59:685][ 69]LogMaterialEditor: Saving and Compiling material present_material_2
+[2022.01.28-15.58.59:704][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_material_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_material_2.uasset" SILENT=true
+[2022.01.28-15.58.59:705][ 69]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_material_244D29BA64968AABF89FDDBAF9A17778B.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_material_2.uasset'
+[2022.01.28-15.58.59:718][ 69]AssetCheck: New page: Asset Save: present_material_2
+[2022.01.28-15.58.59:718][ 69]LogContentValidation: Display: Validating Material /Game/Presents/present_material_2.present_material_2
+[2022.01.28-15.59.02:332][295]LogSlate: Window 'present_material_2' being destroyed
+[2022.01.28-15.59.02:337][295]LogSlate: Window 'present_material_2' being destroyed
+[2022.01.28-15.59.02:370][295]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.59.02:370][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.59.09:714][969]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-15.59.30:223][632]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.59.30:236][632]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-15.59.30:280][632]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-15.59.30:280][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-15.59.38:017][319]LogStaticMesh: Building static mesh present_present...
+[2022.01.28-15.59.38:046][319]LogStaticMesh: Built static mesh [0.03s] /Game/Presents/present_present.present_present
+[2022.01.28-15.59.38:076][319]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/present_present.present_present
+[2022.01.28-16.00.06:788][593]LogSlate: Window 'present_present' being destroyed
+[2022.01.28-16.00.06:804][593]LogSlate: Window 'present_present' being destroyed
+[2022.01.28-16.00.06:840][593]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.00.06:840][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.00.18:239][550]LogStaticMesh: Building static mesh present_lid...
+[2022.01.28-16.00.18:278][550]LogStaticMesh: Built static mesh [0.04s] /Game/Presents/present_lid.present_lid
+[2022.01.28-16.00.18:288][550]LogStaticMesh: Building static mesh present_lid_2...
+[2022.01.28-16.00.18:310][550]LogStaticMesh: Built static mesh [0.02s] /Game/Presents/present_lid_2.present_lid_2
+[2022.01.28-16.00.18:318][550]LogStaticMesh: Building static mesh present_present_2...
+[2022.01.28-16.00.18:335][550]LogStaticMesh: Built static mesh [0.02s] /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.00.30:750][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.01.28-16.00.30:790][595]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents1FD35ED5445D4A7A0983E68D3BECAF32.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.28-16.00.30:809][595]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.28-16.00.30:809][595]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.28-16.00.32:347][730]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.00.33:739][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset" SILENT=true
+[2022.01.28-16.00.33:745][811]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_present_294D6FAC144F09D7027983789ED7FFF45.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset'
+[2022.01.28-16.00.33:755][811]AssetCheck: New page: Asset Save: present_present_2
+[2022.01.28-16.00.33:756][811]LogContentValidation: Display: Validating StaticMesh /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.00.43:835][377]LogStaticMesh: Building static mesh present_present_2...
+[2022.01.28-16.00.43:862][377]LogStaticMesh: Built static mesh [0.03s] /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.00.48:787][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset" SILENT=true
+[2022.01.28-16.00.48:793][699]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_present_2EED61DC641AB622C78D989B8BE796EE8.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset'
+[2022.01.28-16.00.48:803][699]AssetCheck: New page: Asset Save: present_present_2
+[2022.01.28-16.00.48:803][699]LogContentValidation: Display: Validating StaticMesh /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.00.50:126][808]LogSlate: Window 'present_present_2' being destroyed
+[2022.01.28-16.00.50:143][808]LogSlate: Window 'present_present_2' being destroyed
+[2022.01.28-16.00.50:170][808]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.00.50:170][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.00.53:768][114]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/present_lid_2.present_lid_2
+[2022.01.28-16.01.04:404][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_lid_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_lid_2.uasset" SILENT=true
+[2022.01.28-16.01.04:413][728]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_lid_27C2F499A4B215AB76E4B41B87F719B24.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_lid_2.uasset'
+[2022.01.28-16.01.04:423][728]AssetCheck: New page: Asset Save: present_lid_2
+[2022.01.28-16.01.04:424][728]LogContentValidation: Display: Validating StaticMesh /Game/Presents/present_lid_2.present_lid_2
+[2022.01.28-16.01.29:143][560]LogStaticMesh: Building static mesh present_lid_2...
+[2022.01.28-16.01.29:183][560]LogStaticMesh: Built static mesh [0.04s] /Game/Presents/present_lid_2.present_lid_2
+[2022.01.28-16.01.32:565][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_lid_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_lid_2.uasset" SILENT=true
+[2022.01.28-16.01.32:572][820]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_lid_29E3519444EBBB26DEA100294D07F6158.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_lid_2.uasset'
+[2022.01.28-16.01.32:583][820]AssetCheck: New page: Asset Save: present_lid_2
+[2022.01.28-16.01.32:583][820]LogContentValidation: Display: Validating StaticMesh /Game/Presents/present_lid_2.present_lid_2
+[2022.01.28-16.01.39:064][340]LogSlate: Window 'present_lid_2' being destroyed
+[2022.01.28-16.01.39:079][340]LogSlate: Window 'present_lid_2' being destroyed
+[2022.01.28-16.01.39:110][340]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.01.39:110][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.01.40:280][435]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.02.03:330][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/present_present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset" SILENT=true
+[2022.01.28-16.02.03:336][ 58]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/present_present_2C72A5D5E43CC1894DBCF86808B6F1733.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/present_present_2.uasset'
+[2022.01.28-16.02.03:346][ 58]AssetCheck: New page: Asset Save: present_present_2
+[2022.01.28-16.02.03:346][ 58]LogContentValidation: Display: Validating StaticMesh /Game/Presents/present_present_2.present_present_2
+[2022.01.28-16.02.04:971][187]LogSlate: Window 'present_present_2' being destroyed
+[2022.01.28-16.02.04:983][187]LogSlate: Window 'present_present_2' being destroyed
+[2022.01.28-16.02.05:030][187]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.02.05:030][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.02.08:748][539]LogActorFactory: Actor Factory created present_present_2
+[2022.01.28-16.02.09:643][634]LogActorFactory: Actor Factory created present_present_2
+[2022.01.28-16.02.10:571][716]LogActorFactory: Actor Factory created present_lid_2
+[2022.01.28-16.02.13:202][ 17]LogActorFactory: Actor Factory created present_lid_2
+[2022.01.28-16.02.34:890][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.28-16.02.41:110][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (present_lid_2)
+[2022.01.28-16.02.44:344][685]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-16.02.44:350][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-16.02.44:350][685]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 18:02:44)
+[2022.01.28-16.02.44:390][685]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-16.02.44:401][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010797s)
+[2022.01.28-16.02.44:401][685]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-16.02.44:402][685]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2022.01.28-16.02.44:402][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012290s)
+[2022.01.28-16.02.44:428][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.01.28-16.02.44:443][685]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-16.02.44:443][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-16.02.44:443][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-16.02.44:444][685]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-16.02.44:444][685]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-16.02.44:444][685]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-16.02.44:444][685]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-16.02.44:445][685]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-16.02.44:445][685]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-16.02.44:453][685]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-16.02.44:453][685]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-16.02.44:454][685]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-16.02.44:454][685]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-16.02.44:455][685]LogInit: FAudioDevice initialized.
+[2022.01.28-16.02.44:455][685]LogAudio: Display: Audio Device (ID: 21) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-16.02.44:464][685]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-16.02.44:466][685]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-16.02.44:466][685]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-17.02.44
+[2022.01.28-16.02.44:467][685]LogWorld: Bringing up level for play took: 0.002307
+[2022.01.28-16.02.44:467][685]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2022.01.28-16.02.44:472][685]PIE: Server logged in
+[2022.01.28-16.02.44:472][685]PIE: Play in editor total start time 0,123 seconds.
+[2022.01.28-16.02.57:430][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-16.02.57:430][213]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-16.02.57:431][213]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.02.57:431][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.02.57:444][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.28-16.02.57:448][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.02.57:460][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.28-16.02.57:461][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-16.02.57:462][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.28-16.02.57:467][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.01.28-16.02.57:577][214]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2022.01.28-16.02.58:740][317]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-16.02.58:744][317]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-16.03.04:998][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.28-16.03.24:445][389]LogEditorViewport: Clicking on Actor (LMB): Present_2_C (Present_2)
+[2022.01.28-16.03.25:535][518]Cmd: DELETE
+[2022.01.28-16.03.25:535][518]Cmd: ACTOR DELETE
+[2022.01.28-16.03.25:537][518]LogEditorActor: Deleted Actor: Present_2_C
+[2022.01.28-16.03.25:552][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.01.28-16.03.25:560][518]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.01.28-16.03.28:151][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (present_lid_2)
+[2022.01.28-16.03.35:817][743]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (present_lid_2)
+[2022.01.28-16.04.03:729][703]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.28-16.04.14:099][703]LogSlate: Window 'Create Merged Actor' being destroyed
+[2022.01.28-16.04.15:847][859]LogSlate: Window 'Merge Actors' being destroyed
+[2022.01.28-16.04.15:852][859]LogSlate: Window 'Merge Actors' being destroyed
+[2022.01.28-16.04.22:651][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.01.28-16.04.23:952][486]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-16.04.24:007][486]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.04.24:260][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.01.28-16.04.24:275][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.01.28-16.04.24:287][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.01.28-16.04.25:513][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.28-16.04.28:036][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (present_lid_2)
+[2022.01.28-16.04.30:880][267]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (present_present_2)
+[2022.01.28-16.04.59:145][972]LogSlate: Window 'Create Merged Actor' being destroyed
+[2022.01.28-16.04.59:167][972]LogStaticMesh: Building static mesh SM_present_2...
+[2022.01.28-16.04.59:205][972]LogStaticMesh: Built static mesh [0.04s] /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.05.13:528][464]LogSlate: Window 'Merge Actors' being destroyed
+[2022.01.28-16.05.13:532][464]LogSlate: Window 'Merge Actors' being destroyed
+[2022.01.28-16.05.14:495][549]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.05.17:656][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Presents/SM_present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/SM_present_2.uasset" SILENT=true
+[2022.01.28-16.05.17:664][765]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/SM_present_2BBA4739C421A76C9CF2E06AA96C3F09A.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Presents/SM_present_2.uasset'
+[2022.01.28-16.05.17:675][765]AssetCheck: New page: Asset Save: SM_present_2
+[2022.01.28-16.05.17:675][765]LogContentValidation: Display: Validating StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.05.22:424][ 62]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.05.22:434][ 62]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.05.22:470][ 62]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.05.22:470][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.05.29:610][680]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_2.Present_2
+[2022.01.28-16.05.47:135][106]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-16.05.47:142][106]LogSlate: Window 'Present_2' being destroyed
+[2022.01.28-16.05.47:170][106]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.05.47:170][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.05.53:512][709]LogContentBrowser: Attempting asset rename: Present_2 -> hvhv
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv_C' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C:ReceiveTick' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C:Player 2 Delivery On Success' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.SKEL_hvhv_C:UserConstructionScript' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:533][709]LogMetaData: Removing '/Game/Blueprint/hvhv.hvhv_C:Player 2 Delivery On Success' ref from Metadata '/Game/Blueprint/Present_2.PackageMetaData'
+[2022.01.28-16.05.53:568][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/hvhv" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/hvhv.uasset" SILENT=true
+[2022.01.28-16.05.53:576][709]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/hvhv3DF39A5A44859F19110D0FBD7F11975F.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/hvhv.uasset'
+[2022.01.28-16.05.53:577][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Present_2.uasset" SILENT=true
+[2022.01.28-16.05.53:578][709]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Present_221DD469A4EF5DAD3C73540B7C2618966.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Present_2.uasset'
+[2022.01.28-16.05.53:622][709]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.28-16.05.53:622][709]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprint/Present_2.Present_2
+[2022.01.28-16.05.53:622][709]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprint/Present_2.Default__Present_2_C
+[2022.01.28-16.05.53:622][709]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprint/Present_2.Present_2_C
+[2022.01.28-16.05.53:622][709]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/hvhv.hvhv
+[2022.01.28-16.06.01:292][372]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.06.07:544][817]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.06.07:558][817]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.06.07:590][817]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.06.07:590][817]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.06.37:039][591]LogSlate: Window 'Message' being destroyed
+[2022.01.28-16.06.37:043][591]Message dialog closed, result: Cancel, title: Message, text: Asset /Game/Blueprint/Present_2 already exists.
+[2022.01.28-16.06.38:264][591]LogSlate: Window 'Create Blueprint' being destroyed
+[2022.01.28-16.06.42:453][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.01.28-16.06.42:488][957]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsAE60BD524905CEF829AA6EA649665068.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.01.28-16.06.42:508][957]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.01.28-16.06.42:508][957]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.01.28-16.07.18:922][474]LogSlate: Window 'Message' being destroyed
+[2022.01.28-16.07.18:926][474]Message dialog closed, result: Ok, title: Message, text: Asset /Game/Blueprint/Present_2 already exists.
+[2022.01.28-16.07.27:573][474]LogSlate: Window 'Create Blueprint' being destroyed
+[2022.01.28-16.07.27:593][474]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.07.41:067][501]BlueprintLog: New page: Compile BP_Present_2
+[2022.01.28-16.07.41:069][501]LogBlueprint: Warning: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] Could not find a variable named "Color Index" in 'BP_Present_2_C'.
+Make sure 'BP_Present_2_C' has been compiled for  Set Color Index
+[2022.01.28-16.07.41:069][501]LogBlueprint: Warning: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] Could not find a variable named "Color Index" in 'BP_Present_2_C'.
+Make sure 'BP_Present_2_C' has been compiled for  Get Color Index
+[2022.01.28-16.07.41:069][501]LogBlueprint: Warning: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] Could not find a variable named "Color Index" in 'BP_Present_2_C'.
+Make sure 'BP_Present_2_C' has been compiled for  Get Color Index
+[2022.01.28-16.07.41:069][501]LogBlueprint: Warning: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] Could not find a variable named "Colors" in 'BP_Present_2_C'.
+Make sure 'BP_Present_2_C' has been compiled for  Get Colors
+[2022.01.28-16.07.41:070][501]LogBlueprint: Warning: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] Could not find a variable named "Color Index" in 'BP_Present_2_C'.
+Make sure 'BP_Present_2_C' has been compiled for  Set Color Index
+[2022.01.28-16.07.41:070][501]LogBlueprint: Error: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] The property associated with  Colors  could not be found in '/Game/Blueprint/BP_Present_2.BP_Present_2_C'
+[2022.01.28-16.07.41:070][501]LogBlueprint: Error: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] The property associated with  Color Index  could not be found in '/Game/Blueprint/BP_Present_2.BP_Present_2_C'
+[2022.01.28-16.07.41:070][501]LogBlueprint: Error: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] The property associated with  Color Index  could not be found in '/Game/Blueprint/BP_Present_2.BP_Present_2_C'
+[2022.01.28-16.07.41:071][501]LogBlueprint: Error: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] The property associated with  Color Index  could not be found in '/Game/Blueprint/BP_Present_2.BP_Present_2_C'
+[2022.01.28-16.07.41:071][501]LogBlueprint: Error: [AssetLog] /Game/Blueprint/BP_Present_2.BP_Present_2 (no disk path found): [Compiler] The property associated with  Color Index  could not be found in '/Game/Blueprint/BP_Present_2.BP_Present_2_C'
+[2022.01.28-16.07.41:099][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.01.28-16.07.42:405][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Present_2.uasset" SILENT=true
+[2022.01.28-16.07.42:416][600]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/BP_Present_251ED2B98476CD170B5F437ACDF551BD4.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Present_2.uasset'
+[2022.01.28-16.07.42:428][600]AssetCheck: New page: Asset Save: BP_Present_2
+[2022.01.28-16.07.42:428][600]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.07.43:859][715]LogSlate: Window 'BP_Present_2' being destroyed
+[2022.01.28-16.07.43:864][715]LogSlate: Window 'BP_Present_2' being destroyed
+[2022.01.28-16.07.43:868][715]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.07.43:868][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.07.54:305][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.01.28-16.07.58:230][582]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.28-16.07.58:270][582]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint/hvhv.hvhv
+[2022.01.28-16.07.58:501][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.01.28-16.07.58:529][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.01.28-16.07.58:542][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.01.28-16.07.58:555][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.01.28-16.08.04:514][ 58]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.08.07:151][223]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.01.28-16.08.24:441][571]BlueprintLog: New page: Compile BP_Present_2
+[2022.01.28-16.08.24:475][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.01.28-16.08.26:712][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Present_2" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Present_2.uasset" SILENT=true
+[2022.01.28-16.08.26:724][734]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/BP_Present_2DB5073754113DFD0F93A789C28B1FF25.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/BP_Present_2.uasset'
+[2022.01.28-16.08.26:735][734]AssetCheck: New page: Asset Save: BP_Present_2
+[2022.01.28-16.08.26:735][734]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.08.28:436][870]LogSlate: Window 'Present_1' being destroyed
+[2022.01.28-16.08.28:441][870]LogSlate: Window 'Present_1' being destroyed
+[2022.01.28-16.08.28:470][870]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.08.28:470][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.08.28:525][870]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.28-16.08.28:525][870]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.08.28:525][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.08.38:465][704]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.08.51:078][583]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Presents/SM_present_2.SM_present_2
+[2022.01.28-16.09.12:928][323]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.09.12:945][323]LogSlate: Window 'SM_present_2' being destroyed
+[2022.01.28-16.09.12:950][323]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.09.12:950][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.09.13:008][323]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.09.13:008][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.09.20:855][219]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-16.09.20:861][219]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.01.28-16.09.20:862][219]LogPlayLevel: [PlayLevel] Compiling Door-1 before play...
+[2022.01.28-16.09.20:864][219]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of Object References.
+[2022.01.28-16.09.20:864][219]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Could not find a function named "Player 2 Delivery On Success" in 'Door-1'.
+Make sure 'Door-1' has been compiled for  Player 2 Delivery on Success
+[2022.01.28-16.09.20:865][219]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Out Actors  and  Target : Array of Object References is not compatible with Object Reference.
+[2022.01.28-16.09.20:865][219]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2022.01.28-16.09.20:876][219]LogPlayLevel: [PlayLevel] Compiling Game_Map_WhoBroughtThePresents before play...
+[2022.01.28-16.09.20:907][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.01.28-16.09.20:914][219]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (2 blueprints)
+[2022.01.28-16.09.20:915][219]BlueprintLog: Warning: Blueprint failed to compile:  Door-1
+[2022.01.28-16.09.20:915][219]LogCustomDialog: Dialog displayed:
+[2022.01.28-16.09.25:669][219]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.01.28-16.09.27:056][329]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-16.09.27:061][329]LogSlate: Window 'Message Log' being destroyed
+[2022.01.28-16.09.33:104][809]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Door-1.Door-1
+[2022.01.28-16.09.40:246][267]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.01.28-16.09.40:266][267]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.01.28-16.09.50:913][ 21]BlueprintLog: New page: Compile Door-1
+[2022.01.28-16.09.50:916][ 21]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of BP Present 2 Object References.
+[2022.01.28-16.09.50:916][ 21]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Could not find a function named "Player 2 Delivery On Success" in 'Door-1'.
+Make sure 'Door-1' has been compiled for  Player 2 Delivery on Success
+[2022.01.28-16.09.50:917][ 21]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Out Actors  and  Target : Array of BP Present 2 Object References is not compatible with Object Reference.
+[2022.01.28-16.09.50:917][ 21]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2022.01.28-16.09.50:946][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.01.28-16.09.52:639][161]BlueprintLog: New page: Compile Door-1
+[2022.01.28-16.09.52:642][161]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of BP Present 2 Object References.
+[2022.01.28-16.09.52:642][161]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Could not find a function named "Player 2 Delivery On Success" in 'Door-1'.
+Make sure 'Door-1' has been compiled for  Player 2 Delivery on Success
+[2022.01.28-16.09.52:642][161]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Out Actors  and  Target : Array of BP Present 2 Object References is not compatible with Object Reference.
+[2022.01.28-16.09.52:642][161]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2022.01.28-16.09.52:672][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.01.28-16.10.22:786][482]BlueprintLog: New page: Compile Door-1
+[2022.01.28-16.10.22:789][482]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Target  and  Out Actors : Object Reference is not compatible with Array of BP Present 2 Object References.
+[2022.01.28-16.10.22:789][482]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Could not find a function named "Player 2 Delivery On Success" in 'Door-1'.
+Make sure 'Door-1' has been compiled for  Player 2 Delivery on Success
+[2022.01.28-16.10.22:790][482]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Can't connect pins  Out Actors  and  Target : Array of BP Present 2 Object References is not compatible with Object Reference.
+[2022.01.28-16.10.22:790][482]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\christmas-game\UR_Weihnachtsgruppe\Content\Blueprint\Door-1.uasset: [Compiler] Invalid pin connection from ' Out Actors ' to ' Target '. You may have changed the type after the connections were made.
+[2022.01.28-16.10.22:820][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.01.28-16.10.42:705][ 72]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_Present_2.BP_Present_2
+[2022.01.28-16.10.51:640][725]BlueprintLog: New page: Compile Door-1
+[2022.01.28-16.10.51:677][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.01.28-16.11.07:897][931]BlueprintLog: New page: Compile Door-1
+[2022.01.28-16.11.07:935][931]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.01.28-16.11.08:981][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Door-1" FILE="../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset" SILENT=true
+[2022.01.28-16.11.09:001][  9]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Saved/Door-1DE2D2FA044665CD3CE729CA569F8ADEE.tmp' to '../../../../../../Users/Fangli/Uni/christmas-game/UR_Weihnachtsgruppe/Content/Blueprint/Door-1.uasset'
+[2022.01.28-16.11.09:011][  9]AssetCheck: New page: Asset Save: Door-1
+[2022.01.28-16.11.09:011][  9]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Door-1.Door-1
+[2022.01.28-16.11.10:692][138]LogSlate: Window 'BP_Present_2' being destroyed
+[2022.01.28-16.11.10:697][138]LogSlate: Window 'BP_Present_2' being destroyed
+[2022.01.28-16.11.10:702][138]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.11.10:702][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.11.10:761][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.28-16.11.10:761][138]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.01.28-16.11.10:761][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.28-16.11.11:879][249]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.28-16.11.11:885][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.28-16.11.11:886][249]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (28.01.2022, 18:11:11)
+[2022.01.28-16.11.11:910][249]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.01.28-16.11.11:922][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012465s)
+[2022.01.28-16.11.11:923][249]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.01.28-16.11.11:924][249]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2022.01.28-16.11.11:924][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.014018s)
+[2022.01.28-16.11.11:946][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.01.28-16.11.11:948][249]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.28-16.11.11:948][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.28-16.11.11:948][249]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.28-16.11.11:948][249]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.28-16.11.11:948][249]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.28-16.11.11:948][249]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.28-16.11.11:950][249]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.28-16.11.11:950][249]LogAudioMixer: Display: 1: FrontRight
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.28-16.11.11:957][249]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.28-16.11.11:957][249]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.28-16.11.11:959][249]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.28-16.11.11:959][249]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.28-16.11.11:959][249]LogInit: FAudioDevice initialized.
+[2022.01.28-16.11.11:959][249]LogAudio: Display: Audio Device (ID: 22) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.01.28-16.11.11:965][249]LogLoad: Game class is 'BP_GameMode_C'
+[2022.01.28-16.11.11:967][249]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.01.28-16.11.11:967][249]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.01.28-17.11.11
+[2022.01.28-16.11.11:967][249]LogWorld: Bringing up level for play took: 0.002280
+[2022.01.28-16.11.11:968][249]LogOnline: OSS: Creating online subsystem instance for: :Context_87
+[2022.01.28-16.11.11:972][249]PIE: Server logged in
+[2022.01.28-16.11.11:973][249]PIE: Play in editor total start time 0,088 seconds.
