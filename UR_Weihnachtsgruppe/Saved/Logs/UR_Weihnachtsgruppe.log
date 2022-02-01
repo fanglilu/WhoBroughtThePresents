@@ -3044,3 +3044,251 @@ SkySphereBlueprint
 [2022.02.01-11.47.22:578][372]AssetCheck: New page: Asset Save: multiple assets
 [2022.02.01-11.47.22:578][372]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
 [2022.02.01-11.47.22:578][372]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.49.27:024][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box017)
+[2022.02.01-11.49.33:872][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-11.49.35:108][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-11.49.37:982][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.38:733][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.39:367][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-11.49.48:569][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.49:124][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.50:060][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.50:827][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box017)
+[2022.02.01-11.49.53:647][ 56]Cmd: TRANSACTION UNDO
+[2022.02.01-11.49.53:647][ 56]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.49.54:219][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object008)
+[2022.02.01-11.49.56:760][223]Cmd: TRANSACTION UNDO
+[2022.02.01-11.49.56:760][223]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.49.57:606][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.58:199][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.49.59:882][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.50.02:687][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.50.05:536][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.50.09:687][982]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.50.10:806][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.50.11:315][ 77]Cmd: DELETE
+[2022.02.01-11.50.11:315][ 77]Cmd: ACTOR DELETE
+[2022.02.01-11.50.11:318][ 77]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-11.50.11:331][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.02.01-11.50.11:334][ 77]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2022.02.01-11.50.18:322][497]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.50.22:788][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.50.28:860][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Stadtmauer)
+[2022.02.01-11.50.38:139][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.02.01-11.50.38:316][676]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents5A4429D64D74DD0C49D6FABEDBB6D4BF.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.50.38:409][676]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_BB3476592492AE1FDD6AC868985587239.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.01-11.50.38:581][676]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.01-11.50.38:581][676]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.01-11.50.38:581][676]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.50.45:110][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Stadtmauer)
+[2022.02.01-11.50.47:215][193]LogEditorViewport: Clicking Background
+[2022.02.01-11.50.50:537][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Stadtmauer)
+[2022.02.01-11.50.56:128][724]LogEditorViewport: Clicking Background
+[2022.02.01-11.50.59:731][939]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.01:930][ 71]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.03:214][148]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.05:988][314]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.06:955][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.51.08:595][469]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Stadt_Object008)
+[2022.02.01-11.51.16:860][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.51.17:377][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.51.18:177][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.51.18:244][ 46]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.51.23:559][362]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.24:009][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.51.27:598][602]Cmd: DELETE
+[2022.02.01-11.51.27:598][602]Cmd: ACTOR DELETE
+[2022.02.01-11.51.27:601][602]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-11.51.27:615][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.02.01-11.51.27:618][602]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2022.02.01-11.51.30:141][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.51.36:013][105]LogEditorViewport: Clicking Background
+[2022.02.01-11.51.37:079][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Stadtmauer)
+[2022.02.01-11.51.39:772][329]Cmd: DELETE
+[2022.02.01-11.51.39:772][329]Cmd: ACTOR DELETE
+[2022.02.01-11.51.39:775][329]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-11.51.39:788][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.02.01-11.51.39:789][329]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2022.02.01-11.51.42:711][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.51.48:139][829]LogEditorViewport: Clicking Background
+[2022.02.01-11.52.21:954][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.52.32:685][483]LogEditorViewport: Clicking Background
+[2022.02.01-11.52.35:097][627]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.52.35:112][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.52.35:112][627]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:52:35)
+[2022.02.01-11.52.35:112][627]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.52.35:124][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011722s)
+[2022.02.01-11.52.35:125][627]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.52.35:125][627]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2022.02.01-11.52.35:125][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012802s)
+[2022.02.01-11.52.35:143][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.02.01-11.52.35:146][627]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.52.35:146][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.52.35:146][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.52.35:147][627]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.52.35:147][627]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.52.35:147][627]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.52.35:147][627]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.52.35:165][627]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.52.35:166][627]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.52.35:179][627]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.52.35:180][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.52.35:180][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.52.35:180][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.52.35:180][627]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.52.35:180][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.52.35:180][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.52.35:181][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.52.35:181][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.52.35:181][627]LogInit: FAudioDevice initialized.
+[2022.02.01-11.52.35:181][627]LogAudio: Display: Audio Device (ID: 17) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.52.35:190][627]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.52.35:192][627]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.52.35:192][627]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.52.35
+[2022.02.01-11.52.35:193][627]LogWorld: Bringing up level for play took: 0.002051
+[2022.02.01-11.52.35:193][627]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2022.02.01-11.52.35:196][627]PIE: Server logged in
+[2022.02.01-11.52.35:197][627]PIE: Play in editor total start time 0,087 seconds.
+[2022.02.01-11.52.45:207][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.52.45:208][224]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.52.45:208][224]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.52.45:208][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.52.45:216][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.52.45:219][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.52.45:232][224]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.01-11.52.45:232][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.52.45:233][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.52.45:235][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.52.45:238][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.02.01-11.52.45:363][225]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2022.02.01-11.52.46:606][288]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.52.46:609][288]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.52.47:737][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.52.51:210][561]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.52.51:226][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.52.51:226][561]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:52:51)
+[2022.02.01-11.52.51:226][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.52.51:236][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009639s)
+[2022.02.01-11.52.51:236][561]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.52.51:237][561]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2022.02.01-11.52.51:237][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010586s)
+[2022.02.01-11.52.51:253][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.02.01-11.52.51:254][561]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.52.51:254][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.52.51:254][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.52.51:254][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.52.51:254][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.52.51:254][561]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.52.51:257][561]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.52.51:257][561]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.52.51:269][561]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.52.51:269][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.52.51:269][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.52.51:269][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.52.51:270][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.52.51:270][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.52.51:270][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.52.51:271][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.52.51:271][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.52.51:271][561]LogInit: FAudioDevice initialized.
+[2022.02.01-11.52.51:271][561]LogAudio: Display: Audio Device (ID: 18) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.52.51:282][561]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.52.51:285][561]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.52.51:285][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.52.51
+[2022.02.01-11.52.51:285][561]LogWorld: Bringing up level for play took: 0.001982
+[2022.02.01-11.52.51:285][561]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2022.02.01-11.52.51:289][561]PIE: Server logged in
+[2022.02.01-11.52.51:289][561]PIE: Play in editor total start time 0,066 seconds.
+[2022.02.01-11.53.08:727][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.53.08:727][600]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.53.08:728][600]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.53.08:728][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.53.08:737][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.53.08:741][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.53.08:753][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.53.08:753][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.53.08:754][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.53.08:759][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.02.01-11.53.08:846][601]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2022.02.01-11.53.10:179][670]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.53.10:183][670]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.53.13:145][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.53.15:669][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.53.16:255][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-11.53.17:661][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.53.23:895][489]Cmd: DELETE
+[2022.02.01-11.53.23:896][489]Cmd: ACTOR DELETE
+[2022.02.01-11.53.23:898][489]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-11.53.23:913][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.02.01-11.53.23:914][489]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2022.02.01-11.53.25:374][575]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.53.25:389][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.53.25:389][575]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:53:25)
+[2022.02.01-11.53.25:389][575]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.53.25:399][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009717s)
+[2022.02.01-11.53.25:400][575]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.53.25:400][575]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2022.02.01-11.53.25:400][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010661s)
+[2022.02.01-11.53.25:415][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.02.01-11.53.25:416][575]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.53.25:416][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.53.25:416][575]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.53.25:417][575]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.53.25:417][575]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.53.25:417][575]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.53.25:417][575]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.53.25:419][575]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.53.25:419][575]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.53.25:432][575]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.53.25:432][575]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.53.25:433][575]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.53.25:433][575]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.53.25:433][575]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.53.25:433][575]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.53.25:433][575]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.53.25:434][575]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.53.25:434][575]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.53.25:434][575]LogInit: FAudioDevice initialized.
+[2022.02.01-11.53.25:434][575]LogAudio: Display: Audio Device (ID: 19) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.53.25:440][575]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.53.25:442][575]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.53.25:443][575]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.53.25
+[2022.02.01-11.53.25:443][575]LogWorld: Bringing up level for play took: 0.002142
+[2022.02.01-11.53.25:443][575]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2022.02.01-11.53.25:446][575]PIE: Server logged in
+[2022.02.01-11.53.25:447][575]PIE: Play in editor total start time 0,061 seconds.
+[2022.02.01-11.53.36:901][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.53.36:901][258]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.53.36:901][258]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.53.36:902][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.53.36:912][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.53.36:915][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.53.36:927][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.53.36:927][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.53.36:928][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.53.36:932][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.02.01-11.53.37:048][259]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2022.02.01-11.53.38:392][329]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.53.38:395][329]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.53.40:358][447]Cmd: TRANSACTION UNDO
+[2022.02.01-11.53.40:358][447]LogEditorTransaction: Undo Delete Actors
+[2022.02.01-11.53.43:658][626]LogEditorViewport: Clicking Background
