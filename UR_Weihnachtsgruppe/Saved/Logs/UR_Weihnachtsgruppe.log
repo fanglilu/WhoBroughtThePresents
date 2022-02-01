@@ -1891,3 +1891,1156 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.02.01-10.40.54:450][124]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsB323913B499AEF49C013178AE715B563.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
 [2022.02.01-10.40.54:634][124]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
 [2022.02.01-10.40.54:634][124]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-10.42.30:741][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-10.42.36:720][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.42.47:002][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-10.42.49:452][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.00:604][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-10.43.02:251][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-10.43.12:953][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-10.43.13:870][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.20:037][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.20:755][330]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.22:560][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.26:326][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-10.43.27:728][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-10.43.29:128][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-10.43.29:610][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-10.43.29:710][862]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-10.43.31:555][972]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-10.43.31:655][978]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Stadt_JapanBridge_HanRail2)
+[2022.02.01-10.43.42:819][637]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Environment/Stadt_JapanBridge_HanRail2.Stadt_JapanBridge_HanRail2
+[2022.02.01-10.43.43:420][637]LogRenderer: Reallocating scene render targets to support 1144x704 Format 10 NumSamples 1 (Frame:1).
+[2022.02.01-10.43.50:270][ 47]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Environment/Bridge_FloorWood_c.Bridge_FloorWood_c
+[2022.02.01-10.43.50:272][ 47]LogMaterial: Display: Missing cached shadermap for Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: A5AD386DC5AC0FB41718A8E483E468903455515D), compiling. 
+[2022.02.01-10.43.50:294][ 47]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.02.01-10.43.50:372][ 47]LogMaterial: Display: Missing cached shadermap for Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: C3070616EE235215A08827E5CD58C4ECC1047013), compiling. 
+[2022.02.01-10.43.50:374][ 47]LogMaterial: Display: Missing cached shadermap for Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: E4C635135741720D0FD9BD6BF0C5AD5154D609CB), compiling. 
+[2022.02.01-10.43.50:376][ 47]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DE30CACA79BB1F7C9FC9FDF16502A6EBF3D1BCD8), compiling. 
+[2022.02.01-10.43.50:398][ 47]MaterialEditorStats: Texture samplers: 0/16
+[2022.02.01-10.43.50:459][ 48]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.02.01-10.43.50:459][ 48]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.02.01-10.43.50:459][ 48]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.02.01-10.43.50:459][ 48]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.02.01-10.43.50:459][ 48]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-10.43.50:482][ 49]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.02.01-10.43.51:611][113]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.01-10.43.51:611][113]LogShaderCompilers: Display: Total job queries 22, among them cache hits 0 (0.00%)
+[2022.02.01-10.43.51:611][113]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 1 distinct outputs (50.00%)
+[2022.02.01-10.43.51:611][113]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.02.01-10.43.51:611][113]LogShaderCompilers: Display: ================================================
+[2022.02.01-10.43.51:774][123]MaterialEditorStats: Texture samplers: 2/16
+[2022.02.01-10.43.52:240][151]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.02.01-10.43.52:240][151]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.02.01-10.43.52:240][151]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.02.01-10.43.52:240][151]MaterialEditorStats: Texture samplers: 2/16
+[2022.02.01-10.43.52:453][163]LogSlate: Window 'Bridge_FloorWood_c' being destroyed
+[2022.02.01-10.43.52:459][163]LogSlate: Window 'Bridge_FloorWood_c' being destroyed
+[2022.02.01-10.43.52:469][163]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-10.43.52:469][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-10.43.52:530][163]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-10.43.52:530][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-10.43.59:355][572]LogEditorViewport: Clicking Background
+[2022.02.01-10.43.59:422][576]LogEditorViewport: Clicking Background
+[2022.02.01-10.44.19:075][754]LogEditorViewport: Clicking Background
+[2022.02.01-10.44.30:738][448]LogEditorViewport: Clicking Background
+[2022.02.01-10.44.32:671][564]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-10.44.36:721][798]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-10.50.54:474][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.02.01-10.50.54:478][723]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Game_Map_WhoBroughtThePresents' took 0.082
+[2022.02.01-10.50.54:479][723]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OwnCharacters/Weihnachtsmann/Weihnachsmann_T_Skeleton] ([2] browsable assets)...
+[2022.02.01-10.50.54:479][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/OwnCharacters/Weihnachtsmann/Weihnachsmann_T_Skeleton]
+[2022.02.01-10.50.54:482][723]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Weihnachsmann_T_Skeleton_Auto4E38DE363484EF78D20757B977A3C2457.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/OwnCharacters/Weihnachtsmann/Weihnachsmann_T_Skeleton_Auto4.uasset'
+[2022.02.01-10.50.54:483][723]LogFileHelpers: Auto-saving content packages took 0.005
+[2022.02.01-10.51.47:564][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.02.01-10.51.50:440][380]LogSlate: Window 'Save Content' being destroyed
+[2022.02.01-10.51.50:477][380]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Character_Player_2110D2E7D48052CC667593DB682A8C1CE.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Character_Player_2.uasset'
+[2022.02.01-10.51.50:717][380]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Körper_und_Unterwäsche1A2B01A654CBEEF6BA2D538AA94F5C99A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/OwnCharacters/Weihnachtsmann/Körper_und_Unterwäsche1.uasset'
+[2022.02.01-10.51.50:722][380]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Weihnachsmann_T_Skeleton6A6BDE3B41B2FA3F0D5A58A9B5853596.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/OwnCharacters/Weihnachtsmann/Weihnachsmann_T_Skeleton.uasset'
+[2022.02.01-10.51.50:742][380]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-10.51.50:743][380]Cmd: MAP LOAD FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.01-10.51.50:743][380]LightingResults: New page: Lighting Build
+[2022.02.01-10.51.50:743][380]LoadErrors: New page: Loading map: Game_Map_WhoBroughtThePresents.umap
+[2022.02.01-10.51.50:898][380]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-10.51.50:898][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-10.51.50:898][380]MapCheck: New page: Map Check
+[2022.02.01-10.51.50:898][380]LightingResults: New page: Lighting Build
+[2022.02.01-10.51.50:910][380]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.01-10.51.50:913][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.02.01-10.51.50:937][380]LogAudio: Display: Audio Device (ID: 1) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-10.51.50:938][380]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-10.51.50:954][380]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.01-10.51.50:970][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.02.01-10.51.50:986][380]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.01-10.51.50:986][380]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,122ms to complete.
+[2022.02.01-10.51.50:987][380]LogFileHelpers: Loading map 'Game_Map_WhoBroughtThePresents' took 0.244
+[2022.02.01-10.51.51:012][380]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.01-10.51.51:012][380]LogContentValidation: Display: Validating Texture2D /Game/OwnCharacters/Weihnachtsmann/Körper_und_Unterwäsche1.Körper_und_Unterwäsche1
+[2022.02.01-10.51.51:012][380]LogContentValidation: Display: Validating Skeleton /Game/OwnCharacters/Weihnachtsmann/Weihnachsmann_T_Skeleton.Weihnachsmann_T_Skeleton
+[2022.02.01-10.51.51:012][380]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Character_Player_2.BP_Character_Player_2
+[2022.02.01-10.51.54:540][590]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-10.51.54:555][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-10.51.54:555][590]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 12:51:54)
+[2022.02.01-10.51.54:555][590]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-10.51.54:567][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011832s)
+[2022.02.01-10.51.54:568][590]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-10.51.54:568][590]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2022.02.01-10.51.54:568][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012799s)
+[2022.02.01-10.51.54:582][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.02.01-10.51.54:582][590]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-10.51.54:582][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-10.51.54:582][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-10.51.54:583][590]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-10.51.54:583][590]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-10.51.54:583][590]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-10.51.54:583][590]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-10.51.54:599][590]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-10.51.54:599][590]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-10.51.54:611][590]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-10.51.54:612][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-10.51.54:612][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-10.51.54:612][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-10.51.54:612][590]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-10.51.54:612][590]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-10.51.54:612][590]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-10.51.54:613][590]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-10.51.54:613][590]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-10.51.54:613][590]LogInit: FAudioDevice initialized.
+[2022.02.01-10.51.54:613][590]LogAudio: Display: Audio Device (ID: 12) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-10.51.54:622][590]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-10.51.54:624][590]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-10.51.54:624][590]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-11.51.54
+[2022.02.01-10.51.54:625][590]LogWorld: Bringing up level for play took: 0.002075
+[2022.02.01-10.51.54:625][590]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2022.02.01-10.51.54:632][590]PIE: Server logged in
+[2022.02.01-10.51.54:632][590]PIE: Play in editor total start time 0,08 seconds.
+[2022.02.01-10.51.59:238][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-10.51.59:238][864]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-10.51.59:238][864]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-10.51.59:239][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-10.51.59:247][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-10.51.59:250][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-10.51.59:262][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-10.51.59:263][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-10.51.59:264][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-10.51.59:268][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.02.01-10.51.59:377][865]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.02.01-10.52.00:377][915]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-10.52.00:380][915]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-10.52.22:693][253]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2022.02.01-10.52.31:377][774]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.02.01-10.52.32:707][853]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.02.01-10.52.33:424][896]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.02.01-10.52.33:941][927]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.02.01-10.53.04:312][742]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.01-10.53.09:499][ 52]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.01-10.56.00:781][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2022.02.01-10.56.02:981][822]Cmd: DELETE
+[2022.02.01-10.56.02:981][822]Cmd: ACTOR DELETE
+[2022.02.01-10.56.02:986][822]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-10.56.03:001][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.02.01-10.56.03:009][822]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.02.01-10.56.03:485][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2022.02.01-10.56.03:729][865]Cmd: DELETE
+[2022.02.01-10.56.03:729][865]Cmd: ACTOR DELETE
+[2022.02.01-10.56.03:731][865]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-10.56.03:744][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.02.01-10.56.03:744][865]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2022.02.01-10.56.04:155][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2022.02.01-10.56.04:282][897]Cmd: DELETE
+[2022.02.01-10.56.04:282][897]Cmd: ACTOR DELETE
+[2022.02.01-10.56.04:284][897]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-10.56.04:297][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.02.01-10.56.04:298][897]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2022.02.01-10.56.04:852][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2022.02.01-10.56.04:999][938]Cmd: DELETE
+[2022.02.01-10.56.04:999][938]Cmd: ACTOR DELETE
+[2022.02.01-10.56.05:001][938]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.01-10.56.05:015][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.02.01-10.56.05:015][938]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2022.02.01-10.56.22:092][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-10.56.23:732][ 61]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-10.56.23:846][ 68]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.56.24:854][128]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.57.11:280][670]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-10.57.59:772][922]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.58.00:376][958]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.58.00:662][975]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.59.03:679][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-10.59.03:729][  1]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_Sphere01B991E34B9496B3A0C68C98CE0EC9B8.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-10.59.03:747][  1]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-10.59.03:747][  1]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-10.59.06:456][163]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.59.07:174][206]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-10.59.34:071][680]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.02.01-10.59.34:855][727]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-10.59.47:183][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-10.59.47:232][460]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_Sphere3B88C68A4E06123AD7BBA99E6D59DB91.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-10.59.47:246][460]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-10.59.47:246][460]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-10.59.47:917][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-10.59.47:965][500]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_SphereEF364BF6413A8C482DE2ABAEFF553504.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-10.59.47:979][500]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-10.59.47:979][500]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-10.59.48:117][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-10.59.48:165][508]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_Sphere54DA861447BDB9286437DFB8E5E6405A.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-10.59.48:176][508]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-10.59.48:176][508]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-11.00.05:470][534]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.00.05:477][534]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.00.05:492][534]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.00.05:492][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.00.06:835][612]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.00.07:619][659]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.00.08:593][717]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.00.10:184][811]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-11.01.21:335][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-11.01.21:384][866]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_SphereFE8A6E7C43BC4015B9B58CBFE77D0846.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-11.01.21:399][866]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-11.01.21:399][866]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-11.01.22:967][960]BlueprintLog: New page: Compile BP_Sky_Sphere
+[2022.02.01-11.01.23:015][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.02.01-11.01.36:170][734]LogEditorViewport: Clicking Background
+[2022.02.01-11.01.36:806][772]LogEditorViewport: Clicking Background
+[2022.02.01-11.01.36:885][777]LogEditorViewport: Clicking Background
+[2022.02.01-11.01.44:720][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.02.01-11.01.47:360][244]LogSlate: Window 'Save Content' being destroyed
+[2022.02.01-11.01.47:402][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.02.01-11.01.47:578][244]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsD53B348043866866BB6345809275D1C0.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.01.47:598][244]LogFileHelpers: Saving map 'Game_Map_WhoBroughtThePresents' took 0.214
+[2022.02.01-11.01.47:617][244]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.01.47:618][244]Cmd: MAP LOAD FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.01-11.01.47:618][244]LightingResults: New page: Lighting Build
+[2022.02.01-11.01.47:618][244]LoadErrors: New page: Loading map: Game_Map_WhoBroughtThePresents.umap
+[2022.02.01-11.01.47:773][244]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.01.47:773][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.01.47:773][244]MapCheck: New page: Map Check
+[2022.02.01-11.01.47:773][244]LightingResults: New page: Lighting Build
+[2022.02.01-11.01.47:789][244]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.01-11.01.47:794][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.02.01-11.01.47:812][244]LogAudio: Display: Audio Device (ID: 1) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.01.47:813][244]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.01.47:828][244]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.01-11.01.47:847][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.02.01-11.01.47:864][244]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.01-11.01.47:864][244]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,123ms to complete.
+[2022.02.01-11.01.47:864][244]LogFileHelpers: Loading map 'Game_Map_WhoBroughtThePresents' took 0.247
+[2022.02.01-11.01.47:889][244]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.02.01-11.01.47:889][244]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.02.00:955][ 24]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.02.14:637][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.02.25:992][507]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.02.47:184][549]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.02.47:190][549]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.02.47:204][549]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.02.47:205][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.02.48:285][610]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.02.48:299][610]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.02.01-11.02.48:300][610]LogPlayLevel: [PlayLevel] Compiling BP_Sky_Sphere before play...
+[2022.02.01-11.02.48:340][610]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.02.01-11.02.48:342][610]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (1 blueprints)
+[2022.02.01-11.02.48:342][610]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:02:48)
+[2022.02.01-11.02.48:342][610]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.02.48:357][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014948s)
+[2022.02.01-11.02.48:358][610]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.02.48:358][610]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2022.02.01-11.02.48:358][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.016287s)
+[2022.02.01-11.02.48:374][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.02.01-11.02.48:375][610]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.02.48:375][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.02.48:375][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.02.48:375][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.02.48:375][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.02.48:375][610]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.02.48:377][610]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.02.48:378][610]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.02.48:389][610]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.02.48:390][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.02.48:390][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.02.48:390][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.02.48:390][610]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.02.48:390][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.02.48:390][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.02.48:391][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.02.48:391][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.02.48:391][610]LogInit: FAudioDevice initialized.
+[2022.02.01-11.02.48:391][610]LogAudio: Display: Audio Device (ID: 13) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.02.48:401][610]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.02.48:403][610]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.02.48:403][610]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.02.48
+[2022.02.01-11.02.48:403][610]LogWorld: Bringing up level for play took: 0.001976
+[2022.02.01-11.02.48:403][610]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2022.02.01-11.02.48:407][610]PIE: Server logged in
+[2022.02.01-11.02.48:407][610]PIE: Play in editor total start time 0,111 seconds.
+[2022.02.01-11.03.18:429][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.03.18:429][409]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.03.18:429][409]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.03.18:429][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.03.18:435][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.03.18:439][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.03.18:452][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.03.18:452][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.03.18:453][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.03.18:458][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.02.01-11.03.18:574][410]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2022.02.01-11.03.19:853][476]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.03.19:857][476]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.03.23:388][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.03.23:470][693]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.03.24:138][733]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.03.24:219][738]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2022.02.01-11.03.31:504][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.03.31:602][181]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (SkySphereMesh)
+[2022.02.01-11.03.33:919][319]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-11.04.25:774][869]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.04.35:234][436]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2022.02.01-11.04.42:768][888]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.01-11.05.13:134][708]LogEditorViewport: Clicking Background
+[2022.02.01-11.05.16:717][923]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.05.16:732][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.05.16:732][923]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:05:16)
+[2022.02.01-11.05.16:732][923]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.05.16:742][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009356s)
+[2022.02.01-11.05.16:743][923]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.05.16:743][923]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2022.02.01-11.05.16:743][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.010695s)
+[2022.02.01-11.05.16:763][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.02.01-11.05.16:765][923]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.05.16:765][923]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.05.16:765][923]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.05.16:765][923]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.05.16:765][923]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.05.16:765][923]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.05.16:768][923]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.05.16:768][923]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.05.16:780][923]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.05.16:780][923]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.05.16:780][923]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.05.16:780][923]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.05.16:781][923]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.05.16:781][923]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.05.16:781][923]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.05.16:782][923]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.05.16:782][923]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.05.16:782][923]LogInit: FAudioDevice initialized.
+[2022.02.01-11.05.16:782][923]LogAudio: Display: Audio Device (ID: 14) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.05.16:789][923]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.05.16:792][923]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.05.16:792][923]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.05.16
+[2022.02.01-11.05.16:792][923]LogWorld: Bringing up level for play took: 0.001864
+[2022.02.01-11.05.16:792][923]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2022.02.01-11.05.16:801][923]PIE: Server logged in
+[2022.02.01-11.05.16:801][923]PIE: Play in editor total start time 0,072 seconds.
+[2022.02.01-11.08.46:520][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2022.02.01-11.08.46:570][407]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/BP_Sky_Sphere5C7941A846A2CC6233613A95F02F0B7A.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2022.02.01-11.08.46:578][407]AssetCheck: New page: Asset Save: BP_Sky_Sphere
+[2022.02.01-11.08.46:578][407]LogContentValidation: Display: Validating Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere
+[2022.02.01-11.08.47:458][460]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.08.47:462][460]LogSlate: Window 'BP_Sky_Sphere' being destroyed
+[2022.02.01-11.08.47:472][460]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.08.47:472][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.08.52:002][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.08.52:002][727]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.08.52:003][727]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.08.52:003][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.08.52:011][727]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.08.52:014][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.08.52:028][727]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.01-11.08.52:028][727]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.08.52:029][727]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.08.52:031][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.08.52:036][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.02.01-11.08.52:162][728]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2022.02.01-11.08.53:340][789]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.08.53:344][789]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.09.01:505][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.09.01:570][282]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.09.02:339][328]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.09.02:607][344]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2022.02.01-11.09.02:876][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.09.03:459][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.09.03:540][400]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.09.04:126][435]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2022.02.01-11.09.04:190][439]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2022.02.01-11.09.29:377][950]Cmd: DELETE
+[2022.02.01-11.09.29:377][950]Cmd: ACTOR DELETE
+[2022.02.01-11.09.29:379][950]LogEditorActor: Actor Light Source is referenced by SkySphereBlueprint.
+[2022.02.01-11.09.35:535][950]LogSlate: Window 'Message' being destroyed
+[2022.02.01-11.09.35:540][950]Message dialog closed, result: Yes, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+SkySphereBlueprint
+[2022.02.01-11.09.35:540][950]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.02.01-11.09.35:557][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.02.01-11.09.35:560][950]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.02.01-11.09.37:571][ 70]Cmd: TRANSACTION UNDO
+[2022.02.01-11.09.37:571][ 70]LogEditorTransaction: Undo Delete Actors
+[2022.02.01-11.10.39:309][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2022.02.01-11.10.40:254][187]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.01-11.10.44:659][450]Cmd: TRANSACTION UNDO
+[2022.02.01-11.10.44:659][450]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.10.52:707][917]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.15.08:297][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box014)
+[2022.02.01-11.15.14:041][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object008)
+[2022.02.01-11.15.17:388][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.15.18:951][608]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.15.40:842][286]Cmd: DELETE
+[2022.02.01-11.15.40:843][286]Cmd: ACTOR DELETE
+[2022.02.01-11.15.40:847][286]LogEditorActor: Actor Light Source is referenced by SkySphereBlueprint.
+[2022.02.01-11.15.42:370][286]LogSlate: Window 'Message' being destroyed
+[2022.02.01-11.15.42:380][286]Message dialog closed, result: Yes, title: Message, text: Actor Light Source is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+SkySphereBlueprint
+[2022.02.01-11.15.42:380][286]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.02.01-11.15.42:401][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.02.01-11.15.42:411][286]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2022.02.01-11.15.43:501][352]Cmd: TRANSACTION UNDO
+[2022.02.01-11.15.43:501][352]LogEditorTransaction: Undo Delete Actors
+[2022.02.01-11.15.47:427][571]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.15.48:552][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.15.50:068][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.15.51:922][839]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume2)
+[2022.02.01-11.16.15:143][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.02.01-11.16.15:320][520]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents3DBCBCFC42B7D9D64CBBF79E6B87B889.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.16.15:505][520]AssetCheck: New page: Asset Save: Game_Map_WhoBroughtThePresents
+[2022.02.01-11.16.15:505][520]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.16.34:487][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.17.57:999][933]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-11.18.25:864][950]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-11.19.31:310][616]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-11.19.37:463][978]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-11.22.00:935][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.24.27:664][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object001)
+[2022.02.01-11.25.09:947][176]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.01-11.25.13:996][417]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume2)
+[2022.02.01-11.25.43:699][193]LogEditorViewport: Clicking Background
+[2022.02.01-11.25.47:816][440]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2022.02.01-11.25.49:827][560]Cmd: DELETE
+[2022.02.01-11.25.49:827][560]Cmd: ACTOR DELETE
+[2022.02.01-11.25.49:836][560]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2022.02.01-11.25.49:859][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.02.01-11.25.49:869][560]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2022.02.01-11.25.50:592][604]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.02.01-11.25.52:222][699]Cmd: DELETE
+[2022.02.01-11.25.52:222][699]Cmd: ACTOR DELETE
+[2022.02.01-11.25.52:224][699]LogEditorActor: Deleted Actor: PostProcessVolume
+[2022.02.01-11.25.52:238][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.02.01-11.25.52:239][699]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2022.02.01-11.25.55:829][915]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume2)
+[2022.02.01-11.26.43:877][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.02.01-11.26.44:061][473]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_A6D0BD4FC41C0247C9DA104AEB60DAF46.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Levels/Game_Map_WhoBroughtThePresents_Auto5.umap'
+[2022.02.01-11.26.44:065][473]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Game_Map_WhoBroughtThePresents' took 0.203
+[2022.02.01-11.26.44:065][473]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.203
+[2022.02.01-11.27.08:753][142]MapCheck: New page: Map Check
+[2022.02.01-11.27.08:763][142]LightingResults: New page: Lighting Build - 01.02.2022, 13:27:08
+[2022.02.01-11.27.08:835][142]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.02.01-11.27.08:958][142]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.02.01-11.27.08:969][142]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.02.01-11.27.09:978][142]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.02.01-11.27.09:978][142]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31448
+[2022.02.01-11.27.16:534][142]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.02.01-11.27.16:534][142]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.02.01-11.27.16:534][142]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.02.01-11.27.16:534][142]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.02.01-11.27.16:534][142]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.02.01-11.27.16:777][142]LogEditorBuildUtils: Build time 0:08
+[2022.02.01-11.27.16:781][142]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer RampMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 0FBFC30FDE9102119FCDA4BA92E6AB52E5D37276), compiling. 
+[2022.02.01-11.27.16:784][142]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:785][142]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer RampMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: C672EE11335FF09EFDD82B2FF57E78D8FBF80326), compiling. 
+[2022.02.01-11.27.16:788][142]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:790][142]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 66B2BF862EEF9CCCE9A698ADF59C5B4DE2CABFB7), compiling. 
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:793][142]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:794][142]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer present_material_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 830658D7378691ECD62A0A76F6E616294F2AB224), compiling. 
+[2022.02.01-11.27.16:797][142]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:815][143]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Metal_Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 220275B1A9BE18420756F6727128DA17DE059EB2), compiling. 
+[2022.02.01-11.27.16:818][143]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:819][143]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer M_Metal_Gold in PCD3D_SM5, Default, SM5 (DDC key hash: 8BAED84D87858D91C6BC7B50E430E211746B4F3F), compiling. 
+[2022.02.01-11.27.16:822][143]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:823][143]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer doorMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 45A7C56A49204162CCFA3B6565054CD2808BC722), compiling. 
+[2022.02.01-11.27.16:826][143]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:827][143]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer doorMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: DFFD3D1B78D949F0D23153FBF6F845C4D9825FB2), compiling. 
+[2022.02.01-11.27.16:830][143]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:863][144]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.02.01-11.27.16:863][144]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2022.02.01-11.27.16:863][144]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2022.02.01-11.27.16:863][144]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2022.02.01-11.27.16:863][144]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:866][144]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer _defaultMat in PCD3D_SM5, Default, SM5 (DDC key hash: 0B114CF2DC28D6D2C583E8F69D76F3A99F1D1C18), compiling. 
+[2022.02.01-11.27.16:870][144]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:872][144]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer _defaultMat in PCD3D_SM5, Default, SM5 (DDC key hash: C35AD8D2A73DBCCA4C4F851ACCF2B4608E835DE1), compiling. 
+[2022.02.01-11.27.16:876][144]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:916][145]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 38B8D8FD06485C3D57DEDC04DA91DE90C408E2C4), compiling. 
+[2022.02.01-11.27.16:920][145]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.16:921][145]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A15A6FA17DFBB60582EA80B6F70B99C164704DFE), compiling. 
+[2022.02.01-11.27.16:926][145]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Total job queries 48, among them cache hits 2 (4.17%)
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: Tracking 36 distinct input hashes that result in 16 distinct outputs (44.44%)
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.02.01-11.27.18:612][146]LogShaderCompilers: Display: ================================================
+[2022.02.01-11.27.18:948][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.02.01-11.27.22:160][307]LightingResults: Warning: Stadt_Object010 Object has overlapping UVs.
+[2022.02.01-11.27.22:160][307]LightingResults: Stadt_Object010 Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:208][310]LightingResults: Warning: Stadt_Box013 Object has overlapping UVs.
+[2022.02.01-11.27.22:208][310]LightingResults: Stadt_Box013 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:242][312]LightingResults: Warning: Stadt_Box015 Object has overlapping UVs.
+[2022.02.01-11.27.22:242][312]LightingResults: Stadt_Box015 Lightmap UV are overlapping by 3.4%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:254][313]LightingResults: Warning: Stadt_Object009 Object has overlapping UVs.
+[2022.02.01-11.27.22:254][313]LightingResults: Stadt_Object009 Lightmap UV are overlapping by 74.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:275][314]LightingResults: Warning: Stadt_Box014 Object has overlapping UVs.
+[2022.02.01-11.27.22:275][314]LightingResults: Stadt_Box014 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:470][325]LightingResults: Warning: Stadt_Box017 Object has overlapping UVs.
+[2022.02.01-11.27.22:470][325]LightingResults: Stadt_Box017 Lightmap UV are overlapping by 25.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.22:841][347]LightingResults: Warning: Stadt_Box016 Object has overlapping UVs.
+[2022.02.01-11.27.22:841][347]LightingResults: Stadt_Box016 Lightmap UV are overlapping by 45.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.23:243][371]LightingResults: Warning: Stadt_Box019 Object has wrapping UVs.
+[2022.02.01-11.27.23:243][371]LightingResults: Warning: Stadt_Box019 Object has overlapping UVs.
+[2022.02.01-11.27.23:243][371]LightingResults: Stadt_Box019 Lightmap UV are overlapping by 47.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.23:288][374]LightingResults: Warning: Stadt_Box012 Object has overlapping UVs.
+[2022.02.01-11.27.23:288][374]LightingResults: Stadt_Box012 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.23:309][375]LightingResults: Warning: Stadt_Box018 Object has overlapping UVs.
+[2022.02.01-11.27.23:321][376]LightingResults: Stadt_Box018 Lightmap UV are overlapping by 21.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.23:343][377]LightingResults: Warning: Stadt_Box007 Object has overlapping UVs.
+[2022.02.01-11.27.23:343][377]LightingResults: Stadt_Box007 Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.23:759][402]LightingResults: Warning: Stadt_Box010 Object has overlapping UVs.
+[2022.02.01-11.27.23:781][403]LightingResults: Stadt_Box010 Lightmap UV are overlapping by 4.9%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.27.24:121][424]Job is a success!
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.018s
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 0.7Mb due to 0.010000 MinBrickError)
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:      Bricks at depth
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:          0: 9.1% covering 100.0% of volume
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:          1: 90.9% covering 15.6% of volume
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:      Bricks in each level
+[2022.02.01-11.27.24:281][425]LogVolumetricLightmapImport:          Game_Map_WhoBroughtThePresents 			 11 bricks 	 100.0% (Persistent Level)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 1024X512)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.02.01-11.27.24:446][425]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.27.24:446][425]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 512X512)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 512X512)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: SkyOcclusion0_3 (OODLE_AutoDXT, 64X32)
+[2022.02.01-11.27.24:446][425]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2022.02.01-11.27.24:446][425]LogTexture: Display: Building textures: SkyOcclusion0_2 (OODLE_AutoDXT, 512X256)
+[2022.02.01-11.27.24:661][425]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2022.02.01-11.27.24:661][425]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2022.02.01-11.27.24:661][425]Lightmass on MUCWGMA03: 4.83 sec total, 557 ms importing, 43 ms setup, 843 ms photons, 2.53 sec processing, 0 ms extra exporting [54/54 mappings]. Threads: 27.8 sec total, 9.22 sec processing.
+[2022.02.01-11.27.24:696][425]LogStaticLightingSystem: Game_Map_WhoBroughtThePresents_BuiltData storing lightmap data for 54 meshes in 5 LightmapResourceClusters (10.8 Meshes per cluster).
+[2022.02.01-11.27.24:699][425]LogMaterial: Display: Material /Game/Environment/Bridge_FloorWood_c.Bridge_FloorWood_c needed to have new flag set bUsedWithStaticLighting !
+[2022.02.01-11.27.24:701][425]LogMaterial: Display: Missing cached shadermap for Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: AAF53C16D30F36BE75AB6AF4B4257B3314DE3ED2), compiling. 
+[2022.02.01-11.27.24:741][425]LogShaderCompilers: Display: Submitted 15 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.24:742][425]LogMaterial: Display: Material /Game/Environment/Bridge_RedWood_c.Bridge_RedWood_c needed to have new flag set bUsedWithStaticLighting !
+[2022.02.01-11.27.24:743][425]LogMaterial: Display: Missing cached shadermap for Bridge_RedWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: BCA120DCA0021CE39E736AD38D97E33DF3F2BCAD), compiling. 
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.02.01-11.27.24:761][425]LogShaderCompilers: Display: Started 15 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.27.24:762][425]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.02.01-11.27.24:781][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.02.01-11.27.24:795][425]LogStaticLightingSystem: Illumination: 16.0 sec (156 ms encoding lightmaps, 73 ms encoding shadowmaps)
+[2022.02.01-11.27.24:796][425]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.02.01-11.27.24:796][425]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2022.02.01-11.27.34:550][425]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.02.01-11.27.34:550][425]DumpUnbuiltLightIteractions
+[2022.02.01-11.27.34:550][425]Lights with unbuilt interactions: 0
+[2022.02.01-11.27.34:550][425]
+[2022.02.01-11.27.34:550][425]Primitives with unbuilt interactions: 0
+[2022.02.01-11.27.34:688][425]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.02.01-11.27.34:737][426]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.02.01-11.27.34:737][426]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:27:34
+[2022.02.01-11.27.34:740][426]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.27.34:740][426]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 2,624ms to complete.
+[2022.02.01-11.27.47:168][558]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.27.47:170][558]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.27.48:032][610]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.27.48:048][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.27.48:048][610]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:27:48)
+[2022.02.01-11.27.48:048][610]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.27.48:059][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011001s)
+[2022.02.01-11.27.48:060][610]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.27.48:060][610]LogPlayLevel: PIE: World Init took: (0.001289s)
+[2022.02.01-11.27.48:060][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012428s)
+[2022.02.01-11.27.48:077][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.02.01-11.27.48:078][610]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.27.48:078][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.27.48:078][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.27.48:079][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.27.48:079][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.27.48:079][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.27.48:079][610]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.27.48:081][610]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.27.48:081][610]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.27.48:093][610]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.27.48:094][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.27.48:094][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.27.48:094][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.27.48:094][610]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.27.48:094][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.27.48:094][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.27.48:095][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.27.48:095][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.27.48:095][610]LogInit: FAudioDevice initialized.
+[2022.02.01-11.27.48:095][610]LogAudio: Display: Audio Device (ID: 15) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.27.48:100][610]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.27.48:103][610]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.27.48:103][610]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.27.48
+[2022.02.01-11.27.48:103][610]LogWorld: Bringing up level for play took: 0.002123
+[2022.02.01-11.27.48:103][610]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2022.02.01-11.27.48:111][610]PIE: Server logged in
+[2022.02.01-11.27.48:112][610]PIE: Play in editor total start time 0,067 seconds.
+[2022.02.01-11.27.58:146][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.27.58:146][209]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.27.58:146][209]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.27.58:146][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.27.58:152][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.27.58:164][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.27.58:178][209]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.01-11.27.58:178][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.27.58:179][209]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.27.58:181][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.27.58:183][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.02.01-11.27.58:310][210]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2022.02.01-11.27.59:779][286]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.27.59:785][286]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.29.55:849][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2022.02.01-11.29.56:920][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.30.46:849][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object008)
+[2022.02.01-11.31.07:701][680]MapCheck: New page: Map Check
+[2022.02.01-11.31.07:714][680]Cmd: MAP REBUILD ALLVISIBLE
+[2022.02.01-11.31.07:715][680]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.02.01-11.31.07:716][680]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=false
+[2022.02.01-11.31.07:740][680]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.02.01-11.31.07:740][680]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.02.01-11.31.07:740][680]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.02.01-11.31.07:757][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.02.01-11.31.07:777][680]LogLevel: Display: Export Material TexCoord Scales took 0.013 seconds.
+[2022.02.01-11.31.07:781][680]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2022.02.01-11.31.07:796][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.02.01-11.31.07:797][680]LightingResults: New page: Lighting Build - 01.02.2022, 13:31:07
+[2022.02.01-11.31.07:805][680]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.02.01-11.31.07:808][680]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.02.01-11.31.07:808][680]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.02.01-11.31.07:809][680]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.02.01-11.31.07:809][680]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31448
+[2022.02.01-11.31.14:847][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.02.01-11.31.14:847][680]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.02.01-11.31.14:847][680]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.02.01-11.31.14:847][680]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.02.01-11.31.14:847][680]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.02.01-11.31.14:953][680]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.02.01-11.31.14:954][680]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:31:14
+[2022.02.01-11.31.14:954][680]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.31.14:954][680]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,595ms to complete.
+[2022.02.01-11.31.14:956][680]LogEditorBuildUtils: Build time 0:07
+[2022.02.01-11.31.15:265][680]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: 0E60AC85BD32CB96437332F61B8DDED22BE385E8), compiling. 
+[2022.02.01-11.31.15:267][680]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:268][680]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Bridge_FloorWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: B54B8643FC7FDEF2A5DFA10FFECA37CF6FBF9D0C), compiling. 
+[2022.02.01-11.31.15:271][680]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:272][680]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Bridge_RedWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: 559E535DA437ABE4BB45CD71F6E3FD018F728C0C), compiling. 
+[2022.02.01-11.31.15:274][680]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.02.01-11.31.15:276][680]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:276][680]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer Bridge_RedWood_c in PCD3D_SM5, Default, SM5 (DDC key hash: 463A367657D467C4DDB26003C21A09742F7A6EC9), compiling. 
+[2022.02.01-11.31.15:279][680]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:369][680]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.02.01-11.31.15:369][680]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.02.01-11.31.15:369][680]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.02.01-11.31.15:879][681]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.01-11.31.15:879][681]LogShaderCompilers: Display: Total job queries 106, among them cache hits 12 (11.32%)
+[2022.02.01-11.31.15:879][681]LogShaderCompilers: Display: Tracking 84 distinct input hashes that result in 30 distinct outputs (35.71%)
+[2022.02.01-11.31.15:879][681]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.02.01-11.31.15:879][681]LogShaderCompilers: Display: ================================================
+[2022.02.01-11.31.16:196][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2022.02.01-11.31.17:969][768]LightingResults: Warning: Stadt_Box013 Object has overlapping UVs.
+[2022.02.01-11.31.17:969][768]LightingResults: Stadt_Box013 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.17:980][769]LightingResults: Warning: Stadt_Object010 Object has overlapping UVs.
+[2022.02.01-11.31.17:981][769]LightingResults: Stadt_Object010 Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.18:024][771]LightingResults: Warning: Stadt_Box014 Object has overlapping UVs.
+[2022.02.01-11.31.18:024][771]LightingResults: Stadt_Box014 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.18:049][773]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.31.18:052][773]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.31.18:092][774]LightingResults: Warning: Stadt_Object009 Object has overlapping UVs.
+[2022.02.01-11.31.18:092][774]LightingResults: Stadt_Object009 Lightmap UV are overlapping by 74.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.18:105][775]LightingResults: Warning: Stadt_Box015 Object has overlapping UVs.
+[2022.02.01-11.31.18:105][775]LightingResults: Stadt_Box015 Lightmap UV are overlapping by 3.4%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.18:479][796]LightingResults: Warning: Stadt_Box017 Object has overlapping UVs.
+[2022.02.01-11.31.18:479][796]LightingResults: Stadt_Box017 Lightmap UV are overlapping by 25.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.18:886][818]LightingResults: Warning: Stadt_Box016 Object has overlapping UVs.
+[2022.02.01-11.31.18:886][818]LightingResults: Stadt_Box016 Lightmap UV are overlapping by 45.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.19:120][832]LightingResults: Warning: Stadt_Box019 Object has wrapping UVs.
+[2022.02.01-11.31.19:120][832]LightingResults: Warning: Stadt_Box019 Object has overlapping UVs.
+[2022.02.01-11.31.19:120][832]LightingResults: Stadt_Box019 Lightmap UV are overlapping by 47.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.19:166][835]LightingResults: Warning: Stadt_Box012 Object has overlapping UVs.
+[2022.02.01-11.31.19:166][835]LightingResults: Stadt_Box012 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.19:221][838]LightingResults: Warning: Stadt_Box007 Object has overlapping UVs.
+[2022.02.01-11.31.19:221][838]LightingResults: Stadt_Box007 Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.19:443][851]LightingResults: Warning: Stadt_Box018 Object has overlapping UVs.
+[2022.02.01-11.31.19:443][851]LightingResults: Stadt_Box018 Lightmap UV are overlapping by 21.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.19:807][873]LightingResults: Warning: Stadt_Box010 Object has overlapping UVs.
+[2022.02.01-11.31.19:807][873]LightingResults: Stadt_Box010 Lightmap UV are overlapping by 4.9%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.31.20:237][899]Job is a success!
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.047s
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:      BrickData (all levels) 0.7Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:      Bricks at depth
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:          1: 6.8% covering 15.6% of volume
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:          2: 92.5% covering 3.3% of volume
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:      Bricks in each level
+[2022.02.01-11.31.20:444][900]LogVolumetricLightmapImport:          Game_Map_WhoBroughtThePresents 			 147 bricks 	 100.0% (Persistent Level)
+[2022.02.01-11.31.20:749][900]LogTexture: Display: Building textures: SkyOcclusion1_1 (OODLE_AutoDXT, 1024X512)
+[2022.02.01-11.31.20:749][900]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2022.02.01-11.31.20:749][900]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.31.20:749][900]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 512X512)
+[2022.02.01-11.31.20:749][900]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 512X512)
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: SkyOcclusion1_3 (OODLE_AutoDXT, 64X32)
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: SkyOcclusion1_2 (OODLE_AutoDXT, 512X256)
+[2022.02.01-11.31.20:750][900]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 64X64)
+[2022.02.01-11.31.20:750][900]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 64X64)
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2022.02.01-11.31.20:750][900]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2022.02.01-11.31.20:812][900]Lightmass on MUCWGMA03: 4.08 sec total, 202 ms importing, 25 ms setup, 864 ms photons, 2.96 sec processing, 0 ms extra exporting [54/54 mappings]. Threads: 32.6 sec total, 9.92 sec processing.
+[2022.02.01-11.31.20:825][900]LogStaticLightingSystem: Game_Map_WhoBroughtThePresents_BuiltData storing lightmap data for 54 meshes in 5 LightmapResourceClusters (10.8 Meshes per cluster).
+[2022.02.01-11.31.20:874][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.02.01-11.31.20:888][900]LogStaticLightingSystem: Illumination: 13.0 sec (167 ms encoding lightmaps, 113 ms encoding shadowmaps)
+[2022.02.01-11.31.20:888][900]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.02.01-11.31.20:888][900]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.02.01-11.31.33:863][900]DumpUnbuiltLightIteractions
+[2022.02.01-11.31.33:863][900]Lights with unbuilt interactions: 0
+[2022.02.01-11.31.33:863][900]
+[2022.02.01-11.31.33:863][900]Primitives with unbuilt interactions: 0
+[2022.02.01-11.31.33:978][900]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.02.01-11.31.34:027][901]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.02.01-11.31.34:027][901]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:31:34
+[2022.02.01-11.31.34:027][901]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.31.34:027][901]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,559ms to complete.
+[2022.02.01-11.31.40:691][976]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.31.40:694][976]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.03:067][912]MapCheck: New page: Map Check
+[2022.02.01-11.32.03:079][912]Cmd: MAP REBUILD ALLVISIBLE
+[2022.02.01-11.32.03:079][912]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.02.01-11.32.03:081][912]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=false
+[2022.02.01-11.32.03:091][912]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.02.01-11.32.03:091][912]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.02.01-11.32.03:091][912]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.02.01-11.32.03:106][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.02.01-11.32.03:112][912]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
+[2022.02.01-11.32.03:116][912]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2022.02.01-11.32.03:128][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.02.01-11.32.03:129][912]LightingResults: New page: Lighting Build - 01.02.2022, 13:32:03
+[2022.02.01-11.32.03:143][912]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.02.01-11.32.03:145][912]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.02.01-11.32.03:146][912]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.02.01-11.32.03:146][912]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.02.01-11.32.03:146][912]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31448
+[2022.02.01-11.32.07:831][912]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.02.01-11.32.07:831][912]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.02.01-11.32.07:831][912]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.02.01-11.32.07:832][912]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.02.01-11.32.07:832][912]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.02.01-11.32.07:936][912]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.02.01-11.32.07:936][912]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:32:07
+[2022.02.01-11.32.07:937][912]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.32.07:937][912]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,544ms to complete.
+[2022.02.01-11.32.07:939][912]LogEditorBuildUtils: Build time 0:04
+[2022.02.01-11.32.08:188][914]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.02.01-11.32.10:913][ 36]LightingResults: Warning: Stadt_Box013 Object has overlapping UVs.
+[2022.02.01-11.32.10:913][ 36]LightingResults: Stadt_Box013 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.10:926][ 37]LightingResults: Warning: Stadt_Object010 Object has overlapping UVs.
+[2022.02.01-11.32.10:926][ 37]LightingResults: Stadt_Object010 Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.10:981][ 40]LightingResults: Warning: Stadt_Box014 Object has overlapping UVs.
+[2022.02.01-11.32.10:981][ 40]LightingResults: Stadt_Box014 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.11:092][ 45]LightingResults: Warning: Stadt_Box015 Object has overlapping UVs.
+[2022.02.01-11.32.11:092][ 45]LightingResults: Stadt_Box015 Lightmap UV are overlapping by 3.4%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.11:092][ 45]LightingResults: Warning: Stadt_Object009 Object has overlapping UVs.
+[2022.02.01-11.32.11:092][ 45]LightingResults: Stadt_Object009 Lightmap UV are overlapping by 74.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.11:247][ 54]LightingResults: Warning: Stadt_Box017 Object has overlapping UVs.
+[2022.02.01-11.32.11:247][ 54]LightingResults: Stadt_Box017 Lightmap UV are overlapping by 25.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.11:288][ 57]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.11:297][ 57]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.11:828][ 84]LightingResults: Warning: Stadt_Box016 Object has overlapping UVs.
+[2022.02.01-11.32.11:828][ 84]LightingResults: Stadt_Box016 Lightmap UV are overlapping by 45.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:047][ 97]LightingResults: Warning: Stadt_Box019 Object has wrapping UVs.
+[2022.02.01-11.32.12:047][ 97]LightingResults: Warning: Stadt_Box019 Object has overlapping UVs.
+[2022.02.01-11.32.12:047][ 97]LightingResults: Stadt_Box019 Lightmap UV are overlapping by 47.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:115][101]LightingResults: Warning: Stadt_Box012 Object has overlapping UVs.
+[2022.02.01-11.32.12:115][101]LightingResults: Stadt_Box012 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:159][104]LightingResults: Warning: Stadt_Box007 Object has overlapping UVs.
+[2022.02.01-11.32.12:159][104]LightingResults: Stadt_Box007 Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:311][113]LightingResults: Warning: Stadt_Box018 Object has overlapping UVs.
+[2022.02.01-11.32.12:311][113]LightingResults: Stadt_Box018 Lightmap UV are overlapping by 21.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:551][127]LightingResults: Warning: Stadt_Box010 Object has overlapping UVs.
+[2022.02.01-11.32.12:551][127]LightingResults: Stadt_Box010 Lightmap UV are overlapping by 4.9%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.32.12:946][151]Job is a success!
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.027s
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:      BrickData (all levels) 0.8Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:      Bricks at depth
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:          0: 0.6% covering 100.0% of volume
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:          1: 6.2% covering 15.6% of volume
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:          2: 93.2% covering 3.7% of volume
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:      Bricks in each level
+[2022.02.01-11.32.13:189][152]LogVolumetricLightmapImport:          Game_Map_WhoBroughtThePresents 			 161 bricks 	 100.0% (Persistent Level)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 1024X512)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.02.01-11.32.13:359][152]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.32.13:359][152]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: SkyOcclusion0_2 (OODLE_AutoDXT, 512X256)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 512X512)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: SkyOcclusion0_3 (OODLE_AutoDXT, 64X32)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2022.02.01-11.32.13:359][152]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 512X512)
+[2022.02.01-11.32.13:359][152]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.02.01-11.32.13:497][152]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2022.02.01-11.32.13:497][152]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X512)
+[2022.02.01-11.32.13:497][152]Lightmass on MUCWGMA03: 4.51 sec total, 793 ms importing, 26 ms setup, 823 ms photons, 2.68 sec processing, 0 ms extra exporting [54/54 mappings]. Threads: 29.5 sec total, 9.24 sec processing.
+[2022.02.01-11.32.13:510][152]LogStaticLightingSystem: Game_Map_WhoBroughtThePresents_BuiltData storing lightmap data for 54 meshes in 5 LightmapResourceClusters (10.8 Meshes per cluster).
+[2022.02.01-11.32.13:532][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.02.01-11.32.13:566][152]LogStaticLightingSystem: Illumination: 10.3 sec (144 ms encoding lightmaps, 72 ms encoding shadowmaps)
+[2022.02.01-11.32.13:566][152]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.02.01-11.32.13:566][152]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.02.01-11.32.21:852][152]DumpUnbuiltLightIteractions
+[2022.02.01-11.32.21:852][152]Lights with unbuilt interactions: 0
+[2022.02.01-11.32.21:852][152]
+[2022.02.01-11.32.21:852][152]Primitives with unbuilt interactions: 0
+[2022.02.01-11.32.21:931][152]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.02.01-11.32.21:960][153]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.02.01-11.32.21:960][153]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:32:21
+[2022.02.01-11.32.21:961][153]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.32.21:961][153]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,542ms to complete.
+[2022.02.01-11.32.22:127][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.02.01-11.32.22:331][154]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresentsC96CD4644C40B9451F7DBA89D54D090A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.32.22:426][154]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_B05F398294731295B8C3E2FA483602DBD.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.01-11.32.22:648][154]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.01-11.32.22:648][154]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.01-11.32.22:648][154]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.01-11.32.24:452][262]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.24:455][262]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.25:584][328]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.01-11.32.25:601][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.01-11.32.25:601][328]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (01.02.2022, 13:32:25)
+[2022.02.01-11.32.25:601][328]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.32.25:612][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010999s)
+[2022.02.01-11.32.25:613][328]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.01-11.32.25:613][328]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2022.02.01-11.32.25:613][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012294s)
+[2022.02.01-11.32.25:628][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.02.01-11.32.25:630][328]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.01-11.32.25:630][328]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.01-11.32.25:630][328]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.01-11.32.25:630][328]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.01-11.32.25:630][328]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.01-11.32.25:630][328]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.01-11.32.25:648][328]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.01-11.32.25:648][328]LogAudioMixer: Display: 1: FrontRight
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.01-11.32.25:660][328]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.01-11.32.25:660][328]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.01-11.32.25:661][328]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.01-11.32.25:661][328]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.01-11.32.25:661][328]LogInit: FAudioDevice initialized.
+[2022.02.01-11.32.25:661][328]LogAudio: Display: Audio Device (ID: 16) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.01-11.32.25:668][328]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.01-11.32.25:670][328]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_19.StaticMesh' which is static to it. Aborting.
+[2022.02.01-11.32.25:670][328]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.01-12.32.25
+[2022.02.01-11.32.25:670][328]LogWorld: Bringing up level for play took: 0.001990
+[2022.02.01-11.32.25:670][328]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2022.02.01-11.32.25:676][328]PIE: Server logged in
+[2022.02.01-11.32.25:677][328]PIE: Play in editor total start time 0,08 seconds.
+[2022.02.01-11.32.33:773][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.32.33:773][811]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.01-11.32.33:773][811]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.01-11.32.33:774][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.32.33:779][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.01-11.32.33:790][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.01-11.32.33:803][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.01-11.32.33:803][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.32.33:804][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.01-11.32.33:808][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.02.01-11.32.33:934][812]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.02.01-11.32.35:453][893]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.32.35:460][893]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.35.53:578][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.01-11.36.04:853][391]MapCheck: New page: Map Check
+[2022.02.01-11.36.04:866][391]Cmd: MAP REBUILD ALLVISIBLE
+[2022.02.01-11.36.04:866][391]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.02.01-11.36.04:939][391]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=false
+[2022.02.01-11.36.04:948][391]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.02.01-11.36.04:948][391]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.02.01-11.36.04:948][391]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.02.01-11.36.04:964][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.02.01-11.36.04:971][391]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2022.02.01-11.36.04:974][391]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2022.02.01-11.36.04:987][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.02.01-11.36.04:989][391]LightingResults: New page: Lighting Build - 01.02.2022, 13:36:04
+[2022.02.01-11.36.04:998][391]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.02.01-11.36.05:000][391]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.02.01-11.36.05:000][391]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.02.01-11.36.05:001][391]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.02.01-11.36.05:001][391]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31448
+[2022.02.01-11.36.12:085][391]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.02.01-11.36.12:085][391]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.02.01-11.36.12:085][391]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.02.01-11.36.12:085][391]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.02.01-11.36.12:085][391]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.02.01-11.36.12:197][391]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.02.01-11.36.12:197][391]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:36:12
+[2022.02.01-11.36.12:198][391]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.36.12:198][391]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,618ms to complete.
+[2022.02.01-11.36.12:200][391]LogEditorBuildUtils: Build time 0:07
+[2022.02.01-11.36.12:273][391]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.01-11.36.12:273][391]LogShaderCompilers: Display: Total job queries 106, among them cache hits 12 (11.32%)
+[2022.02.01-11.36.12:273][391]LogShaderCompilers: Display: Tracking 84 distinct input hashes that result in 30 distinct outputs (35.71%)
+[2022.02.01-11.36.12:274][391]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.02.01-11.36.12:274][391]LogShaderCompilers: Display: ================================================
+[2022.02.01-11.36.12:705][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.02.01-11.36.14:576][398]LightingResults: Warning: Stadt_Object010 Object has overlapping UVs.
+[2022.02.01-11.36.14:576][398]LightingResults: Stadt_Object010 Lightmap UV are overlapping by 56.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.14:576][398]LightingResults: Warning: Stadt_Box013 Object has overlapping UVs.
+[2022.02.01-11.36.14:576][398]LightingResults: Stadt_Box013 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.14:576][398]LightingResults: Warning: Stadt_Box015 Object has overlapping UVs.
+[2022.02.01-11.36.14:576][398]LightingResults: Stadt_Box015 Lightmap UV are overlapping by 3.4%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.14:576][398]LightingResults: Warning: Stadt_Box014 Object has overlapping UVs.
+[2022.02.01-11.36.14:576][398]LightingResults: Stadt_Box014 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.14:917][399]LightingResults: Warning: Stadt_Object009 Object has overlapping UVs.
+[2022.02.01-11.36.14:917][399]LightingResults: Stadt_Object009 Lightmap UV are overlapping by 74.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.14:917][399]LightingResults: Warning: Stadt_Box017 Object has overlapping UVs.
+[2022.02.01-11.36.14:917][399]LightingResults: Stadt_Box017 Lightmap UV are overlapping by 25.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.15:585][401]LightingResults: Warning: Stadt_Box016 Object has overlapping UVs.
+[2022.02.01-11.36.15:585][401]LightingResults: Stadt_Box016 Lightmap UV are overlapping by 45.3%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.15:585][401]LightingResults: Warning: Stadt_Box019 Object has wrapping UVs.
+[2022.02.01-11.36.15:585][401]LightingResults: Warning: Stadt_Box019 Object has overlapping UVs.
+[2022.02.01-11.36.15:585][401]LightingResults: Stadt_Box019 Lightmap UV are overlapping by 47.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.15:585][401]LightingResults: Warning: Stadt_Box007 Object has overlapping UVs.
+[2022.02.01-11.36.15:585][401]LightingResults: Stadt_Box007 Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.15:916][402]LightingResults: Warning: Stadt_Box012 Object has overlapping UVs.
+[2022.02.01-11.36.15:916][402]LightingResults: Stadt_Box012 Lightmap UV are overlapping by 35.6%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.15:916][402]LightingResults: Warning: Stadt_Box018 Object has overlapping UVs.
+[2022.02.01-11.36.15:916][402]LightingResults: Stadt_Box018 Lightmap UV are overlapping by 21.2%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.16:245][403]LightingResults: Warning: Stadt_Box010 Object has overlapping UVs.
+[2022.02.01-11.36.16:245][403]LightingResults: Stadt_Box010 Lightmap UV are overlapping by 4.9%. Please adjust content - Enable Error Coloring to visualize.
+[2022.02.01-11.36.16:581][404]Job is a success!
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.028s
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:      BrickData (all levels) 0.8Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:      Bricks at depth
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:          0: 0.6% covering 100.0% of volume
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:          1: 6.2% covering 15.6% of volume
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:          2: 93.1% covering 3.6% of volume
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:      Bricks in each level
+[2022.02.01-11.36.17:065][405]LogVolumetricLightmapImport:          Game_Map_WhoBroughtThePresents 			 160 bricks 	 100.0% (Persistent Level)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: SkyOcclusion1_1 (OODLE_AutoDXT, 1024X512)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2022.02.01-11.36.17:253][405]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.36.17:253][405]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: SkyOcclusion1_3 (OODLE_AutoDXT, 64X32)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: SkyOcclusion1_2 (OODLE_AutoDXT, 512X256)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 512X512)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 512X512)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 64X64)
+[2022.02.01-11.36.17:253][405]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 64X64)
+[2022.02.01-11.36.17:253][405]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.02.01-11.36.17:365][405]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2022.02.01-11.36.17:365][405]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X512)
+[2022.02.01-11.36.17:366][405]LogStaticLightingSystem: Game_Map_WhoBroughtThePresents_BuiltData storing lightmap data for 54 meshes in 5 LightmapResourceClusters (10.8 Meshes per cluster).
+[2022.02.01-11.36.17:385][405]Lightmass on MUCWGMA03: 4.16 sec total, 184 ms importing, 34 ms setup, 826 ms photons, 3.07 sec processing, 0 ms extra exporting [54/54 mappings]. Threads: 33.8 sec total, 8.96 sec processing.
+[2022.02.01-11.36.17:387][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.02.01-11.36.17:402][405]LogStaticLightingSystem: Illumination: 12.0 sec (168 ms encoding lightmaps, 75 ms encoding shadowmaps)
+[2022.02.01-11.36.17:402][405]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.02.01-11.36.17:402][405]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.02.01-11.36.18:093][405]DumpUnbuiltLightIteractions
+[2022.02.01-11.36.18:093][405]Lights with unbuilt interactions: 0
+[2022.02.01-11.36.18:093][405]
+[2022.02.01-11.36.18:093][405]Primitives with unbuilt interactions: 0
+[2022.02.01-11.36.18:217][405]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.02.01-11.36.18:266][406]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.02.01-11.36.18:266][406]MapCheck: New page: Game_Map_WhoBroughtThePresents - 01.02.2022, 13:36:18
+[2022.02.01-11.36.18:266][406]MapCheck: Warning: SM_whole_present_2 Static mesh actor has NULL StaticMesh property 
+[2022.02.01-11.36.18:267][406]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0,614ms to complete.
+[2022.02.01-11.37.09:019][618]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.37.09:022][618]LogSlate: Window 'Message Log' being destroyed
+[2022.02.01-11.37.23:366][471]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume2)
+[2022.02.01-11.37.53:554][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.41.03:090][471]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\ginger\Documents\Alexa\uploads_files_3216867_streetlamp.fbx)
+[2022.02.01-11.41.03:099][471]LogFbx: Loading FBX Scene from C:\Users\ginger\Documents\Alexa\uploads_files_3216867_streetlamp.fbx
+[2022.02.01-11.41.03:104][471]LogFbx: FBX Scene Loaded Succesfully
+[2022.02.01-11.41.06:726][471]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.02.01-11.41.06:753][471]LogFbx: Display: Triangulating static mesh streetlamp
+[2022.02.01-11.41.06:789][471]LogStaticMesh: Building static mesh uploads_files_3216867_streetlamp...
+[2022.02.01-11.41.06:817][471]LogStaticMesh: Built static mesh [0.03s] /Game/Environment/uploads_files_3216867_streetlamp.uploads_files_3216867_streetlamp
+[2022.02.01-11.41.08:345][547]LogActorFactory: Actor Factory created uploads_files_3216867_streetlamp
+[2022.02.01-11.41.11:384][728]LogActorFactory: Actor Factory created uploads_files_3216867_streetlamp
+[2022.02.01-11.41.13:195][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Wege)
+[2022.02.01-11.41.16:156][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (uploads_files_3216867_streetlamp)
+[2022.02.01-11.41.22:406][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.42.40:540][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Object007)
+[2022.02.01-11.43.15:499][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.02.01-11.43.15:687][637]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_A48A79ADF47BC0A0BC653EE8655C2D70C.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Levels/Game_Map_WhoBroughtThePresents_Auto6.umap'
+[2022.02.01-11.43.15:690][637]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Game_Map_WhoBroughtThePresents' took 0.206
+[2022.02.01-11.43.15:690][637]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.206
+[2022.02.01-11.43.15:690][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/Bridge_FloorWood_c] ([1] browsable assets)...
+[2022.02.01-11.43.15:709][637]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/Bridge_FloorWood_c.Bridge_FloorWood_c]
+[2022.02.01-11.43.15:710][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/Bridge_FloorWood_c]
+[2022.02.01-11.43.15:716][637]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Bridge_FloorWood_c_Auto6644CCBC844EC99D1293C6798C298763F.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Environment/Bridge_FloorWood_c_Auto6.uasset'
+[2022.02.01-11.43.15:717][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/Bridge_RedWood_c] ([1] browsable assets)...
+[2022.02.01-11.43.15:736][637]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/Bridge_RedWood_c.Bridge_RedWood_c]
+[2022.02.01-11.43.15:736][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/Bridge_RedWood_c]
+[2022.02.01-11.43.15:743][637]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Bridge_RedWood_c_Auto6708A1CC24B448C999FF1A39BF82D9B68.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Environment/Bridge_RedWood_c_Auto6.uasset'
+[2022.02.01-11.43.15:744][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/uploads_files_3216867_streetlamp] ([1] browsable assets)...
+[2022.02.01-11.43.15:763][637]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/uploads_files_3216867_streetlamp.uploads_files_3216867_streetlamp]
+[2022.02.01-11.43.15:763][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/uploads_files_3216867_streetlamp]
+[2022.02.01-11.43.15:778][637]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/uploads_files_3216867_streetlamp4E861CC74238C6337B61F4B4C50D2660.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Environment/uploads_files_3216867_streetlamp_Auto6.uasset'
+[2022.02.01-11.43.15:779][637]LogFileHelpers: Auto-saving content packages took 0.089
+[2022.02.01-11.44.29:689][676]Cmd: DELETE
+[2022.02.01-11.44.29:690][676]Cmd: ACTOR DELETE
+[2022.02.01-11.44.29:698][676]LogEditorActor: Deleted Actor: PointLight
+[2022.02.01-11.44.29:719][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.02.01-11.44.29:723][676]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2022.02.01-11.45.08:338][990]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.08:338][990]LogEditorTransaction: Undo Edit Intensity
+[2022.02.01-11.45.08:689][  0]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.08:689][  0]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.09:073][ 18]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.09:073][ 18]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.09:405][ 38]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.09:405][ 38]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.09:739][ 58]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.09:739][ 58]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.10:073][ 78]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.10:073][ 78]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.10:405][ 98]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.10:406][ 98]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.45.10:789][121]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.10:789][121]LogEditorTransaction: Undo Create Actors
+[2022.02.01-11.45.11:289][150]Cmd: TRANSACTION UNDO
+[2022.02.01-11.45.11:289][150]LogEditorTransaction: Undo Delete Actors
+[2022.02.01-11.46.05:524][ 70]LogSlate: Window 'Color Picker' being destroyed
+[2022.02.01-11.46.49:055][782]Cmd: TRANSACTION UNDO
+[2022.02.01-11.46.49:055][782]LogEditorTransaction: Undo Edit Source Length
+[2022.02.01-11.46.49:509][794]Cmd: TRANSACTION UNDO
+[2022.02.01-11.46.49:509][794]LogEditorTransaction: Undo Move Actors
+[2022.02.01-11.47.22:138][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.02.01-11.47.22:318][372]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents7E45358A41662BA9E350C8B9B83F9B7A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.47.22:409][372]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_B41CE59AC481331AE8FA57AB81252B821.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.01-11.47.22:578][372]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.01-11.47.22:578][372]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.01-11.47.22:578][372]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
