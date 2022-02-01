@@ -3292,3 +3292,9 @@ SkySphereBlueprint
 [2022.02.01-11.53.40:358][447]Cmd: TRANSACTION UNDO
 [2022.02.01-11.53.40:358][447]LogEditorTransaction: Undo Delete Actors
 [2022.02.01-11.53.43:658][626]LogEditorViewport: Clicking Background
+[2022.02.01-11.54.28:874][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.02.01-11.54.29:052][141]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents85AA27234FCFD252DC3A03B6ACECB63F.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.01-11.54.29:145][141]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_B98827D1045E1D3AE1493B5A679E96495.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.01-11.54.29:308][141]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.01-11.54.29:308][141]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.01-11.54.29:308][141]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
