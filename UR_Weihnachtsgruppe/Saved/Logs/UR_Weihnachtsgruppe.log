@@ -1523,3 +1523,249 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.02.02-11.53.21:332][476]AssetCheck: New page: Asset Save: multiple assets
 [2022.02.02-11.53.21:332][476]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
 [2022.02.02-11.53.21:332][476]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.02-11.55.13:682][364]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.02-11.55.13:697][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.02-11.55.13:697][364]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (02.02.2022, 13:55:13)
+[2022.02.02-11.55.13:697][364]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.02-11.55.13:707][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010166s)
+[2022.02.02-11.55.13:708][364]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.02-11.55.13:709][364]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2022.02.02-11.55.13:709][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.011682s)
+[2022.02.02-11.55.13:719][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.02.02-11.55.13:720][364]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.02.02-11.55.13:720][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.02-11.55.13:720][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.02-11.55.13:720][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.02-11.55.13:720][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.02-11.55.13:720][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.02-11.55.13:721][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.02-11.55.13:721][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.02-11.55.13:721][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.02-11.55.13:721][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.02-11.55.13:721][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.02-11.55.13:721][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.02-11.55.13:721][364]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.02-11.55.13:724][364]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.02-11.55.13:724][364]LogAudioMixer: Display: 1: FrontRight
+[2022.02.02-11.55.13:754][364]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.02-11.55.13:754][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.02-11.55.13:754][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.02-11.55.13:754][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.02-11.55.13:755][364]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.02-11.55.13:755][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.02-11.55.13:755][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.02-11.55.13:756][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.02-11.55.13:756][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.02-11.55.13:756][364]LogInit: FAudioDevice initialized.
+[2022.02.02-11.55.13:756][364]LogAudio: Display: Audio Device (ID: 7) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.02-11.55.13:767][364]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.02-11.55.13:770][364]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_220.StaticMesh' which is static to it. Aborting.
+[2022.02.02-11.55.13:770][364]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 60) at 2022.02.02-12.55.13
+[2022.02.02-11.55.13:770][364]LogWorld: Bringing up level for play took: 0.002302
+[2022.02.02-11.55.13:770][364]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] 1 event yes
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] 4
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] Present  Color
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] 2 color set
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] Remaining Color
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] Remaining Color
+[2022.02.02-11.55.13:773][364]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_220] Remaining Color
+[2022.02.02-11.55.13:775][364]PIE: Server logged in
+[2022.02.02-11.55.13:776][364]PIE: Play in editor total start time 0,082 seconds.
+[2022.02.02-11.55.25:896][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.55.25:896][ 88]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.02-11.55.25:896][ 88]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.55.25:897][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.55.25:905][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.02-11.55.25:907][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.55.25:912][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.55.25:912][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.55.25:913][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.55.25:915][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.55.25:917][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.02-11.55.26:015][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.02.02-11.55.28:122][201]LogSlate: Window 'Message Log' being destroyed
+[2022.02.02-11.55.28:130][201]LogSlate: Window 'Message Log' being destroyed
+[2022.02.02-12.05.48:949][840]LogActorFactory: Actor Factory created treePineSnowRound
+[2022.02.02-12.05.50:719][946]LogActorFactory: Actor Factory created treePineSnowRound
+[2022.02.02-12.06.15:712][440]Cmd: EDIT COPY
+[2022.02.02-12.06.15:913][452]Cmd: EDIT PASTE
+[2022.02.02-12.06.26:713][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound)
+[2022.02.02-12.06.27:447][141]Cmd: EDIT PASTE
+[2022.02.02-12.06.39:082][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound2)
+[2022.02.02-12.06.50:692][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound3)
+[2022.02.02-12.06.53:460][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound)
+[2022.02.02-12.07.00:658][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone016)
+[2022.02.02-12.07.01:594][183]Cmd: DELETE
+[2022.02.02-12.07.01:594][183]Cmd: ACTOR DELETE
+[2022.02.02-12.07.01:596][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.07.01:602][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.02.02-12.07.01:603][183]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.02-12.07.02:130][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone022)
+[2022.02.02-12.07.02:320][225]Cmd: DELETE
+[2022.02.02-12.07.02:320][225]Cmd: ACTOR DELETE
+[2022.02.02-12.07.02:322][225]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.07.02:328][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.02.02-12.07.02:328][225]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.02-12.07.02:887][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone017)
+[2022.02.02-12.07.03:042][267]Cmd: DELETE
+[2022.02.02-12.07.03:042][267]Cmd: ACTOR DELETE
+[2022.02.02-12.07.03:044][267]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.07.03:049][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.02.02-12.07.03:049][267]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.07.08:493][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound)
+[2022.02.02-12.07.15:480][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound2)
+[2022.02.02-12.07.18:815][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.07.28:061][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.07.29:845][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone023)
+[2022.02.02-12.07.59:325][513]LogRenderer: Reallocating scene render targets to support 904x432 Format 10 NumSamples 1 (Frame:43099).
+[2022.02.02-12.08.11:341][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.08.22:206][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box013)
+[2022.02.02-12.08.23:974][987]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Stadt_Box014)
+[2022.02.02-12.08.24:974][ 46]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Stadt_Box012)
+[2022.02.02-12.09.17:045][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.09.18:084][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box013)
+[2022.02.02-12.09.20:889][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box014)
+[2022.02.02-12.09.22:140][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box012)
+[2022.02.02-12.09.25:942][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Box013)
+[2022.02.02-12.09.27:278][774]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Stadt_Box014)
+[2022.02.02-12.09.27:946][813]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Stadt_Box012)
+[2022.02.02-12.09.34:262][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.10.00:662][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound2)
+[2022.02.02-12.10.02:734][890]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (treePineSnowRound)
+[2022.02.02-12.10.03:990][964]Cmd: EDIT COPY
+[2022.02.02-12.10.04:241][979]Cmd: EDIT PASTE
+[2022.02.02-12.10.12:749][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.10.13:308][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound4)
+[2022.02.02-12.10.25:045][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone024)
+[2022.02.02-12.10.25:915][266]Cmd: DELETE
+[2022.02.02-12.10.25:915][266]Cmd: ACTOR DELETE
+[2022.02.02-12.10.25:917][266]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.10.25:923][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.02.02-12.10.25:924][266]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.02-12.10.26:718][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone013)
+[2022.02.02-12.10.26:890][323]Cmd: DELETE
+[2022.02.02-12.10.26:890][323]Cmd: ACTOR DELETE
+[2022.02.02-12.10.26:892][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.10.26:896][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.02-12.10.26:897][323]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.10.30:797][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadtmauer)
+[2022.02.02-12.10.31:633][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound4)
+[2022.02.02-12.10.32:885][680]Cmd: EDIT COPY
+[2022.02.02-12.10.33:135][695]Cmd: EDIT PASTE
+[2022.02.02-12.11.09:285][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.02.02-12.11.09:468][593]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_A528D46A64632B8D858E5ECA5B67690EF.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Autosaves/Game/Levels/Game_Map_WhoBroughtThePresents_Auto1.umap'
+[2022.02.02-12.11.09:470][593]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Game_Map_WhoBroughtThePresents' took 0.190
+[2022.02.02-12.11.09:471][593]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.190
+[2022.02.02-12.31.22:258][ 82]Cmd: EDIT COPY
+[2022.02.02-12.31.22:457][ 94]Cmd: EDIT PASTE
+[2022.02.02-12.31.41:989][264]Cmd: EDIT COPY
+[2022.02.02-12.31.42:256][280]Cmd: EDIT PASTE
+[2022.02.02-12.32.03:842][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone002)
+[2022.02.02-12.32.04:967][636]Cmd: DELETE
+[2022.02.02-12.32.04:967][636]Cmd: ACTOR DELETE
+[2022.02.02-12.32.04:969][636]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.32.04:975][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.02.02-12.32.04:976][636]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.02-12.32.05:835][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone003)
+[2022.02.02-12.32.06:237][711]Cmd: DELETE
+[2022.02.02-12.32.06:237][711]Cmd: ACTOR DELETE
+[2022.02.02-12.32.06:239][711]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.32.06:243][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.02.02-12.32.06:244][711]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.32.09:837][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone004)
+[2022.02.02-12.32.10:091][941]Cmd: DELETE
+[2022.02.02-12.32.10:091][941]Cmd: ACTOR DELETE
+[2022.02.02-12.32.10:092][941]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.32.10:097][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.02.02-12.32.10:097][941]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.32.10:858][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound8)
+[2022.02.02-12.32.19:742][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound7)
+[2022.02.02-12.32.22:179][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.32.27:222][961]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2022.02.02-12.32.44:390][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound2)
+[2022.02.02-12.32.45:437][ 51]Cmd: EDIT COPY
+[2022.02.02-12.32.45:688][ 66]Cmd: EDIT PASTE
+[2022.02.02-12.32.55:223][637]Cmd: EDIT COPY
+[2022.02.02-12.32.55:439][650]Cmd: EDIT PASTE
+[2022.02.02-12.33.17:600][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound4)
+[2022.02.02-12.33.22:084][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound6)
+[2022.02.02-12.33.22:936][294]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (treePineSnowRound7)
+[2022.02.02-12.33.23:686][338]Cmd: EDIT COPY
+[2022.02.02-12.33.23:936][353]Cmd: EDIT PASTE
+[2022.02.02-12.33.31:454][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound11)
+[2022.02.02-12.33.41:304][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound12)
+[2022.02.02-12.33.48:258][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound11)
+[2022.02.02-12.33.49:024][854]Cmd: EDIT COPY
+[2022.02.02-12.33.49:259][868]Cmd: EDIT PASTE
+[2022.02.02-12.33.56:782][318]Cmd: EDIT COPY
+[2022.02.02-12.33.56:984][330]Cmd: EDIT PASTE
+[2022.02.02-12.34.32:187][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone005)
+[2022.02.02-12.34.33:980][545]Cmd: DELETE
+[2022.02.02-12.34.33:980][545]Cmd: ACTOR DELETE
+[2022.02.02-12.34.33:981][545]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.33:987][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.02.02-12.34.33:988][545]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2022.02.02-12.34.35:346][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone007)
+[2022.02.02-12.34.35:681][646]Cmd: DELETE
+[2022.02.02-12.34.35:681][646]Cmd: ACTOR DELETE
+[2022.02.02-12.34.35:683][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.35:688][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.02.02-12.34.35:688][646]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.34.36:231][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone006)
+[2022.02.02-12.34.36:435][690]Cmd: DELETE
+[2022.02.02-12.34.36:435][690]Cmd: ACTOR DELETE
+[2022.02.02-12.34.36:437][690]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.36:442][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.02.02-12.34.36:443][690]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.02-12.34.37:218][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone008)
+[2022.02.02-12.34.37:472][751]Cmd: DELETE
+[2022.02.02-12.34.37:472][751]Cmd: ACTOR DELETE
+[2022.02.02-12.34.37:473][751]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.37:478][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.02.02-12.34.37:479][751]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.34.38:288][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone009)
+[2022.02.02-12.34.38:610][818]Cmd: DELETE
+[2022.02.02-12.34.38:610][818]Cmd: ACTOR DELETE
+[2022.02.02-12.34.38:612][818]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.38:617][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.02.02-12.34.38:618][818]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.02-12.34.39:426][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound11)
+[2022.02.02-12.34.40:618][937]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (treePineSnowRound14)
+[2022.02.02-12.34.45:989][258]Cmd: TRANSACTION UNDO
+[2022.02.02-12.34.45:989][258]LogEditorTransaction: Undo Scale Actors
+[2022.02.02-12.34.47:006][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.34.47:649][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound11)
+[2022.02.02-12.34.51:254][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound14)
+[2022.02.02-12.34.54:492][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.02-12.34.58:699][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone012)
+[2022.02.02-12.34.59:671][ 56]Cmd: DELETE
+[2022.02.02-12.34.59:671][ 56]Cmd: ACTOR DELETE
+[2022.02.02-12.34.59:673][ 56]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.34.59:677][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.02.02-12.34.59:678][ 56]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.35.15:288][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound6)
+[2022.02.02-12.35.15:926][ 30]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (treePineSnowRound8)
+[2022.02.02-12.35.16:558][ 67]Cmd: EDIT COPY
+[2022.02.02-12.35.16:808][ 82]Cmd: EDIT PASTE
+[2022.02.02-12.35.30:394][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone010)
+[2022.02.02-12.35.31:516][962]Cmd: DELETE
+[2022.02.02-12.35.31:516][962]Cmd: ACTOR DELETE
+[2022.02.02-12.35.31:518][962]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.35.31:524][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.02.02-12.35.31:524][962]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.02.02-12.35.32:783][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stadt_Cone011)
+[2022.02.02-12.35.33:167][ 60]Cmd: DELETE
+[2022.02.02-12.35.33:167][ 60]Cmd: ACTOR DELETE
+[2022.02.02-12.35.33:169][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.02.02-12.35.33:174][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.02.02-12.35.33:174][ 60]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.02.02-12.35.33:867][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound16)
+[2022.02.02-12.35.35:128][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound15)
+[2022.02.02-12.35.43:639][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treePineSnowRound16)
+[2022.02.02-12.35.52:178][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.02.02-12.35.52:354][193]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents1B44EE114650CB21D2682CA9DEEE3BDD.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.02-12.35.52:456][193]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_B6EC8EE184BA36837E49DF8B54A8649A2.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.02-12.35.52:619][193]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.02-12.35.52:619][193]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.02-12.35.52:619][193]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
