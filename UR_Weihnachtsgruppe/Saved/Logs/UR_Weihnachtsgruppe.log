@@ -82,6 +82,7 @@ LogPluginManager: Mounting plugin MotoSynth
 LogPluginManager: Mounting plugin OpenImageDenoise
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
 LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin PythonScriptPlugin
 LogPluginManager: Mounting plugin PlanarCut
@@ -104,6 +105,7 @@ LogPluginManager: Mounting plugin OnlineSubsystemUtils
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin ActorLayerUtilities
 LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidPermission
 LogPluginManager: Mounting plugin AppleImageUtils
 LogPluginManager: Mounting plugin AppleMoviePlayer
@@ -117,11 +119,9 @@ LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 LogPluginManager: Mounting plugin GoogleCloudMessaging
-LogPluginManager: Mounting plugin GooglePAD
 LogPluginManager: Mounting plugin HairStrands
 LogPluginManager: Mounting plugin LauncherChunkInstaller
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
-LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 LogPluginManager: Mounting plugin MobilePatchingUtils
 LogPluginManager: Mounting plugin OpenXREyeTracker
@@ -146,6 +146,9 @@ LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting plugin OnlineSubsystemIOS
 LogPluginManager: Mounting plugin OculusVR
 LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
 PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
@@ -2396,3 +2399,987 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.02.11-16.59.30:741][ 18]LogD3D11RHI: CleanupD3DDevice
 [2022.02.11-16.59.30:764][ 18]LogExit: Exiting.
 [2022.02.11-16.59.30:783][ 18]Log file closed, 02/11/22 17:59:30
+
+Script Stack (0 frames):
+
+[2022.02.11-16.41.43:578][715]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.085 s
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: === Handled ensure: ===
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: 
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid [File:D:/Build/++UE4/Sync/Engine/Source/Editor/GraphEditor/Private/SGraphPin.cpp] [Line: 821]
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: The Graph Pin Object has been invalidate. Someone is keeping a hard ref on the SGraphPin. See InvalidateGraphData for more info
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: Stack: 
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b433199 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b2e12c1 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b2dff38 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:578][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b2ed09c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b36853c UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffd9b365a39 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76b5d9 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76b464 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74adb UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76d880 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76d880 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74adb UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76b464 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74adb UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde76d880 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74adb UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77678 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74adb UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c74945 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c73ca2 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c76c66 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77787 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0b8be74 UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffda0c77a1c UE4Editor-SlateCore.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde541bee UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde541f9b UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde572779 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde542547 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde598279 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffdde597a73 UE4Editor-Slate.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed5e9a1f UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed600fbc UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed6010aa UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed6040cd UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed615984 UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ff6ed61853a UE4Editor.exe!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffe08de7034 KERNEL32.DLL!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: [Callstack] 0x00007ffe0ac02651 ntdll.dll!UnknownFunction []
+[2022.02.11-16.41.43:579][715]LogOutputDevice: Error: 
+[2022.02.11-16.41.43:585][715]LogStats:                SubmitErrorReport -  0.000 s
+[2022.02.11-16.41.44:774][715]LogStats:                    SendNewReport -  1.190 s
+[2022.02.11-16.41.44:774][715]LogStats:             FDebug::EnsureFailed -  1.281 s
+[2022.02.11-16.43.57:140][628]BlueprintLog: New page: Compile BP_Character_Player_1
+[2022.02.11-16.43.57:189][628]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\who-brought-presents\UR_Weihnachtsgruppe\Content\Blueprint\Present_1.uasset: [Compiler] The current value (false) of the ' Visibility ' pin is invalid: 'Visibility' in action 'Set Visibility Present' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2022.02.11-16.43.57:277][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.02.11-16.43.58:307][715]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/BP_Character_Player_1FF6278DB4C16CBCB4D231BBA8797A81A.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Character_Player_1.uasset'
+[2022.02.11-16.43.58:318][715]AssetCheck: New page: Asset Save: BP_Character_Player_1
+[2022.02.11-16.43.58:318][715]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Character_Player_1.BP_Character_Player_1
+[2022.02.11-16.45.01:321][842]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.11-16.45.01:341][842]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.11-16.45.35:923][ 77]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.45.35:952][ 77]LogBlueprint: Error: [AssetLog] C:\Users\Fangli\Uni\who-brought-presents\UR_Weihnachtsgruppe\Content\Blueprint\Present_1.uasset: [Compiler] The current value (false) of the ' Visibility ' pin is invalid: 'Visibility' in action 'Set Visibility Present' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2022.02.11-16.45.36:010][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.02.11-16.45.47:728][211]BlueprintLog: New page: Compile BP_Character_Player_1
+[2022.02.11-16.45.47:823][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.02.11-16.46.02:434][614]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.46.02:473][614]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.02:473][614]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.02:473][614]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.02:473][614]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.02:523][614]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2022.02.11-16.46.02:533][614]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_368.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:534][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_146.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:535][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_118.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:536][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_142.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:564][614]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_372.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:565][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_150.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:566][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_122.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.02:567][614]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_146.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.03:440][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_1" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset" SILENT=true
+[2022.02.11-16.46.03:486][678]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Present_1CEF4C3994FAEAC8D426C0285EBA3F475.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset'
+[2022.02.11-16.46.03:499][678]AssetCheck: New page: Asset Save: Present_1
+[2022.02.11-16.46.03:499][678]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.02.11-16.46.24:982][757]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.46.25:007][757]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.25:007][757]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.25:007][757]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.25:007][757]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.46.25:058][757]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2022.02.11-16.46.25:068][757]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_376.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:069][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_154.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:070][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_126.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:071][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_150.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:099][757]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_380.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:100][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_158.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:101][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_130.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.46.25:102][757]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_154.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:720][815]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.47.27:745][815]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.47.27:745][815]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.47.27:745][815]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.47.27:745][815]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.47.27:795][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2022.02.11-16.47.27:805][815]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_384.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:807][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_162.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:808][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_134.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:808][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_158.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:836][815]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_388.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:837][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_166.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:838][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_138.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.27:839][815]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_162.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.47.28:909][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_1" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset" SILENT=true
+[2022.02.11-16.47.28:955][884]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Present_19DC1EC024D70DB5E86D14FA54C4B2897.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset'
+[2022.02.11-16.47.28:967][884]AssetCheck: New page: Asset Save: Present_1
+[2022.02.11-16.47.28:967][884]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.02.11-16.48.29:728][592]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.11-16.48.29:749][592]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.11-16.50.16:978][625]BlueprintLog: New page: Compile BP_Door
+[2022.02.11-16.50.17:042][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.02.11-16.50.20:671][954]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/BP_Character_Player_159D7F259417737A5B4CF1C811A7761B1.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Character_Player_1.uasset'
+[2022.02.11-16.50.20:682][954]AssetCheck: New page: Asset Save: BP_Character_Player_1
+[2022.02.11-16.50.20:682][954]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Character_Player_1.BP_Character_Player_1
+[2022.02.11-16.50.26:524][571]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.11-16.50.26:530][571]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.02.11-16.50.26:546][571]LogPlayLevel: [PlayLevel] Compiling BP_DoorSpawner before play...
+[2022.02.11-16.50.26:580][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_166.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:581][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_142.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:582][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_170.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:583][571]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_392.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:593][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_168.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:594][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_144.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:595][571]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_172.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:597][571]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_394.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.50.26:637][571]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2022.02.11-16.50.26:638][571]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2022.02.11-16.50.26:638][571]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (11.02.2022, 18:50:26)
+[2022.02.11-16.50.26:667][571]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-16.50.26:679][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012498s)
+[2022.02.11-16.50.26:680][571]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.11-16.50.26:681][571]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2022.02.11-16.50.26:681][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.014013s)
+[2022.02.11-16.50.26:716][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.02.11-16.50.26:717][571]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.11-16.50.26:717][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.11-16.50.26:717][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.11-16.50.26:718][571]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.11-16.50.26:718][571]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.11-16.50.26:718][571]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.11-16.50.26:718][571]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.11-16.50.26:719][571]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.11-16.50.26:719][571]LogAudioMixer: Display: 1: FrontRight
+[2022.02.11-16.50.26:727][571]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.02.11-16.50.26:727][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.11-16.50.26:727][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.11-16.50.26:727][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.11-16.50.26:727][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.11-16.50.26:728][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.11-16.50.26:728][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.11-16.50.26:729][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.11-16.50.26:729][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.11-16.50.26:729][571]LogInit: FAudioDevice initialized.
+[2022.02.11-16.50.26:729][571]LogAudio: Display: Audio Device (ID: 14) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.11-16.50.26:741][571]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.11-16.50.26:743][571]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.50.26:743][571]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.02.11-17.50.26
+[2022.02.11-16.50.26:744][571]LogWorld: Bringing up level for play took: 0.002316
+[2022.02.11-16.50.26:744][571]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.02.11-16.50.26:747][571]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 3
+[2022.02.11-16.50.26:751][571]PIE: Server logged in
+[2022.02.11-16.50.26:751][571]PIE: Play in editor total start time 0,222 seconds.
+[2022.02.11-16.50.35:569][620]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 1
+[2022.02.11-16.50.35:569][620]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.50.45:435][804]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 0
+[2022.02.11-16.50.45:435][804]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.50.45:435][804]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array localColorArray [0/0]!
+[2022.02.11-16.50.45:436][804]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] Angel - Player 1 WON!!
+[2022.02.11-16.50.58:437][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-16.50.58:437][360]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-16.50.58:437][360]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-16.50.58:438][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-16.50.58:449][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.11-16.50.58:454][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-16.50.58:485][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-16.50.58:485][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-16.50.58:486][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-16.50.58:493][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.02.11-16.50.58:576][361]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.02.11-16.51.00:317][539]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-16.51.00:322][539]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-16.51.01:759][709]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.11-16.51.01:765][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.11-16.51.01:765][709]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (11.02.2022, 18:51:01)
+[2022.02.11-16.51.01:787][709]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-16.51.01:798][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010898s)
+[2022.02.11-16.51.01:799][709]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.11-16.51.01:799][709]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2022.02.11-16.51.01:799][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012390s)
+[2022.02.11-16.51.01:833][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.02.11-16.51.01:835][709]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.11-16.51.01:835][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.11-16.51.01:835][709]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.11-16.51.01:835][709]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.11-16.51.01:835][709]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.11-16.51.01:835][709]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.11-16.51.01:837][709]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.11-16.51.01:837][709]LogAudioMixer: Display: 1: FrontRight
+[2022.02.11-16.51.01:843][709]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.02.11-16.51.01:844][709]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.11-16.51.01:844][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.11-16.51.01:844][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.11-16.51.01:844][709]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.11-16.51.01:844][709]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.11-16.51.01:844][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.11-16.51.01:845][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.11-16.51.01:845][709]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.11-16.51.01:845][709]LogInit: FAudioDevice initialized.
+[2022.02.11-16.51.01:845][709]LogAudio: Display: Audio Device (ID: 15) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.11-16.51.01:854][709]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.11-16.51.01:857][709]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.51.01:857][709]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.02.11-17.51.01
+[2022.02.11-16.51.01:857][709]LogWorld: Bringing up level for play took: 0.002404
+[2022.02.11-16.51.01:858][709]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.02.11-16.51.01:861][709]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 3
+[2022.02.11-16.51.01:864][709]PIE: Server logged in
+[2022.02.11-16.51.01:865][709]PIE: Play in editor total start time 0,101 seconds.
+[2022.02.11-16.51.13:927][154]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 1
+[2022.02.11-16.51.13:927][154]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.51.25:429][534]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] 0
+[2022.02.11-16.51.25:429][534]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.51.25:429][534]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array localColorArray [0/0]!
+[2022.02.11-16.51.25:429][534]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] Angel - Player 1 WON!!
+[2022.02.11-16.51.55:917][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-16.51.55:917][185]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-16.51.55:918][185]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-16.51.55:918][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-16.51.55:928][185]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.11-16.51.55:933][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-16.51.55:964][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-16.51.55:964][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-16.51.55:965][185]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-16.51.55:971][185]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.02.11-16.51.56:065][186]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.02.11-16.51.57:449][322]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-16.51.57:454][322]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-16.52.00:188][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2022.02.11-16.52.00:214][567]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/BP_Door312049A543B76AD396929E8A18375375.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Door.uasset'
+[2022.02.11-16.52.00:226][567]AssetCheck: New page: Asset Save: BP_Door
+[2022.02.11-16.52.00:226][567]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Door.BP_Door
+[2022.02.11-16.52.02:208][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_DoorSpawner" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_DoorSpawner.uasset" SILENT=true
+[2022.02.11-16.52.02:237][745]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/BP_DoorSpawnerE141FB4E49BB60E30D7F8F9CA1B82F7B.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_DoorSpawner.uasset'
+[2022.02.11-16.52.02:249][745]AssetCheck: New page: Asset Save: BP_DoorSpawner
+[2022.02.11-16.52.02:249][745]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_DoorSpawner.BP_DoorSpawner
+[2022.02.11-16.52.11:916][677]BlueprintLog: New page: Compile BP_Door
+[2022.02.11-16.52.11:979][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.02.11-16.52.18:631][375]BlueprintLog: New page: Compile BP_Door
+[2022.02.11-16.52.18:694][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2022.02.11-16.53.33:848][652]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.53.33:893][652]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.53.33:893][652]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.53.33:893][652]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.53.33:893][652]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.53.33:942][652]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2022.02.11-16.53.33:952][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_170.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:952][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_146.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:953][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_174.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:955][652]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_396.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:982][652]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_400.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:983][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_178.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:984][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_150.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.53.33:985][652]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_174.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.15:560][634]LogEditorTransaction: Undo Move Node
+[2022.02.11-16.54.15:564][634]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_404.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.15:565][634]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_182.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.15:566][634]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_154.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.15:567][634]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_178.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.22:964][313]LogEditorTransaction: Undo Move Node
+[2022.02.11-16.54.22:968][313]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_406.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.22:969][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_184.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.22:970][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_156.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.22:971][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_180.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:332][323]LogEditorTransaction: Undo Move Node
+[2022.02.11-16.54.23:336][323]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_408.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:337][323]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_186.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:338][323]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_158.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:339][323]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_182.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:664][346]LogEditorTransaction: Undo Move Node
+[2022.02.11-16.54.23:667][346]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_410.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:669][346]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_188.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:670][346]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_160.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.23:670][346]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_184.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:001][378]LogEditorTransaction: Undo Move Nodes
+[2022.02.11-16.54.24:005][378]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_412.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:007][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_190.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:008][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_162.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:009][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_186.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:521][425]LogEditorTransaction: Undo Straighten Connection(s)
+[2022.02.11-16.54.24:524][425]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_414.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:526][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_192.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:527][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_164.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.54.24:528][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_188.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.09:912][147]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.57.09:937][147]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.57.09:937][147]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.57.09:937][147]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.57.09:937][147]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.57.09:990][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2022.02.11-16.57.10:002][147]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_416.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:003][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_194.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:004][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_166.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:005][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_190.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:027][147]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_420.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:029][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_198.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:029][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_170.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.10:030][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_194.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.25:054][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_1" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset" SILENT=true
+[2022.02.11-16.57.25:101][580]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Present_1A98FDC8944595E7B772D999350D8C650.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset'
+[2022.02.11-16.57.25:112][580]AssetCheck: New page: Asset Save: Present_1
+[2022.02.11-16.57.25:112][580]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.02.11-16.57.59:251][131]LogEditorTransaction: Undo Move Node
+[2022.02.11-16.57.59:255][131]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_424.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.59:256][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_202.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.59:257][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_174.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.57.59:258][131]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_198.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.58.27:484][764]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.02.11-16.58.27:504][764]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.02.11-16.59.24:455][666]BlueprintLog: New page: Compile Present_1
+[2022.02.11-16.59.24:480][666]PIE: Warning: AttachTo: '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.59.24:480][666]PIE: Warning: AttachTo: '/Engine/Transient.World_15:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_15:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.59.24:480][666]PIE: Warning: AttachTo: '/Engine/Transient.World_16:PersistentLevel.BP_Character_Player_1_C_0.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_16:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_0.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.59.24:480][666]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.BP_Character_Player_1_C_5.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_139.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.59.24:532][666]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2022.02.11-16.59.24:542][666]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_426.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:544][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_204.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:544][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_176.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:545][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_200.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:567][666]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_430.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:568][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_208.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:569][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_180.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.24:570][666]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.DESTROYED_Present_1_C_CHILDACTOR_204.StaticMesh) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.02.11-16.59.26:082][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Present_1" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset" SILENT=true
+[2022.02.11-16.59.26:128][781]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Present_1C9599385432DFB9C416FCC8A269E7B5B.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/Present_1.uasset'
+[2022.02.11-16.59.26:140][781]AssetCheck: New page: Asset Save: Present_1
+[2022.02.11-16.59.26:140][781]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Present_1.Present_1
+[2022.02.11-16.59.31:619][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Door" FILE="../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Door.uasset" SILENT=true
+[2022.02.11-16.59.31:645][256]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/BP_DoorFA02A6044EF9423141E8EEB4761E800C.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Blueprint/BP_Door.uasset'
+[2022.02.11-16.59.31:656][256]AssetCheck: New page: Asset Save: BP_Door
+[2022.02.11-16.59.31:656][256]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_Door.BP_Door
+[2022.02.11-16.59.36:880][792]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.11-16.59.36:886][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.11-16.59.36:886][792]PIE: New page: PIE session: Game_Map_WhoBroughtThePresents (11.02.2022, 18:59:36)
+[2022.02.11-16.59.36:916][792]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-16.59.36:927][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011431s)
+[2022.02.11-16.59.36:928][792]LogAIModule: Creating AISystem for world Game_Map_WhoBroughtThePresents
+[2022.02.11-16.59.36:929][792]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2022.02.11-16.59.36:929][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents to /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents (0.012913s)
+[2022.02.11-16.59.36:966][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2022.02.11-16.59.36:968][792]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.11-16.59.36:968][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.11-16.59.36:968][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.11-16.59.36:968][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.11-16.59.36:968][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.11-16.59.36:968][792]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.11-16.59.36:970][792]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.11-16.59.36:970][792]LogAudioMixer: Display: 1: FrontRight
+[2022.02.11-16.59.36:977][792]LogAudioMixer: Display: Using Audio Device 1 - LG ULTRAGEAR (AMD High Definition Audio Device)
+[2022.02.11-16.59.36:978][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.11-16.59.36:978][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.11-16.59.36:978][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.11-16.59.36:978][792]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.11-16.59.36:978][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.11-16.59.36:978][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.11-16.59.36:979][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.11-16.59.36:979][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.11-16.59.36:979][792]LogInit: FAudioDevice initialized.
+[2022.02.11-16.59.36:979][792]LogAudio: Display: Audio Device (ID: 16) registered with world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.11-16.59.36:989][792]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.11-16.59.36:991][792]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.ThirdPersonCharacter_167.Present_1' is not static  (in blueprint "BP_Character_Player_1"), cannot attach '/Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents:PersistentLevel.Present_1_GEN_VARIABLE_Present_1_C_CAT_233.StaticMesh' which is static to it. Aborting.
+[2022.02.11-16.59.36:992][792]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents up for play (max tick rate 0) at 2022.02.11-17.59.36
+[2022.02.11-16.59.36:992][792]LogWorld: Bringing up level for play took: 0.002313
+[2022.02.11-16.59.36:992][792]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.02.11-16.59.36:999][792]PIE: Server logged in
+[2022.02.11-16.59.37:000][792]PIE: Play in editor total start time 0,114 seconds.
+[2022.02.11-16.59.47:132][  4]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.59.55:540][ 13]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Present 11111
+[2022.02.11-16.59.55:540][ 13]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array localColorArray [0/0]!
+[2022.02.11-16.59.55:540][ 13]LogBlueprintUserMessages: [Present_1_GEN_VARIABLE_Present_1_C_CAT_233] Angel - Player 1 WON!!
+[2022.02.11-17.00.16:637][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-17.00.16:637][537]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Game_Map_WhoBroughtThePresents
+[2022.02.11-17.00.16:638][537]LogWorld: UWorld::CleanupWorld for Game_Map_WhoBroughtThePresents, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.16:638][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.16:649][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.11-17.00.16:654][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.16:685][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.11-17.00.16:685][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-17.00.16:686][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-17.00.16:689][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.11-17.00.16:693][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.02.11-17.00.16:766][538]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.02.11-17.00.18:458][708]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-17.00.18:464][708]LogSlate: Window 'Message Log' being destroyed
+[2022.02.11-17.00.23:190][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.02.11-17.00.23:221][985]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents12F0CF2A448ADA2C3A27D0AA113B5509.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents.umap'
+[2022.02.11-17.00.23:309][985]LogSavePackage: Moving '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Saved/Game_Map_WhoBroughtThePresents_BC92EE80247D53CB8490B9994E372A815.tmp' to '../../../../../../Users/Fangli/Uni/who-brought-presents/UR_Weihnachtsgruppe/Content/Levels/Game_Map_WhoBroughtThePresents_BuiltData.uasset'
+[2022.02.11-17.00.23:325][985]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.11-17.00.23:325][985]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
+[2022.02.11-17.00.23:325][985]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+[2022.02.11-17.00.26:223][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.02.11-17.00.26:241][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.02.11-17.00.26:241][324]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.26:241][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.26:341][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.02.11-17.00.26:342][324]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.26:342][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.26:426][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.02.11-17.00.26:426][324]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.26:426][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.26:501][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.02.11-17.00.26:502][324]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.26:502][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.26:568][324]LogSlate: Window 'BP_Character_Player_1' being destroyed
+[2022.02.11-17.00.26:580][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.02.11-17.00.26:581][324]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.26:581][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.11-17.00.26:655][324]LogSlate: Window 'UR_Weihnachtsgruppe - Unreal Editor' being destroyed
+[2022.02.11-17.00.26:779][325]Cmd: QUIT_EDITOR
+[2022.02.11-17.00.26:779][325]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.02.11-17.00.26:782][325]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.02.11-17.00.27:467][325]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.02.11-17.00.27:467][325]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.02.11-17.00.27:467][325]LogAudio: Display: Audio Device unregistered from world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.11-17.00.27:467][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-17.00.27:468][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.11-17.00.27:478][325]LogAudio: Display: Audio Device Manager Shutdown
+[2022.02.11-17.00.27:481][325]LogExit: Preparing to exit.
+[2022.02.11-17.00.28:304][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2022.02.11-17.00.28:561][325]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:565][325]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:569][325]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:572][325]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:577][325]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:580][325]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:584][325]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:587][325]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:591][325]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:595][325]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:599][325]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:602][325]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:677][325]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.02.11-17.00.28:691][325]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.02.11-17.00.28:691][325]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.11-17.00.28:692][325]LogExit: Editor shut down
+[2022.02.11-17.00.28:694][325]LogExit: Transaction tracking system shut down
+[2022.02.11-17.00.29:168][325]LogExit: Object subsystem successfully closed.
+[2022.02.11-17.00.29:203][325]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.11-17.00.29:203][325]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.02.11-17.00.29:203][325]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.02.11-17.00.29:203][325]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 716.80 MB (0.70 GB) budget. Usage: 0.00%
+[2022.02.11-17.00.29:203][325]LogShaderCompilers: Display: ================================================
+[2022.02.11-17.00.29:216][325]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (894)
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module Voice (892)
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module BlueprintGraph (890)
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (888)
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module SceneOutliner (886)
+[2022.02.11-17.00.29:248][325]LogModuleManager: Shutting down and abandoning module AddContentDialog (884)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module WidgetCarousel (883)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module EditorWidgets (880)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module StatsViewer (878)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (876)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (874)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module AutomationWorker (872)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module SteamVREditor (870)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module OculusMR (868)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TextureAlignMode (866)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module BspMode (864)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module GeometryMode (862)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module OpenXRInput (860)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module GooglePADEditor (858)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (856)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TakeRecorder (855)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (852)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TakesCore (850)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (848)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (846)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (844)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (842)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (840)
+[2022.02.11-17.00.29:250][325]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (838)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (836)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (834)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (832)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (830)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module WebMMedia (828)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (826)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module SequenceRecorder (825)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (822)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (820)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (818)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (816)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (814)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (812)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (810)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module PlanarCut (808)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (806)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (804)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (802)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module CharacterAI (800)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (798)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module SmartSnapping (796)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module SessionServices (794)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MeshPaint (792)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (790)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module FoliageEdit (788)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module LandscapeEditor (786)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module MeshPaintMode (784)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (782)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ActorPickerMode (780)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module PlacementMode (778)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ViewportSnapping (776)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ViewportInteraction (774)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module ClothPainter (772)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (771)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module LogVisualizer (768)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module IntroTutorials (766)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (765)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (762)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (760)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (758)
+[2022.02.11-17.00.29:251][325]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (757)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (754)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (752)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (750)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (748)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module TraceInsights (746)
+[2022.02.11-17.00.30:601][325]MemoryProfiler: Shutdown
+[2022.02.11-17.00.30:601][325]NetworkingProfiler: Shutdown
+[2022.02.11-17.00.30:601][325]LoadingProfiler: Shutdown
+[2022.02.11-17.00.30:601][325]TimingProfiler: Shutdown
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module TraceServices (745)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (742)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (740)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module InputBindingEditor (738)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module MergeActors (736)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (734)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module LocalizationService (733)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module HardwareTargeting (730)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (728)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module UndoHistory (726)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module XmlParser (724)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module Blutility (722)
+[2022.02.11-17.00.30:601][325]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (720)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (719)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (716)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (715)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module SettingsEditor (712)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module ProjectLauncher (710)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module SessionFrontend (708)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module ProfilerClient (706)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module DeviceManager (704)
+[2022.02.11-17.00.30:602][325]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (703)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module AutomationController (700)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module AutomationWindow (698)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module Layers (696)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (694)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module DetailCustomizations (692)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module PackagesDialog (690)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (688)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module Persona (686)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (685)
+[2022.02.11-17.00.30:635][325]LogModuleManager: Shutting down and abandoning module AnimGraph (683)
+[2022.02.11-17.00.30:636][325]LogModuleManager: Shutting down and abandoning module Kismet (680)
+[2022.02.11-17.00.30:648][325]LogModuleManager: Shutting down and abandoning module KismetWidgets (679)
+[2022.02.11-17.00.30:648][325]LogModuleManager: Shutting down and abandoning module GraphEditor (676)
+[2022.02.11-17.00.30:648][325]LogModuleManager: Shutting down and abandoning module StructViewer (674)
+[2022.02.11-17.00.30:648][325]LogModuleManager: Shutting down and abandoning module ClassViewer (672)
+[2022.02.11-17.00.30:650][325]LogModuleManager: Shutting down and abandoning module Toolbox (670)
+[2022.02.11-17.00.30:650][325]LogModuleManager: Shutting down and abandoning module ModuleUI (668)
+[2022.02.11-17.00.30:650][325]LogModuleManager: Shutting down and abandoning module OutputLog (666)
+[2022.02.11-17.00.30:651][325]LogModuleManager: Shutting down and abandoning module GammaUI (664)
+[2022.02.11-17.00.30:651][325]LogModuleManager: Shutting down and abandoning module Documentation (662)
+[2022.02.11-17.00.30:651][325]LogModuleManager: Shutting down and abandoning module LiveCoding (660)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module LevelSequence (658)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (656)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module MovieScene (654)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (652)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module LauncherPlatform (650)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module AnalyticsET (648)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module PortalServices (646)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module PortalRpc (644)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module MessagingRpc (642)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (640)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module AudioMixerCore (639)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module AIModule (636)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module GameplayDebugger (635)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module AITestSuite (633)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module NavigationSystem (631)
+[2022.02.11-17.00.30:652][325]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (628)
+[2022.02.11-17.00.30:660][325]LogModuleManager: Shutting down and abandoning module ProfilerService (626)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module TaskGraph (624)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (622)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (620)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (618)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (616)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module CollectionManager (615)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module OculusEditor (612)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module OculusInput (610)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (608)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module StylusInput (606)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module PluginBrowser (604)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (602)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (600)
+[2022.02.11-17.00.30:702][325]LogModuleManager: Shutting down and abandoning module CurveEditorTools (598)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (596)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module CryptoKeys (594)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module SynthesisEditor (592)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module Synthesis (590)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (588)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (586)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module OpenXREditor (584)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (582)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (580)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GooglePAD (578)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module TakeSequencer (576)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module TakeMovieScene (574)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module EditableMesh (572)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AssetTags (570)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AudioCapture (568)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (567)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (564)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module CableComponent (562)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (560)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (558)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AppleImageUtils (556)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module AndroidPermission (554)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ScreenshotTools (552)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (550)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (548)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module TemplateSequence (546)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MediaCompositing (544)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ImgMedia (542)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (540)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (538)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MotoSynth (536)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (534)
+[2022.02.11-17.00.30:703][325]LogOpenImageDenoise: OIDN shutting down
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (532)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MeshModelingTools (530)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (528)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ModelingOperators (526)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ModelingComponents (524)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (522)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (520)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (518)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module UObjectPlugin (516)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module MeshConversion (514)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module DynamicMesh (512)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (510)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GeometricObjects (508)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (506)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (504)
+[2022.02.11-17.00.30:703][325]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (502)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (500)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (499)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (496)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (494)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (492)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module PluginUtils (490)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (488)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (486)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GitSourceControl (484)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module SourceControl (483)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (480)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (478)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (466)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module FractureEditor (462)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module ChaosNiagara (460)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (459)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module BackChannel (456)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (454)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module AutomationUtils (452)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module AlembicImporter (450)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module AlembicLibrary (449)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GeometryCache (448)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (447)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (442)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (440)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (438)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (436)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (434)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (432)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (430)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (428)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (426)
+[2022.02.11-17.00.30:704][325]LogModuleManager: Shutting down and abandoning module LiveLink (424)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (422)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (420)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module Paper2DEditor (418)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (416)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (414)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (412)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module DataValidation (410)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (408)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module FacialAnimation (406)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (404)
+[2022.02.11-17.00.31:566][325]LogModuleManager: Shutting down and abandoning module LevelEditor (403)
+[2022.02.11-17.00.31:568][325]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (402)
+[2022.02.11-17.00.31:568][325]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (400)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module MainFrame (398)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module HotReload (397)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module ToolMenus (393)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module TreeMap (391)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module SignificanceManager (388)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module SoundFields (386)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (384)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (382)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (380)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (376)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (374)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (372)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module ActorSequence (370)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (368)
+[2022.02.11-17.00.31:569][325]LogModuleManager: Shutting down and abandoning module TcpMessaging (366)
+[2022.02.11-17.00.31:671][325]LogModuleManager: Shutting down and abandoning module UdpMessaging (364)
+[2022.02.11-17.00.31:771][325]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (362)
+[2022.02.11-17.00.31:771][325]LogModuleManager: Shutting down and abandoning module Niagara (360)
+[2022.02.11-17.00.31:771][325]LogModuleManager: Shutting down and abandoning module SignalProcessing (359)
+[2022.02.11-17.00.31:771][325]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module ContentBrowser (356)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module ContentBrowserData (355)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module NiagaraCore (350)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (348)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (346)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module AnimationSharing (344)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (342)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (340)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (338)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (336)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (334)
+[2022.02.11-17.00.31:772][325]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (332)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (330)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (328)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (326)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapController (324)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (322)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module MagicLeapAR (320)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module GameplayCameras (318)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (316)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (314)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module Paper2D (312)
+[2022.02.11-17.00.31:772][325]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (310)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (308)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (306)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module PacketHandler (304)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2022.02.11-17.00.31:802][325]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module UMG (278)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module UMGEditor (277)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module MessageLog (275)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module SlateReflector (270)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module Slate (268)
+[2022.02.11-17.00.31:803][325]LogModuleManager: Shutting down and abandoning module SlateCore (266)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (264)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module UnrealEd (262)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module MRMesh (260)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (258)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (256)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module XAudio2 (254)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module Networking (252)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module Core (250)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module MaterialEditor (248)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module MovieSceneTools (246)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module CurveEditor (245)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module Sequencer (243)
+[2022.02.11-17.00.31:804][325]LogModuleManager: Shutting down and abandoning module EditorStyle (242)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module KismetCompiler (238)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MeshBuilder (236)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MeshUtilities (234)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (233)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (232)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (231)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (229)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (227)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (225)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MaterialBaking (221)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (216)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module DerivedDataCache (214)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module TargetPlatform (212)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (211)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (209)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (207)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (205)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (203)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (201)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (199)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (197)
+[2022.02.11-17.00.31:806][325]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (195)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (193)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (191)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (189)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module ImageWrapper (188)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (185)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (183)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (181)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (179)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (177)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (175)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (173)
+[2022.02.11-17.00.31:807][325]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2022.02.11-17.00.31:811][325]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (169)
+[2022.02.11-17.00.31:811][325]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (167)
+[2022.02.11-17.00.31:811][325]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (165)
+[2022.02.11-17.00.31:811][325]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (163)
+[2022.02.11-17.00.31:811][325]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (161)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (159)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (157)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (155)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (153)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (151)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (149)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (147)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module Messaging (145)
+[2022.02.11-17.00.31:817][325]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (143)
+[2022.02.11-17.00.31:821][325]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (141)
+[2022.02.11-17.00.31:833][325]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (139)
+[2022.02.11-17.00.31:833][325]LogModuleManager: Shutting down and abandoning module D3D11RHI (136)
+[2022.02.11-17.00.31:833][325]LogModuleManager: Shutting down and abandoning module InputCore (134)
+[2022.02.11-17.00.31:833][325]LogModuleManager: Shutting down and abandoning module Settings (132)
+[2022.02.11-17.00.31:833][325]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (130)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module PhysXCooking (128)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module Chaos (126)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (118)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module SteamVRInput (116)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module SteamVR (114)
+[2022.02.11-17.00.31:834][325]LogHMD: Freeing OpenVRDLLHandle.
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module OculusHMD (112)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (110)
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (108)
+[2022.02.11-17.00.31:834][325]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.02.11-17.00.31:834][325]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2022.02.11-17.00.31:834][325]LogModuleManager: Shutting down and abandoning module OpenXRAR (106)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module AugmentedReality (105)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module OpenXRHMD (102)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module HairStrandsCore (100)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.02.11-17.00.31:835][325]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.02.11-17.00.31:837][325]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.02.11-17.00.31:837][325]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.02.11-17.00.31:857][325]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.02.11-17.00.31:857][325]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.02.11-17.00.31:857][325]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8060550-4431-1F38-97DE-78A4904F2964%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=54cb6a1246dc4e8c1257c5b378cf9645%7C24394bab56d4435ca79186e47aa580b5%7C5a5271eb-0fe0-4761-84de-5d31b0097525&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.02.11-17.00.31:857][325]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.02.11-17.00.31:887][325]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.02.11-17.00.31:889][325]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2022.02.11-17.00.31:891][325]LogModuleManager: Shutting down and abandoning module Media (73)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module MediaInfo (72)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (68)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (66)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module NiagaraShader (64)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module PixWinPlugin (62)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module MLSDK (60)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module ChaosCloth (56)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (40)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.02.11-17.00.31:892][325]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.02.11-17.00.31:893][325]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.02.11-17.00.31:893][325]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.02.11-17.00.31:893][325]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.02.11-17.00.31:893][325]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.02.11-17.00.31:893][325]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.02.11-17.00.31:895][325]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.02.11-17.00.31:895][325]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.02.11-17.00.31:898][325]LogD3D11RHI: Shutdown
+[2022.02.11-17.00.31:898][325]LogD3D11RHI: CleanupD3DDevice
+[2022.02.11-17.00.31:929][325]LogExit: Exiting.
+[2022.02.11-17.00.31:936][325]Log file closed, 02/11/22 18:00:31
