@@ -1687,3 +1687,209 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.02.15-22.13.29:024][783]LogPlayLevel: Display: Destroying online subsystem :Context_31
 [2022.02.15-22.13.30:556][858]LogSlate: Window 'Message Log' being destroyed
 [2022.02.15-22.13.30:602][858]LogSlate: Window 'Message Log' being destroyed
+[2022.02.15-22.14.13:645][600]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.15-22.14.13:652][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.15-22.14.13:652][600]PIE: New page: PIE session: MainMenu_Level (16.02.2022, 00:14:13)
+[2022.02.15-22.14.13:652][600]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_Level
+[2022.02.15-22.14.13:653][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001292s)
+[2022.02.15-22.14.13:654][600]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.02.15-22.14.13:655][600]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2022.02.15-22.14.13:655][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_Level.MainMenu_Level to /Game/Levels/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002486s)
+[2022.02.15-22.14.13:675][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.02.15-22.14.13:677][600]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.15-22.14.13:677][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.15-22.14.13:677][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.15-22.14.13:678][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.15-22.14.13:678][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.15-22.14.13:678][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.15-22.14.13:678][600]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.15-22.14.13:682][600]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.15-22.14.13:682][600]LogAudioMixer: Display: 1: FrontRight
+[2022.02.15-22.14.13:709][600]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.15-22.14.13:710][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.15-22.14.13:710][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.15-22.14.13:710][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.15-22.14.13:710][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.15-22.14.13:710][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.15-22.14.13:710][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.15-22.14.13:711][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.15-22.14.13:711][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.15-22.14.13:711][600]LogInit: FAudioDevice initialized.
+[2022.02.15-22.14.13:711][600]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenu_Level'.
+[2022.02.15-22.14.13:718][600]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.15-22.14.13:719][600]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 60) at 2022.02.15-23.14.13
+[2022.02.15-22.14.13:719][600]LogWorld: Bringing up level for play took: 0.000305
+[2022.02.15-22.14.13:719][600]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.02.15-22.14.13:723][600]PIE: Server logged in
+[2022.02.15-22.14.13:724][600]PIE: Play in editor total start time 0,073 seconds.
+[2022.02.15-22.14.19:115][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.15-22.14.19:115][920]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_Level
+[2022.02.15-22.14.19:115][920]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.14.19:115][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.14.19:127][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.15-22.14.19:131][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.14.19:147][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.15-22.14.19:147][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-22.14.19:148][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-22.14.19:184][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.02.15-22.14.19:197][921]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.02.15-22.14.21:751][ 72]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/HowTo_Widget.HowTo_Widget
+[2022.02.15-22.14.41:688][148]BlueprintLog: New page: Compile HowTo_Widget
+[2022.02.15-22.14.41:723][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.02.15-22.14.42:520][182]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/HowTo_Widget774A28EF48F5292DA456D99A15DEC2A0.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Menu/HowTo_Widget.uasset'
+[2022.02.15-22.14.42:540][182]AssetCheck: New page: Asset Save: HowTo_Widget
+[2022.02.15-22.14.42:540][182]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/HowTo_Widget.HowTo_Widget
+[2022.02.15-22.14.44:112][273]LogSlate: Window 'HowTo_Widget' being destroyed
+[2022.02.15-22.14.44:126][273]LogSlate: Window 'HowTo_Widget' being destroyed
+[2022.02.15-22.14.44:165][273]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.14.44:165][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.14.44:178][273]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.14.44:178][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.14.46:328][391]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/Main_Menu_Widget.Main_Menu_Widget
+[2022.02.15-22.15.47:001][554]BlueprintLog: New page: Compile Main_Menu_Widget
+[2022.02.15-22.15.47:044][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.02.15-22.15.47:616][578]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Main_Menu_WidgetE98255044352BFA0BC934E9AB4551412.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Menu/Main_Menu_Widget.uasset'
+[2022.02.15-22.15.47:642][578]AssetCheck: New page: Asset Save: Main_Menu_Widget
+[2022.02.15-22.15.47:642][578]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Main_Menu_Widget.Main_Menu_Widget
+[2022.02.15-22.15.48:939][651]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.02.15-22.15.48:953][651]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2022.02.15-22.15.48:957][651]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.15.48:957][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.15.48:972][651]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.15.48:972][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.15.50:508][734]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.15-22.15.50:516][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.15-22.15.50:516][734]PIE: New page: PIE session: MainMenu_Level (16.02.2022, 00:15:50)
+[2022.02.15-22.15.50:516][734]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_Level
+[2022.02.15-22.15.50:517][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001096s)
+[2022.02.15-22.15.50:518][734]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.02.15-22.15.50:519][734]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2022.02.15-22.15.50:519][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_Level.MainMenu_Level to /Game/Levels/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.002883s)
+[2022.02.15-22.15.50:543][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.02.15-22.15.50:544][734]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.15-22.15.50:544][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.15-22.15.50:544][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.15-22.15.50:544][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.15-22.15.50:544][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.15-22.15.50:544][734]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.15-22.15.50:549][734]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.15-22.15.50:549][734]LogAudioMixer: Display: 1: FrontRight
+[2022.02.15-22.15.50:579][734]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2022.02.15-22.15.50:579][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.15-22.15.50:579][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.15-22.15.50:579][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.15-22.15.50:580][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.15-22.15.50:580][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.15-22.15.50:580][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.15-22.15.50:581][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.15-22.15.50:581][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.15-22.15.50:581][734]LogInit: FAudioDevice initialized.
+[2022.02.15-22.15.50:581][734]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenu_Level'.
+[2022.02.15-22.15.50:589][734]LogLoad: Game class is 'BP_GameMode_C'
+[2022.02.15-22.15.50:590][734]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 60) at 2022.02.15-23.15.50
+[2022.02.15-22.15.50:590][734]LogWorld: Bringing up level for play took: 0.000292
+[2022.02.15-22.15.50:591][734]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.02.15-22.15.50:594][734]PIE: Server logged in
+[2022.02.15-22.15.50:596][734]PIE: Play in editor total start time 0,081 seconds.
+[2022.02.15-22.15.58:030][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.15-22.15.58:030][176]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_Level
+[2022.02.15-22.15.58:030][176]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.15.58:030][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.15.58:037][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.15-22.15.58:041][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.15.58:059][176]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.15-22.15.58:059][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-22.15.58:060][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-22.15.58:086][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.15-22.15.58:090][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.02.15-22.15.58:109][177]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.02.15-22.15.58:807][216]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/Paus_Menu_Widget.Paus_Menu_Widget
+[2022.02.15-22.16.26:912][735]BlueprintLog: New page: Compile Paus_Menu_Widget
+[2022.02.15-22.16.26:948][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.02.15-22.16.27:477][756]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Paus_Menu_Widget5D67AC4A408B8E29E477749924831F24.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Menu/Paus_Menu_Widget.uasset'
+[2022.02.15-22.16.27:501][756]AssetCheck: New page: Asset Save: Paus_Menu_Widget
+[2022.02.15-22.16.27:501][756]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Paus_Menu_Widget.Paus_Menu_Widget
+[2022.02.15-22.16.28:663][824]LogSlate: Window 'Paus_Menu_Widget' being destroyed
+[2022.02.15-22.16.28:678][824]LogSlate: Window 'Paus_Menu_Widget' being destroyed
+[2022.02.15-22.16.28:684][824]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.16.28:685][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.16.28:704][824]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.16.28:705][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.16.30:185][903]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/SelectLevel.SelectLevel
+[2022.02.15-22.16.53:904][181]BlueprintLog: New page: Compile SelectLevel
+[2022.02.15-22.16.53:939][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.02.15-22.16.54:803][224]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/SelectLevelFD48D256420F6756680F86BCFBDBD515.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Menu/SelectLevel.uasset'
+[2022.02.15-22.16.54:821][224]AssetCheck: New page: Asset Save: SelectLevel
+[2022.02.15-22.16.54:821][224]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/SelectLevel.SelectLevel
+[2022.02.15-22.17.01:328][606]LogSlate: Window 'SelectLevel' being destroyed
+[2022.02.15-22.17.01:337][606]LogSlate: Window 'SelectLevel' being destroyed
+[2022.02.15-22.17.01:343][606]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.01:344][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.01:366][606]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.01:366][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.02:862][681]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/Story_Widget.Story_Widget
+[2022.02.15-22.17.31:242][178]BlueprintLog: New page: Compile Story_Widget
+[2022.02.15-22.17.31:286][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.02.15-22.17.32:123][215]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Story_WidgetC80F5D9F48B1F7476D13F684045D45FB.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Menu/Story_Widget.uasset'
+[2022.02.15-22.17.32:147][215]AssetCheck: New page: Asset Save: Story_Widget
+[2022.02.15-22.17.32:147][215]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Story_Widget.Story_Widget
+[2022.02.15-22.17.33:218][269]LogSlate: Window 'Story_Widget' being destroyed
+[2022.02.15-22.17.33:231][269]LogSlate: Window 'Story_Widget' being destroyed
+[2022.02.15-22.17.33:237][269]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.33:237][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.33:257][269]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.33:257][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.40:832][700]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/UI_Widget/BP_GameENDING.BP_GameENDING
+[2022.02.15-22.17.46:254][996]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/UI_Widget/BP_GameWidget_CookieItem_Player1.BP_GameWidget_CookieItem_Player1
+[2022.02.15-22.17.47:213][ 34]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/UI_Widget/BP_GameWidget.BP_GameWidget
+[2022.02.15-22.17.58:761][682]LogSlate: Window 'BP_GameWidget' being destroyed
+[2022.02.15-22.17.58:771][682]LogSlate: Window 'BP_GameWidget' being destroyed
+[2022.02.15-22.17.58:774][682]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.58:774][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.58:787][682]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.58:787][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.58:890][682]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.58:890][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.58:910][682]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.58:910][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.59:026][682]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.59:026][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.17.59:035][682]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.17.59:035][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.18.15:176][621]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LevelWinLoose/WinAngel_Widget.WinAngel_Widget
+[2022.02.15-22.18.30:668][434]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/WinAngel_WidgetFC59023841E9583BDCA775AA081467B8.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/LevelWinLoose/WinAngel_Widget.uasset'
+[2022.02.15-22.18.30:687][434]AssetCheck: New page: Asset Save: WinAngel_Widget
+[2022.02.15-22.18.30:687][434]LogContentValidation: Display: Validating WidgetBlueprint /Game/LevelWinLoose/WinAngel_Widget.WinAngel_Widget
+[2022.02.15-22.18.31:227][463]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LevelWinLoose/WinSanta_Widget.WinSanta_Widget
+[2022.02.15-22.18.47:203][302]BlueprintLog: New page: Compile WinSanta_Widget
+[2022.02.15-22.18.47:254][302]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.02.15-22.18.47:929][333]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/WinSanta_Widget1081FAA04205AB9B4CDD92BC5C33AF97.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/LevelWinLoose/WinSanta_Widget.uasset'
+[2022.02.15-22.18.47:954][333]AssetCheck: New page: Asset Save: WinSanta_Widget
+[2022.02.15-22.18.47:954][333]LogContentValidation: Display: Validating WidgetBlueprint /Game/LevelWinLoose/WinSanta_Widget.WinSanta_Widget
+[2022.02.15-22.18.49:184][403]LogSlate: Window 'WinSanta_Widget' being destroyed
+[2022.02.15-22.18.49:194][403]LogSlate: Window 'WinSanta_Widget' being destroyed
+[2022.02.15-22.18.49:199][403]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.18.49:199][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.18.49:220][403]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.18.49:220][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.18.49:302][403]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.18.49:302][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.18.49:313][403]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-22.18.49:313][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.15-22.18.51:550][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.02.15-22.18.51:557][528]LogSavePackage: Moving '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/MainMenu_Level98F0E1A2485D5692C4478D9A6F2560EF.tmp' to '../../../../../../Users/yara5/Documents/Master/Semester_3/VR/Projekt/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Levels/MainMenu_Level.umap'
+[2022.02.15-22.18.51:587][528]AssetCheck: New page: Asset Save: MainMenu_Level
+[2022.02.15-22.18.51:587][528]LogContentValidation: Display: Validating World /Game/Levels/MainMenu_Level.MainMenu_Level
