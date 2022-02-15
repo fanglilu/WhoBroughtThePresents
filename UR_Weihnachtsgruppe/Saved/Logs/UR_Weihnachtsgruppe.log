@@ -17822,3 +17822,636 @@ SkySphereBlueprint
 [2022.02.15-10.12.50:496][302]AssetCheck: New page: Asset Save: multiple assets
 [2022.02.15-10.12.50:496][302]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Game_Map_WhoBroughtThePresents_BuiltData.Game_Map_WhoBroughtThePresents_BuiltData
 [2022.02.15-10.12.50:496][302]LogContentValidation: Display: Validating World /Game/Levels/Game_Map_WhoBroughtThePresents.Game_Map_WhoBroughtThePresents
+<<<<<<< Updated upstream
+=======
+[2022.02.15-10.16.16:670][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.15-10.16.17:964][957]LogSlate: Window 'Save Content' being destroyed
+[2022.02.15-10.16.17:995][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Magie" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Magie.uasset" SILENT=true
+[2022.02.15-10.16.18:000][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/MagieB16E63A845D7AEE4E6D9B5B11FD0A755.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Magie.uasset'
+[2022.02.15-10.16.18:018][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Material__2F73E629B43022FEA737C6CB3D79DF21F.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Material__2.uasset'
+[2022.02.15-10.16.18:031][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material__2" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Material__2.uasset" SILENT=true
+[2022.02.15-10.16.18:037][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Material__27DF3B0794BDAA26036F8E2A6868CA4D5.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Material__2.uasset'
+[2022.02.15-10.16.18:039][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkyLight_Blueprint" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/SkyLight_Blueprint.uasset" SILENT=true
+[2022.02.15-10.16.18:044][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/SkyLight_Blueprint9D2F300540A67E548BAB5893235FF98E.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/SkyLight_Blueprint.uasset'
+[2022.02.15-10.16.18:046][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Sled01New" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Sled01New.uasset" SILENT=true
+[2022.02.15-10.16.18:069][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Sled01New24848A684473907D0F54F195FF5CCE6C.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Sled01New.uasset'
+[2022.02.15-10.16.18:088][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Sled01New144342FD14DA046B7D8A47C80AEB50487.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Sled01New1.uasset'
+[2022.02.15-10.16.18:090][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Terrain" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Terrain.uasset" SILENT=true
+[2022.02.15-10.16.18:110][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Terrain900739B14C58D0C010DDF99F4B15D0BC.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Terrain.uasset'
+[2022.02.15-10.16.18:111][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain" FILE="../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Terrain.uasset" SILENT=true
+[2022.02.15-10.16.18:130][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/TerrainD84020A84A77618B07629B8873D7367A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Terrain.uasset'
+[2022.02.15-10.16.18:148][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Terrain_Boden3A09BB884B24D79D63F33ABC69BE19F5.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Terrain_Boden.uasset'
+[2022.02.15-10.16.18:154][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Terrain_Hügel15F363B0444E8F639F4BCF97575983DB.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Terrain_Hügel.uasset'
+[2022.02.15-10.16.18:158][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_BottomRail_0012C7A9BFA426F0B13DE74FC9366CBA039.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_BottomRail_001.uasset'
+[2022.02.15-10.16.18:162][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_BottomRail_002355BB7CE46DB69DAE82540893CCA7C84.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_BottomRail_002.uasset'
+[2022.02.15-10.16.18:165][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_0010990B458443E3964B2B9EB82248D523A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_001.uasset'
+[2022.02.15-10.16.18:169][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_0023203302147346B9AFDA4AFB83F363639.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_002.uasset'
+[2022.02.15-10.16.18:173][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_001_001697E811947E9CFDF6A7D1CB319F59F7B.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_001_001.uasset'
+[2022.02.15-10.16.18:177][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_002_0011985324E4E3DE51656F002876EFC3089.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_002_001.uasset'
+[2022.02.15-10.16.18:180][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_003_001E654DD6047D7176B461B268E0B463326.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_003_001.uasset'
+[2022.02.15-10.16.18:184][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_004_0017D78DC1F4692CCA8E7CB918DBFA78BE6.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_004_001.uasset'
+[2022.02.15-10.16.18:188][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_005_00161768F5E41494B28E7B872B4FBA3A197.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_005_001.uasset'
+[2022.02.15-10.16.18:191][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_006_001BF7BEC73437CF0BD0B1639AE1EB98F3E.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_006_001.uasset'
+[2022.02.15-10.16.18:196][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_007_0016C6506FE4A8C24C1528B04A2670EEB2A.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_007_001.uasset'
+[2022.02.15-10.16.18:200][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_008_00109B6F7394EC993851F2E5082837DB59E.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_008_001.uasset'
+[2022.02.15-10.16.18:204][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_009_00160952C7B4BA079C25B168E93221A4EA6.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_009_001.uasset'
+[2022.02.15-10.16.18:207][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_010_001860B9DE34DCC3018DB8C2191D4BE7A75.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_010_001.uasset'
+[2022.02.15-10.16.18:211][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Picket_copy_011_0017653C9E54CAC0DAF546FB6A5FF9F0CF3.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Picket_copy_011_001.uasset'
+[2022.02.15-10.16.18:214][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Pole_001E7F66747442B4036CAA61FAB21EDD249.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Pole_001.uasset'
+[2022.02.15-10.16.18:218][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Pole_002173B2D804E3FB037034793A8816D353C.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Pole_002.uasset'
+[2022.02.15-10.16.18:221][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_001_0013243FF934370B10670F98A8A6B84FA34.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_001_001.uasset'
+[2022.02.15-10.16.18:225][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_002_001BB235BB547F9DE66EBFED78495C59F5D.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_002_001.uasset'
+[2022.02.15-10.16.18:229][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_003_0018894E37C4CDE39F8FC5686884A356C71.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_003_001.uasset'
+[2022.02.15-10.16.18:232][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_004_001728A996C46152B0FCC543FA74E0F11A8.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_004_001.uasset'
+[2022.02.15-10.16.18:236][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_005_00172CF1A5D4AB5D83D343E03BC573DCDBF.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_005_001.uasset'
+[2022.02.15-10.16.18:239][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_006_001C5EFD59042D64B9BA99324A1457B2AE0.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_006_001.uasset'
+[2022.02.15-10.16.18:243][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_007_00121CD6D3A4514AF66971495B47FD245B5.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_007_001.uasset'
+[2022.02.15-10.16.18:246][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_008_001F85502F140DBDE2DE65F06BE1DDE4113.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_008_001.uasset'
+[2022.02.15-10.16.18:251][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_009_0011B8201854F851D62F07C129C9155D855.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_009_001.uasset'
+[2022.02.15-10.16.18:254][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_010_001F7D115FE4E3151C6F7B38CBBA5657484.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_010_001.uasset'
+[2022.02.15-10.16.18:258][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_011_00120B5B9564FE89646C6A8A2AC282B343E.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_011_001.uasset'
+[2022.02.15-10.16.18:261][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_012_0019F3EE24B404C91A912CFADBA9DDB0FD9.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_012_001.uasset'
+[2022.02.15-10.16.18:264][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_013_0019E1975284AB5B1B09D437CB71CC37952.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_013_001.uasset'
+[2022.02.15-10.16.18:267][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_014_0016C22C544426CBBA17B40ECA9BBA95F4C.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_014_001.uasset'
+[2022.02.15-10.16.18:271][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_015_0012952871D4C8FCAA6038D10866A54902D.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_015_001.uasset'
+[2022.02.15-10.16.18:275][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_016_001180D8DFD4E12694B35816AAF009E14AA.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_016_001.uasset'
+[2022.02.15-10.16.18:279][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_017_001FA04B51741EAB4422187288BB5565DA5.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_017_001.uasset'
+[2022.02.15-10.16.18:282][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_018_00189D425014732EC7318A97D9EBDBD3629.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_018_001.uasset'
+[2022.02.15-10.16.18:286][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_Régua_copy_019_00171035AE6457C6B6006CACA9837CA0985.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_Régua_copy_019_001.uasset'
+[2022.02.15-10.16.18:290][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_TopRail_001A7B132E9451560120F2F089CE3FC9D47.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_TopRail_001.uasset'
+[2022.02.15-10.16.18:293][957]LogSavePackage: Moving '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Saved/Zaun_TopRail_002486288E24CB8A0D9CEE75B9A94153F80.tmp' to '../../../../../../Users/ginger/Documents/GitHub/WhoBroughtThePresents/UR_Weihnachtsgruppe/Content/Environment/Zaun_TopRail_002.uasset'
+[2022.02.15-10.16.18:385][957]LogSlate: Window 'UR_Weihnachtsgruppe - Unreal Editor' being destroyed
+[2022.02.15-10.16.18:657][957]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Pole_001.Zaun_Pole_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_TopRail_001.Zaun_TopRail_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_BottomRail_001.Zaun_BottomRail_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_001.Zaun_Picket_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_001_001.Zaun_Régua_copy_001_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_002_001.Zaun_Régua_copy_002_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_003_001.Zaun_Régua_copy_003_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_004_001.Zaun_Régua_copy_004_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_005_001.Zaun_Régua_copy_005_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_006_001.Zaun_Régua_copy_006_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_007_001.Zaun_Régua_copy_007_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_011_001.Zaun_Picket_copy_011_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_008_001.Zaun_Régua_copy_008_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_009_001.Zaun_Régua_copy_009_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_010_001.Zaun_Régua_copy_010_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_011_001.Zaun_Régua_copy_011_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_012_001.Zaun_Régua_copy_012_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_013_001.Zaun_Régua_copy_013_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_014_001.Zaun_Régua_copy_014_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_015_001.Zaun_Régua_copy_015_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_016_001.Zaun_Régua_copy_016_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_017_001.Zaun_Régua_copy_017_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_018_001.Zaun_Régua_copy_018_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Régua_copy_019_001.Zaun_Régua_copy_019_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating Material /Game/Environment/Material__2.Material__2
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Terrain.Terrain
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Pole_002.Zaun_Pole_002
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_TopRail_002.Zaun_TopRail_002
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_BottomRail_002.Zaun_BottomRail_002
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_002.Zaun_Picket_002
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating Material /Game/Environment/Sled01New1.Sled01New1
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_001_001.Zaun_Picket_copy_001_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_002_001.Zaun_Picket_copy_002_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_003_001.Zaun_Picket_copy_003_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_004_001.Zaun_Picket_copy_004_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_005_001.Zaun_Picket_copy_005_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_006_001.Zaun_Picket_copy_006_001
+[2022.02.15-10.16.18:657][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_007_001.Zaun_Picket_copy_007_001
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_008_001.Zaun_Picket_copy_008_001
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Sled01New.Sled01New
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_009_001.Zaun_Picket_copy_009_001
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Zaun_Picket_copy_010_001.Zaun_Picket_copy_010_001
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Terrain_Boden.Terrain_Boden
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Environment/Terrain_Hügel.Terrain_Hügel
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating Material /Game/Material__2.Material__2
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating StaticMesh /Game/Terrain.Terrain
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating Blueprint /Game/SkyLight_Blueprint.SkyLight_Blueprint
+[2022.02.15-10.16.18:658][957]LogContentValidation: Display: Validating Texture2D /Game/Magie.Magie
+[2022.02.15-10.16.18:665][958]Cmd: QUIT_EDITOR
+[2022.02.15-10.16.18:665][958]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.02.15-10.16.18:683][958]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.02.15-10.16.19:217][958]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.02.15-10.16.19:217][958]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.02.15-10.16.19:217][958]LogAudio: Display: Audio Device unregistered from world 'Game_Map_WhoBroughtThePresents'.
+[2022.02.15-10.16.19:218][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-10.16.19:219][958]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.15-10.16.19:232][958]LogAudio: Display: Audio Device Manager Shutdown
+[2022.02.15-10.16.19:238][958]LogExit: Preparing to exit.
+[2022.02.15-10.16.19:265][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:465][958]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:466][958]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:468][958]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:470][958]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:471][958]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:473][958]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:474][958]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:476][958]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:477][958]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:479][958]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:480][958]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:481][958]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.02.15-10.16.20:482][958]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:484][958]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:485][958]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:486][958]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:488][958]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.02.15-10.16.20:550][958]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.02.15-10.16.20:577][958]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.02.15-10.16.20:579][958]LogExit: Editor shut down
+[2022.02.15-10.16.20:580][958]LogExit: Transaction tracking system shut down
+[2022.02.15-10.16.21:174][958]LogExit: Object subsystem successfully closed.
+[2022.02.15-10.16.21:195][958]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.02.15-10.16.21:195][958]LogShaderCompilers: Display: Total job queries 2185, among them cache hits 1302 (59.59%)
+[2022.02.15-10.16.21:195][958]LogShaderCompilers: Display: Tracking 835 distinct input hashes that result in 270 distinct outputs (32.34%)
+[2022.02.15-10.16.21:195][958]LogShaderCompilers: Display: RAM used: 1.25 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.08%
+[2022.02.15-10.16.21:195][958]LogShaderCompilers: Display: ================================================
+[2022.02.15-10.16.21:222][958]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module DistCurveEditor (904)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module Cascade (902)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module BlueprintGraph (900)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module TextureEditor (898)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (896)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module Voice (894)
+[2022.02.15-10.16.21:313][958]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (892)
+[2022.02.15-10.16.21:314][958]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (890)
+[2022.02.15-10.16.21:314][958]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (888)
+[2022.02.15-10.16.21:314][958]LogModuleManager: Shutting down and abandoning module AddContentDialog (886)
+[2022.02.15-10.16.21:316][958]LogModuleManager: Shutting down and abandoning module WidgetCarousel (885)
+[2022.02.15-10.16.21:317][958]LogModuleManager: Shutting down and abandoning module EditorWidgets (882)
+[2022.02.15-10.16.21:317][958]LogModuleManager: Shutting down and abandoning module SceneOutliner (880)
+[2022.02.15-10.16.21:317][958]LogModuleManager: Shutting down and abandoning module StatsViewer (878)
+[2022.02.15-10.16.21:317][958]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (876)
+[2022.02.15-10.16.21:318][958]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (874)
+[2022.02.15-10.16.21:318][958]LogModuleManager: Shutting down and abandoning module AutomationWorker (872)
+[2022.02.15-10.16.21:318][958]LogModuleManager: Shutting down and abandoning module SteamVREditor (870)
+[2022.02.15-10.16.21:318][958]LogModuleManager: Shutting down and abandoning module OculusMR (868)
+[2022.02.15-10.16.21:318][958]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (866)
+[2022.02.15-10.16.21:319][958]LogModuleManager: Shutting down and abandoning module TakeRecorder (865)
+[2022.02.15-10.16.21:320][958]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (862)
+[2022.02.15-10.16.21:320][958]LogModuleManager: Shutting down and abandoning module TakesCore (860)
+[2022.02.15-10.16.21:320][958]LogModuleManager: Shutting down and abandoning module OpenXRInput (858)
+[2022.02.15-10.16.21:321][958]LogModuleManager: Shutting down and abandoning module GooglePADEditor (856)
+[2022.02.15-10.16.21:321][958]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (854)
+[2022.02.15-10.16.21:321][958]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (852)
+[2022.02.15-10.16.21:321][958]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (850)
+[2022.02.15-10.16.21:322][958]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (848)
+[2022.02.15-10.16.21:323][958]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (846)
+[2022.02.15-10.16.21:323][958]LogModuleManager: Shutting down and abandoning module PlanarCut (844)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (842)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (840)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (838)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (836)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module WebMMedia (834)
+[2022.02.15-10.16.21:324][958]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (832)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (830)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module SequenceRecorder (829)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (826)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (824)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (822)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (820)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (818)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (816)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (814)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module CharacterAI (812)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (810)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (808)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (806)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module TextureAlignMode (804)
+[2022.02.15-10.16.21:325][958]LogModuleManager: Shutting down and abandoning module BspMode (802)
+[2022.02.15-10.16.21:326][958]LogModuleManager: Shutting down and abandoning module GeometryMode (800)
+[2022.02.15-10.16.21:326][958]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (798)
+[2022.02.15-10.16.21:327][958]LogModuleManager: Shutting down and abandoning module SmartSnapping (796)
+[2022.02.15-10.16.21:327][958]LogModuleManager: Shutting down and abandoning module SessionServices (794)
+[2022.02.15-10.16.21:327][958]LogModuleManager: Shutting down and abandoning module MeshPaint (792)
+[2022.02.15-10.16.21:327][958]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (790)
+[2022.02.15-10.16.21:327][958]LogModuleManager: Shutting down and abandoning module FoliageEdit (788)
+[2022.02.15-10.16.21:328][958]LogModuleManager: Shutting down and abandoning module LandscapeEditor (786)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module MeshPaintMode (784)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (782)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module ActorPickerMode (780)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module PlacementMode (778)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module ViewportSnapping (776)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module ViewportInteraction (774)
+[2022.02.15-10.16.21:329][958]LogModuleManager: Shutting down and abandoning module ClothPainter (772)
+[2022.02.15-10.16.21:331][958]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (771)
+[2022.02.15-10.16.21:331][958]LogModuleManager: Shutting down and abandoning module LogVisualizer (768)
+[2022.02.15-10.16.21:332][958]LogModuleManager: Shutting down and abandoning module IntroTutorials (766)
+[2022.02.15-10.16.21:334][958]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (765)
+[2022.02.15-10.16.21:334][958]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (762)
+[2022.02.15-10.16.21:334][958]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (760)
+[2022.02.15-10.16.21:335][958]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (758)
+[2022.02.15-10.16.21:335][958]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (757)
+[2022.02.15-10.16.22:322][958]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (754)
+[2022.02.15-10.16.22:322][958]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (752)
+[2022.02.15-10.16.22:322][958]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (750)
+[2022.02.15-10.16.22:322][958]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (748)
+[2022.02.15-10.16.22:322][958]LogModuleManager: Shutting down and abandoning module TraceInsights (746)
+[2022.02.15-10.16.22:326][958]MemoryProfiler: Shutdown
+[2022.02.15-10.16.22:326][958]NetworkingProfiler: Shutdown
+[2022.02.15-10.16.22:326][958]LoadingProfiler: Shutdown
+[2022.02.15-10.16.22:327][958]TimingProfiler: Shutdown
+[2022.02.15-10.16.22:328][958]LogModuleManager: Shutting down and abandoning module TraceServices (745)
+[2022.02.15-10.16.22:329][958]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (742)
+[2022.02.15-10.16.22:329][958]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (740)
+[2022.02.15-10.16.22:329][958]LogModuleManager: Shutting down and abandoning module InputBindingEditor (738)
+[2022.02.15-10.16.22:329][958]LogModuleManager: Shutting down and abandoning module MergeActors (736)
+[2022.02.15-10.16.22:330][958]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (734)
+[2022.02.15-10.16.22:330][958]LogModuleManager: Shutting down and abandoning module LocalizationService (733)
+[2022.02.15-10.16.22:330][958]LogModuleManager: Shutting down and abandoning module HardwareTargeting (730)
+[2022.02.15-10.16.22:330][958]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (728)
+[2022.02.15-10.16.22:330][958]LogModuleManager: Shutting down and abandoning module UndoHistory (726)
+[2022.02.15-10.16.22:331][958]LogModuleManager: Shutting down and abandoning module XmlParser (724)
+[2022.02.15-10.16.22:331][958]LogModuleManager: Shutting down and abandoning module Blutility (722)
+[2022.02.15-10.16.22:331][958]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (720)
+[2022.02.15-10.16.22:331][958]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (719)
+[2022.02.15-10.16.22:332][958]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (716)
+[2022.02.15-10.16.22:332][958]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (715)
+[2022.02.15-10.16.22:332][958]LogModuleManager: Shutting down and abandoning module SettingsEditor (712)
+[2022.02.15-10.16.22:332][958]LogModuleManager: Shutting down and abandoning module ProjectLauncher (710)
+[2022.02.15-10.16.22:332][958]LogModuleManager: Shutting down and abandoning module SessionFrontend (708)
+[2022.02.15-10.16.22:333][958]LogModuleManager: Shutting down and abandoning module ProfilerClient (706)
+[2022.02.15-10.16.22:333][958]LogModuleManager: Shutting down and abandoning module DeviceManager (704)
+[2022.02.15-10.16.22:333][958]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (703)
+[2022.02.15-10.16.22:366][958]LogModuleManager: Shutting down and abandoning module AutomationController (700)
+[2022.02.15-10.16.22:367][958]LogModuleManager: Shutting down and abandoning module AutomationWindow (698)
+[2022.02.15-10.16.22:367][958]LogModuleManager: Shutting down and abandoning module Layers (696)
+[2022.02.15-10.16.22:369][958]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (694)
+[2022.02.15-10.16.22:369][958]LogModuleManager: Shutting down and abandoning module DetailCustomizations (692)
+[2022.02.15-10.16.22:369][958]LogModuleManager: Shutting down and abandoning module PackagesDialog (690)
+[2022.02.15-10.16.22:369][958]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (688)
+[2022.02.15-10.16.22:370][958]LogModuleManager: Shutting down and abandoning module Persona (686)
+[2022.02.15-10.16.22:371][958]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (685)
+[2022.02.15-10.16.22:371][958]LogModuleManager: Shutting down and abandoning module AnimGraph (683)
+[2022.02.15-10.16.22:371][958]LogModuleManager: Shutting down and abandoning module Kismet (680)
+[2022.02.15-10.16.22:379][958]LogModuleManager: Shutting down and abandoning module KismetWidgets (679)
+[2022.02.15-10.16.22:379][958]LogModuleManager: Shutting down and abandoning module GraphEditor (676)
+[2022.02.15-10.16.22:380][958]LogModuleManager: Shutting down and abandoning module StructViewer (674)
+[2022.02.15-10.16.22:380][958]LogModuleManager: Shutting down and abandoning module ClassViewer (672)
+[2022.02.15-10.16.22:381][958]LogModuleManager: Shutting down and abandoning module Toolbox (670)
+[2022.02.15-10.16.22:381][958]LogModuleManager: Shutting down and abandoning module ModuleUI (668)
+[2022.02.15-10.16.22:382][958]LogModuleManager: Shutting down and abandoning module OutputLog (666)
+[2022.02.15-10.16.22:393][958]LogModuleManager: Shutting down and abandoning module GammaUI (664)
+[2022.02.15-10.16.22:394][958]LogModuleManager: Shutting down and abandoning module Documentation (662)
+[2022.02.15-10.16.22:394][958]LogModuleManager: Shutting down and abandoning module LiveCoding (660)
+[2022.02.15-10.16.22:395][958]LogModuleManager: Shutting down and abandoning module LevelSequence (658)
+[2022.02.15-10.16.22:395][958]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (656)
+[2022.02.15-10.16.22:395][958]LogModuleManager: Shutting down and abandoning module MovieScene (654)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (652)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module LauncherPlatform (650)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module AnalyticsET (648)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module PortalServices (646)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module PortalRpc (644)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module MessagingRpc (642)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (640)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module AudioMixerCore (639)
+[2022.02.15-10.16.22:396][958]LogModuleManager: Shutting down and abandoning module AIModule (636)
+[2022.02.15-10.16.22:397][958]LogModuleManager: Shutting down and abandoning module GameplayDebugger (635)
+[2022.02.15-10.16.22:397][958]LogModuleManager: Shutting down and abandoning module AITestSuite (633)
+[2022.02.15-10.16.22:397][958]LogModuleManager: Shutting down and abandoning module NavigationSystem (631)
+[2022.02.15-10.16.22:397][958]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (628)
+[2022.02.15-10.16.22:401][958]LogModuleManager: Shutting down and abandoning module ProfilerService (626)
+[2022.02.15-10.16.22:502][958]LogModuleManager: Shutting down and abandoning module TaskGraph (624)
+[2022.02.15-10.16.22:504][958]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (622)
+[2022.02.15-10.16.22:504][958]LogModuleManager: Shutting down and abandoning module OculusEditor (620)
+[2022.02.15-10.16.22:507][958]LogModuleManager: Shutting down and abandoning module OculusInput (618)
+[2022.02.15-10.16.22:507][958]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (616)
+[2022.02.15-10.16.22:507][958]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (614)
+[2022.02.15-10.16.22:507][958]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (612)
+[2022.02.15-10.16.22:507][958]LogModuleManager: Shutting down and abandoning module CollectionManager (611)
+[2022.02.15-10.16.22:508][958]LogModuleManager: Shutting down and abandoning module TakeSequencer (608)
+[2022.02.15-10.16.22:508][958]LogModuleManager: Shutting down and abandoning module TakeMovieScene (606)
+[2022.02.15-10.16.22:508][958]LogModuleManager: Shutting down and abandoning module SynthesisEditor (604)
+[2022.02.15-10.16.22:508][958]LogModuleManager: Shutting down and abandoning module Synthesis (602)
+[2022.02.15-10.16.22:509][958]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (600)
+[2022.02.15-10.16.22:509][958]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (598)
+[2022.02.15-10.16.22:509][958]LogModuleManager: Shutting down and abandoning module ScreenshotTools (596)
+[2022.02.15-10.16.22:509][958]LogModuleManager: Shutting down and abandoning module OpenXREditor (594)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (592)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (590)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module GooglePAD (588)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module EditableMesh (586)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (584)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module CableComponent (582)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AudioCapture (580)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (579)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (576)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AssetTags (574)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (572)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AppleImageUtils (570)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module AndroidPermission (568)
+[2022.02.15-10.16.22:510][958]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (566)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (564)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module TemplateSequence (562)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (560)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module MotoSynth (558)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (556)
+[2022.02.15-10.16.22:511][958]LogOpenImageDenoise: OIDN shutting down
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (554)
+[2022.02.15-10.16.22:511][958]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (552)
+[2022.02.15-10.16.22:512][958]LogModuleManager: Shutting down and abandoning module MeshModelingTools (550)
+[2022.02.15-10.16.22:512][958]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (548)
+[2022.02.15-10.16.22:512][958]LogModuleManager: Shutting down and abandoning module ModelingOperators (546)
+[2022.02.15-10.16.22:513][958]LogModuleManager: Shutting down and abandoning module ModelingComponents (544)
+[2022.02.15-10.16.22:513][958]LogModuleManager: Shutting down and abandoning module MeshConversion (542)
+[2022.02.15-10.16.22:513][958]LogModuleManager: Shutting down and abandoning module DynamicMesh (540)
+[2022.02.15-10.16.22:513][958]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (538)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometricObjects (536)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module MediaCompositing (534)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module ImgMedia (532)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (530)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (529)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (526)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (524)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (522)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (520)
+[2022.02.15-10.16.22:514][958]LogModuleManager: Shutting down and abandoning module FractureEditor (518)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (516)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module ChaosNiagara (514)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (513)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (510)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module BackChannel (508)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (506)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module AutomationUtils (504)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module AlembicImporter (502)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module AlembicLibrary (501)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module GeometryCache (500)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (499)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (494)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (492)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (490)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (488)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (486)
+[2022.02.15-10.16.22:515][958]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (484)
+[2022.02.15-10.16.22:519][958]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (482)
+[2022.02.15-10.16.22:519][958]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (480)
+[2022.02.15-10.16.22:519][958]LogModuleManager: Shutting down and abandoning module UObjectPlugin (478)
+[2022.02.15-10.16.22:519][958]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (476)
+[2022.02.15-10.16.22:520][958]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (474)
+[2022.02.15-10.16.22:520][958]LogModuleManager: Shutting down and abandoning module PluginUtils (472)
+[2022.02.15-10.16.22:520][958]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (470)
+[2022.02.15-10.16.22:521][958]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (468)
+[2022.02.15-10.16.22:522][958]LogModuleManager: Shutting down and abandoning module GitSourceControl (466)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module SourceControl (465)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (462)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (460)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (458)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (456)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (454)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module StylusInput (452)
+[2022.02.15-10.16.22:523][958]LogModuleManager: Shutting down and abandoning module PluginBrowser (450)
+[2022.02.15-10.16.22:525][958]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (448)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (446)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module CurveEditorTools (444)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (442)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module CryptoKeys (440)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (438)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (436)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (434)
+[2022.02.15-10.16.22:527][958]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (432)
+[2022.02.15-10.16.22:528][958]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (430)
+[2022.02.15-10.16.22:528][958]LogModuleManager: Shutting down and abandoning module LiveLink (428)
+[2022.02.15-10.16.22:943][958]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (426)
+[2022.02.15-10.16.22:943][958]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (424)
+[2022.02.15-10.16.22:943][958]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (422)
+[2022.02.15-10.16.22:943][958]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (420)
+[2022.02.15-10.16.22:945][958]LogModuleManager: Shutting down and abandoning module Paper2DEditor (418)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (416)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (414)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module SignificanceManager (412)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module SoundFields (410)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (408)
+[2022.02.15-10.16.22:947][958]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (406)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (404)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (400)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (398)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (396)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module ActorSequence (394)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (392)
+[2022.02.15-10.16.22:948][958]LogModuleManager: Shutting down and abandoning module UdpMessaging (390)
+[2022.02.15-10.16.23:049][958]LogModuleManager: Shutting down and abandoning module TcpMessaging (388)
+[2022.02.15-10.16.23:151][958]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (386)
+[2022.02.15-10.16.23:151][958]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (384)
+[2022.02.15-10.16.23:151][958]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (382)
+[2022.02.15-10.16.23:151][958]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (380)
+[2022.02.15-10.16.23:151][958]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (378)
+[2022.02.15-10.16.23:152][958]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (376)
+[2022.02.15-10.16.23:153][958]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.02.15-10.16.23:153][958]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (374)
+[2022.02.15-10.16.23:153][958]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (372)
+[2022.02.15-10.16.23:153][958]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (370)
+[2022.02.15-10.16.23:153][958]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (368)
+[2022.02.15-10.16.23:154][958]LogModuleManager: Shutting down and abandoning module MagicLeapController (366)
+[2022.02.15-10.16.23:154][958]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (364)
+[2022.02.15-10.16.23:154][958]LogModuleManager: Shutting down and abandoning module MagicLeapAR (362)
+[2022.02.15-10.16.23:154][958]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (360)
+[2022.02.15-10.16.23:154][958]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2022.02.15-10.16.23:156][958]LogModuleManager: Shutting down and abandoning module SignalProcessing (357)
+[2022.02.15-10.16.23:156][958]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module NiagaraCore (352)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (350)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module AnimationSharing (348)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (346)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module DataValidation (344)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (342)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module FacialAnimation (340)
+[2022.02.15-10.16.23:157][958]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (338)
+[2022.02.15-10.16.23:158][958]LogModuleManager: Shutting down and abandoning module LevelEditor (337)
+[2022.02.15-10.16.23:160][958]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (336)
+[2022.02.15-10.16.23:160][958]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (334)
+[2022.02.15-10.16.23:160][958]LogModuleManager: Shutting down and abandoning module MainFrame (332)
+[2022.02.15-10.16.23:160][958]LogModuleManager: Shutting down and abandoning module HotReload (331)
+[2022.02.15-10.16.23:161][958]LogModuleManager: Shutting down and abandoning module ToolMenus (327)
+[2022.02.15-10.16.23:161][958]LogModuleManager: Shutting down and abandoning module ContentBrowser (325)
+[2022.02.15-10.16.23:161][958]LogModuleManager: Shutting down and abandoning module ContentBrowserData (324)
+[2022.02.15-10.16.23:161][958]LogModuleManager: Shutting down and abandoning module TreeMap (321)
+[2022.02.15-10.16.23:162][958]LogModuleManager: Shutting down and abandoning module GameplayCameras (318)
+[2022.02.15-10.16.23:162][958]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (316)
+[2022.02.15-10.16.23:162][958]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (314)
+[2022.02.15-10.16.23:162][958]LogModuleManager: Shutting down and abandoning module Paper2D (312)
+[2022.02.15-10.16.23:162][958]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (310)
+[2022.02.15-10.16.23:172][958]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (308)
+[2022.02.15-10.16.23:173][958]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (306)
+[2022.02.15-10.16.23:173][958]LogModuleManager: Shutting down and abandoning module PacketHandler (304)
+[2022.02.15-10.16.23:173][958]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2022.02.15-10.16.23:173][958]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2022.02.15-10.16.23:174][958]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2022.02.15-10.16.23:175][958]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2022.02.15-10.16.23:175][958]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2022.02.15-10.16.23:176][958]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2022.02.15-10.16.23:176][958]LogModuleManager: Shutting down and abandoning module UMG (278)
+[2022.02.15-10.16.23:176][958]LogModuleManager: Shutting down and abandoning module UMGEditor (277)
+[2022.02.15-10.16.23:177][958]LogModuleManager: Shutting down and abandoning module MessageLog (275)
+[2022.02.15-10.16.23:177][958]LogModuleManager: Shutting down and abandoning module SlateReflector (270)
+[2022.02.15-10.16.23:178][958]LogModuleManager: Shutting down and abandoning module Slate (268)
+[2022.02.15-10.16.23:178][958]LogModuleManager: Shutting down and abandoning module SlateCore (266)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (264)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module UnrealEd (262)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module MRMesh (260)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (258)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (256)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module XAudio2 (254)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module Networking (252)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module Core (250)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module MaterialEditor (248)
+[2022.02.15-10.16.23:179][958]LogModuleManager: Shutting down and abandoning module MovieSceneTools (246)
+[2022.02.15-10.16.23:180][958]LogModuleManager: Shutting down and abandoning module CurveEditor (245)
+[2022.02.15-10.16.23:181][958]LogModuleManager: Shutting down and abandoning module Sequencer (243)
+[2022.02.15-10.16.23:182][958]LogModuleManager: Shutting down and abandoning module EditorStyle (242)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module KismetCompiler (238)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module MeshBuilder (236)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module MeshUtilities (234)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (233)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (232)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (231)
+[2022.02.15-10.16.23:184][958]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (229)
+[2022.02.15-10.16.23:185][958]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (227)
+[2022.02.15-10.16.23:186][958]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (225)
+[2022.02.15-10.16.23:186][958]LogModuleManager: Shutting down and abandoning module MaterialBaking (221)
+[2022.02.15-10.16.23:187][958]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (216)
+[2022.02.15-10.16.23:187][958]LogModuleManager: Shutting down and abandoning module DerivedDataCache (214)
+[2022.02.15-10.16.23:187][958]LogModuleManager: Shutting down and abandoning module TargetPlatform (212)
+[2022.02.15-10.16.23:187][958]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (211)
+[2022.02.15-10.16.23:188][958]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (209)
+[2022.02.15-10.16.23:188][958]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (207)
+[2022.02.15-10.16.23:188][958]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (205)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (203)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (201)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (199)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (197)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (195)
+[2022.02.15-10.16.23:189][958]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (193)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (191)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (189)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module ImageWrapper (188)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (185)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (183)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (181)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (179)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (177)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (175)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (173)
+[2022.02.15-10.16.23:190][958]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2022.02.15-10.16.23:195][958]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (169)
+[2022.02.15-10.16.23:195][958]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (167)
+[2022.02.15-10.16.23:195][958]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (165)
+[2022.02.15-10.16.23:195][958]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (163)
+[2022.02.15-10.16.23:195][958]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (161)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (159)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (157)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (155)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (153)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (151)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (149)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (147)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module Messaging (145)
+[2022.02.15-10.16.23:202][958]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (143)
+[2022.02.15-10.16.23:206][958]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (141)
+[2022.02.15-10.16.23:218][958]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (139)
+[2022.02.15-10.16.23:218][958]LogModuleManager: Shutting down and abandoning module D3D11RHI (136)
+[2022.02.15-10.16.23:218][958]LogModuleManager: Shutting down and abandoning module InputCore (134)
+[2022.02.15-10.16.23:218][958]LogModuleManager: Shutting down and abandoning module Settings (132)
+[2022.02.15-10.16.23:218][958]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (130)
+[2022.02.15-10.16.23:219][958]LogModuleManager: Shutting down and abandoning module PhysXCooking (128)
+[2022.02.15-10.16.23:219][958]LogModuleManager: Shutting down and abandoning module Chaos (126)
+[2022.02.15-10.16.23:220][958]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2022.02.15-10.16.23:220][958]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2022.02.15-10.16.23:220][958]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (118)
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module SteamVRInput (116)
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module SteamVR (114)
+[2022.02.15-10.16.23:221][958]LogHMD: Freeing OpenVRDLLHandle.
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module OculusHMD (112)
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (110)
+[2022.02.15-10.16.23:221][958]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (108)
+[2022.02.15-10.16.23:222][958]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.02.15-10.16.23:222][958]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2022.02.15-10.16.23:222][958]LogModuleManager: Shutting down and abandoning module OpenXRAR (106)
+[2022.02.15-10.16.23:222][958]LogModuleManager: Shutting down and abandoning module AugmentedReality (105)
+[2022.02.15-10.16.23:222][958]LogModuleManager: Shutting down and abandoning module OpenXRHMD (102)
+[2022.02.15-10.16.23:223][958]LogModuleManager: Shutting down and abandoning module HairStrandsCore (100)
+[2022.02.15-10.16.23:224][958]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2022.02.15-10.16.23:224][958]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2022.02.15-10.16.23:225][958]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2022.02.15-10.16.23:225][958]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.02.15-10.16.23:225][958]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.02.15-10.16.23:227][958]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.02.15-10.16.23:227][958]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.02.15-10.16.23:239][958]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.02.15-10.16.23:239][958]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.02.15-10.16.23:239][958]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B322BAB6A-4E97-0939-96F9-D9AF5E58B457%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.1-17735300%2B%2B%2BUE4%2BRelease-4.27&UserID=9234f18b4da3b3b6d1b37dab45798a52%7C4258ad2d2b0e4a478e3af2dcb569604c%7Cf34537d1-1055-483a-8767-65ed457f2762&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.02.15-10.16.23:239][958]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.02.15-10.16.23:253][958]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.02.15-10.16.23:255][958]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2022.02.15-10.16.23:258][958]LogModuleManager: Shutting down and abandoning module Media (73)
+[2022.02.15-10.16.23:259][958]LogModuleManager: Shutting down and abandoning module MediaInfo (72)
+[2022.02.15-10.16.23:259][958]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (68)
+[2022.02.15-10.16.23:259][958]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2022.02.15-10.16.23:260][958]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2022.02.15-10.16.23:260][958]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2022.02.15-10.16.23:260][958]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (60)
+[2022.02.15-10.16.23:260][958]LogModuleManager: Shutting down and abandoning module NiagaraShader (58)
+[2022.02.15-10.16.23:260][958]LogModuleManager: Shutting down and abandoning module PixWinPlugin (56)
+[2022.02.15-10.16.23:261][958]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.02.15-10.16.23:261][958]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.02.15-10.16.23:261][958]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.02.15-10.16.23:261][958]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.02.15-10.16.23:262][958]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.02.15-10.16.23:263][958]LogXGEController: Cleaning working directory: C:/Users/ginger/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.02.15-10.16.23:263][958]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.02.15-10.16.23:263][958]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.02.15-10.16.23:264][958]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.02.15-10.16.23:264][958]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.02.15-10.16.23:264][958]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.02.15-10.16.23:264][958]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.02.15-10.16.23:264][958]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.02.15-10.16.23:271][958]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.02.15-10.16.23:272][958]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.02.15-10.16.23:273][958]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.02.15-10.16.23:273][958]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.02.15-10.16.23:273][958]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.02.15-10.16.23:273][958]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.02.15-10.16.23:282][958]LogD3D11RHI: Shutdown
+[2022.02.15-10.16.23:282][958]LogD3D11RHI: CleanupD3DDevice
+[2022.02.15-10.16.23:309][958]LogExit: Exiting.
+[2022.02.15-10.16.23:327][958]Log file closed, 02/15/22 11:16:23
+>>>>>>> Stashed changes
